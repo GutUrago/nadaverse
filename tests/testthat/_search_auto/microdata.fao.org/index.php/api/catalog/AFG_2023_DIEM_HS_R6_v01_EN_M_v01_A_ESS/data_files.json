@@ -1,0 +1,19 @@
+{
+    "datafiles": {
+        "F11": {
+            "id": "47391",
+            "sid": "2550",
+            "file_id": "F11",
+            "file_name": "data_anon_AFG_R6",
+            "description": null,
+            "case_count": "6082",
+            "var_count": "288",
+            "producer": null,
+            "data_checks": null,
+            "missing_data": null,
+            "version": null,
+            "notes": null,
+            "metadata": null
+        }
+    }
+}

@@ -31,7 +31,7 @@ assert_strings <- function(x, len = NULL, nchar = NULL, varname = "x") {
     cli::cli_abort("{.var {varname}} must be a vector of length {.field {len}}.")
   }
   if (!is.null(nchar) && (nchar(x) != nchar)) {
-    cli::cli_abort("{.var {varname}} must be a character of length {.field {nchar}}.")
+    cli::cli_abort("{.var {varname}} must be a string of {.field {nchar}} character{?s}.")
   }
   invisible(TRUE)
 }

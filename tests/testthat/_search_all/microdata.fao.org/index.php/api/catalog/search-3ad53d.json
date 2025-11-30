@@ -1,0 +1,35 @@
+{
+    "result": {
+        "found": "0",
+        "total": "1548",
+        "limit": 15,
+        "offset": 0,
+        "rows": [
+
+        ],
+        "search_counts_by_type": [
+
+        ],
+        "page": 1
+    },
+    "params": {
+        "collections": [
+            ""
+        ],
+        "study_keywords": "novalidsk",
+        "countries": false,
+        "topics": "",
+        "from": "",
+        "to": "",
+        "tags": "",
+        "sort_by": "",
+        "sort_order": "",
+        "repo": "",
+        "dtype": false,
+        "sid": "",
+        "type": "",
+        "country_iso3": "",
+        "ps": "",
+        "created": ""
+    }
+}

@@ -77,11 +77,7 @@ data_files <- function(catalog, id) {
   } else {
     get_response(base, path = path)
   }
-  df <- list_to_df(resp$datafiles)
-  if (is.null(df)) {
-    cli::cli_warn("No data files were found for this study.")
-  }
-  df
+  list_to_df(resp$datafiles)
 }
 
 

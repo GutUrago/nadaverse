@@ -52,7 +52,7 @@ catalog_list <- list(
 # -------------------------------------------------------------------
 #' @noRd
 assert_catalog <- function(catalog) {
-  if (!is.character(catalog) && length(catalog) != 1) {
+  if (!is.character(catalog) || length(catalog) != 1) {
     cli::cli_abort(c(
       "{.var catalog} must be a single character string.",
       "i" = "You provided: class {.cls {class(catalog)}}, length {length(catalog)}"
@@ -86,17 +86,13 @@ base_url <- function(catalog) {
 # -------------------------------------------------------------------
 #' @noRd
 get_response <- function(base_url, path = NULL, ...) {
-
   req <- httr2::request(base_url)
-
   if (!is.null(path)) {
     req <- httr2::req_url_path_append(req, path)
   }
-
   if (...length() > 0) {
     req <- httr2::req_url_query(req, ...)
   }
-
   # UNHCR blocks custom user agent such as "R nadaverse package" X-API-KEY`
   browser_agent <- "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
   req <- httr2::req_headers(

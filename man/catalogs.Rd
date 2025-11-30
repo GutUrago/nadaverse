@@ -9,7 +9,7 @@
 \alias{metadata}
 \title{Small Helper Functions for Data Catalog Access}
 \usage{
-catalogs()
+catalogs(show = TRUE)
 
 access_codes(catalog)
 
@@ -22,6 +22,8 @@ latest_entries(catalog, limit = NULL)
 metadata(catalog, id)
 }
 \arguments{
+\item{show}{Logical. If \code{TRUE}, prints supported catalogs to console}
+
 \item{catalog}{A required character string specifying the name of the data
 catalog (e.g., \code{"fao"}, \code{"ilo"}, \code{"wb"}) from which to retrieve metadata.}
 
@@ -52,8 +54,7 @@ metadata (e.g., \code{title}, \code{date_added}).
 description, abstract, sampling methodology, and other study-specific details.
 }
 If the API call fails or no data is found, the function may return an
-empty data frame or raise an error (depending on the implementation of
-\code{get_response}).
+empty data frame or raise an error.
 }
 \description{
 A suite of small \strong{helper functions} designed to interact with and retrieve

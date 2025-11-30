@@ -1,0 +1,19 @@
+{
+    "datafiles": {
+        "F5": {
+            "id": "43958",
+            "sid": "2606",
+            "file_id": "F5",
+            "file_name": "AFG_2023_FIES_v01_EN_M_v01_A_ESS",
+            "description": "This dataset contains the variables used to calculate the FIES-based indicator, deomographic variables and some derived variables calculated by FAO from the survey.",
+            "case_count": "1000",
+            "var_count": "24",
+            "producer": null,
+            "data_checks": null,
+            "missing_data": null,
+            "version": null,
+            "notes": null,
+            "metadata": null
+        }
+    }
+}

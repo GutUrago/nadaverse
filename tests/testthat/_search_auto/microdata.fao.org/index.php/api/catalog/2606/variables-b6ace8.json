@@ -1,0 +1,197 @@
+{
+    "total": 24,
+    "variables": [
+        {
+            "uid": "2313739",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "53",
+            "name": "Random_ID",
+            "labl": "Unique respondent identifier"
+        },
+        {
+            "uid": "2313740",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "54",
+            "name": "WORRIED",
+            "labl": "Worried you would not have enough food to eat because of a lack of money or other resources"
+        },
+        {
+            "uid": "2313741",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "55",
+            "name": "HEALTHY",
+            "labl": "Unable to eat healthy and nutritious food because of a lack of money or other resources"
+        },
+        {
+            "uid": "2313742",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "56",
+            "name": "FEWFOOD",
+            "labl": "Ate only a few kinds of foods because of a lack of money or other resources"
+        },
+        {
+            "uid": "2313743",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "57",
+            "name": "SKIPPED",
+            "labl": "Skipped a meal because there was not enough money or other resources to get food"
+        },
+        {
+            "uid": "2313744",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "58",
+            "name": "ATELESS",
+            "labl": "Ate less than you thought you should because of a lack of money or other resources"
+        },
+        {
+            "uid": "2313745",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "59",
+            "name": "RUNOUT",
+            "labl": "Household ran out of food because of a lack of money or other resources"
+        },
+        {
+            "uid": "2313746",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "60",
+            "name": "HUNGRY",
+            "labl": "Hungry but did not eat because there was not enough money or other resources for food?"
+        },
+        {
+            "uid": "2313747",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "61",
+            "name": "WHLDAY",
+            "labl": "Went without eating for a whole day because of a lack of money or other resources?"
+        },
+        {
+            "uid": "2313748",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "62",
+            "name": "wt",
+            "labl": "Post-stratification sampling weights"
+        },
+        {
+            "uid": "2313749",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "63",
+            "name": "year",
+            "labl": "Year when the GWP was administered in the country"
+        },
+        {
+            "uid": "2313750",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "64",
+            "name": "N_adults",
+            "labl": "Number of adults 15 years of age and above in household"
+        },
+        {
+            "uid": "2313751",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "65",
+            "name": "N_child",
+            "labl": "Number of children under 15 years of age in household"
+        },
+        {
+            "uid": "2313752",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "66",
+            "name": "Raw_score",
+            "labl": "Sum of Affirmative responses to FIES questions"
+        },
+        {
+            "uid": "2313753",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "67",
+            "name": "Raw_score_par",
+            "labl": "Estimated person parameters using the Rasch model"
+        },
+        {
+            "uid": "2313754",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "68",
+            "name": "Raw_score_par_error",
+            "labl": "Estimated person parameter errors using the Rasch model"
+        },
+        {
+            "uid": "2313755",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "69",
+            "name": "Prob_Mod_Sev",
+            "labl": "Probability of being moderately or severely food insecure"
+        },
+        {
+            "uid": "2313756",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "70",
+            "name": "Prob_sev",
+            "labl": "Probability of being severely food insecure"
+        },
+        {
+            "uid": "2313757",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "71",
+            "name": "Age",
+            "labl": "Age of the respondent"
+        },
+        {
+            "uid": "2313758",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "72",
+            "name": "Education",
+            "labl": "Education of the respondent"
+        },
+        {
+            "uid": "2313759",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "73",
+            "name": "Area",
+            "labl": "Area"
+        },
+        {
+            "uid": "2313760",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "74",
+            "name": "Gender",
+            "labl": "Gender of the respondent"
+        },
+        {
+            "uid": "2313761",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "75",
+            "name": "Income",
+            "labl": "Income quintile"
+        },
+        {
+            "uid": "2313762",
+            "sid": "2606",
+            "fid": "F5",
+            "vid": "76",
+            "name": "DEGURBA",
+            "labl": "Degree of Urbanisation"
+        }
+    ]
+}

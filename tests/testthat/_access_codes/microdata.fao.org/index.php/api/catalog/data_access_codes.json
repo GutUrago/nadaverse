@@ -1,0 +1,39 @@
+{
+    "codes": [
+        {
+            "id": "1",
+            "type": "direct",
+            "title": "Direct access"
+        },
+        {
+            "id": "2",
+            "type": "public",
+            "title": "Public use files"
+        },
+        {
+            "id": "3",
+            "type": "licensed",
+            "title": "Licensed data files"
+        },
+        {
+            "id": "4",
+            "type": "data_enclave",
+            "title": "Data accessible only in data enclave"
+        },
+        {
+            "id": "5",
+            "type": "remote",
+            "title": "Data available from external repository"
+        },
+        {
+            "id": "6",
+            "type": "data_na",
+            "title": "Data not available"
+        },
+        {
+            "id": "7",
+            "type": "open",
+            "title": "Open access"
+        }
+    ]
+}

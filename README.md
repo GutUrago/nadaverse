@@ -5,6 +5,9 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/GutUrago/nadaverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/GutUrago/nadaverse/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/GutUrago/nadaverse/graph/badge.svg)](https://app.codecov.io/gh/GutUrago/nadaverse)
 <!-- badges: end -->
 
 Welcome to `nadaverse`, the essential R package for researchers, policy

@@ -28,6 +28,7 @@
 #' @param limit A positive integer number, applicable only to \code{latest_entries},
 #' indicating the **maximum number of results** (data entries) to return. If
 #' \code{NULL} or omitted, a default limit set by the API will be used.
+#' @param show Logical. If `TRUE`, prints supported catalogs to console
 #'
 #' @return
 #' A **data frame** containing the requested metadata, except for \code{metadata()},
@@ -46,8 +47,7 @@
 #' description, abstract, sampling methodology, and other study-specific details.
 #' }
 #' If the API call fails or no data is found, the function may return an
-#' empty data frame or raise an error (depending on the implementation of
-#' \code{get_response}).
+#' empty data frame or raise an error.
 #'
 #' @section Supported Catalogs:
 #' The \code{catalog} argument must be one of the following short codes (case-insensitive)
@@ -104,20 +104,23 @@
 #' wb_study_metadata <- metadata("wb", id = 8098)
 #' str(wb_study_metadata)
 #' }
-catalogs <- function() {
-  cli::cli_h2("List of Supported Catalogs")
-  cli::cli_alert_info("{.strong name}: Link to the catalog")
-  cli::cli_ul(
-    lapply(
-      names(catalog_list),
-      function(k) {
-        sprintf(
-          "{.strong %s}: {.href [%s](%s)}",
-          k, catalog_list[[k]]$name, catalog_list[[k]]$home
-        )
-      }
+catalogs <- function(show = TRUE) {
+  assert_logical(show)
+  if (show) {
+    cli::cli_h2("List of Supported Catalogs")
+    cli::cli_alert_info("{.strong name}: Link to the catalog")
+    cli::cli_ul(
+      lapply(
+        names(catalog_list),
+        function(k) {
+          sprintf(
+            "{.strong %s}: {.href [%s](%s)}",
+            k, catalog_list[[k]]$name, catalog_list[[k]]$home
+          )
+        }
+      )
     )
-  )
+  }
   df <- list_to_df(catalog_list)
   cats <- data.frame(catalog = rownames(df))
   invisible(

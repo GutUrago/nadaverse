@@ -1,0 +1,141 @@
+{
+    "status": "success",
+    "dataset": {
+        "id": 1970,
+        "doi": null,
+        "repositoryid": "lsms",
+        "type": "survey",
+        "idno": "ALB_2012_LSMS_v01_M_v01_A_PUF",
+        "title": "Living Standards Measurement Survey 2012",
+        "year_start": 2012,
+        "year_end": 2012,
+        "nation": "Albania",
+        "authoring_entity": "Institute of Statistics of Albania",
+        "published": 1,
+        "created": "2014-03-13T09:57:40-04:00",
+        "changed": "2022-04-06T08:56:26-04:00",
+        "varcount": 906,
+        "total_views": 290184,
+        "total_downloads": 94419,
+        "formid": 5,
+        "data_access_type": "remote",
+        "remote_data_url": "http://www.instat.gov.al/en/figures/micro-data/",
+        "data_class_id": null,
+        "data_class_code": null,
+        "data_class_title": null,
+        "thumbnail": null,
+        "link_study": null,
+        "link_indicator": null,
+        "link_report": null,
+        "metadata": {
+            "doc_desc": {
+                "title": "ALB_2012_LSMS_v01_M_v01_A_PUF",
+                "idno": "DDI_ALB_2012_LSMS_v01_M_v01_A_PUF_WB",
+                "producers": [
+                    {
+                        "name": "Development Data Group",
+                        "abbreviation": "DECDG",
+                        "affiliation": "World Bank",
+                        "role": "Documentation of the study"
+                    },
+                    {
+                        "name": "Poverty Reduction & Economic Management Sector Unit",
+                        "abbreviation": "ECSPE ",
+                        "affiliation": "World Bank",
+                        "role": "Documentation of the study"
+                    }
+                ],
+                "prod_date": "2020-09-10",
+                "version_statement": {
+                    "version": "Version 01 (September 2020)"
+                }
+            },
+            "study_desc": {
+                "title_statement": {
+                    "idno": "ALB_2012_LSMS_v01_M_v01_A_PUF",
+                    "title": "Living Standards Measurement Survey 2012",
+                    "alt_title": "LSMS 2012"
+                },
+                "authoring_entity": [
+                    {
+                        "name": "Institute of Statistics of Albania",
+                        "affiliation": ""
+                    }
+                ],
+                "production_statement": {
+                    "producers": [
+                        {
+                            "name": "The World Bank",
+                            "affiliation": "",
+                            "role": "Technical assistance"
+                        }
+                    ]
+                },
+                "distribution_statement": {
+                    "contact": [
+                        {
+                            "name": "LSMS data manager",
+                            "affiliation": "World Bank",
+                            "email": "lsms@worldbank.org",
+                            "uri": ""
+                        },
+                        {
+                            "name": "Institute of Statistics of Albania",
+                            "affiliation": "",
+                            "email": "info@instat.gov.al",
+                            "uri": ""
+                        }
+                    ]
+                },
+                "series_statement": {
+                    "series_name": "Living Standards Measurement Study [hh/lsms]",
+                    "series_info": "The Living Standards Measurement Study (LSMS) was established by the World Bank's Development Research Group (DECRG) to explore ways of improving the type and quality of household data collected by statistical offices in developing countries. The goal is to foster increased use of household data as a basis for policy decisionmaking.\n\nThe first two LSMS surveys were fielded in Cote d'Ivoire in 1985 and in Peru in 1985-1986 and sponsored by the World Bank. Since then LSMS have been conducted in different countries around the world."
+                },
+                "version_statement": {
+                    "version": "- v2.1:  Edited, anonymous dataset for public distribution.",
+                    "version_date": "2012"
+                },
+                "study_info": {
+                    "abstract": "The Living Standards Measurement Survey (LSMS) is a multi-purpose household survey conducted to measure living conditions and poverty situation, and to help policymakers in monitoring and developing social programs.\n\nLSMS has been carried out in Albania in the context of continuing monitoring of poverty and the creation of policy evaluation system in the framework of the National Strategy for Development and Integration (previously the National Strategy for Economic and Social Development). \n\nThe first Albania LSMS was conducted in 2002, followed by 2003, 2004, 2005, 2008 and 2012 surveys. In 2012, 6,671 households participated in the survey.",
+                    "coll_dates": [
+                        {
+                            "start": "2012",
+                            "end": "2012",
+                            "cycle": ""
+                        }
+                    ],
+                    "nation": [
+                        {
+                            "name": "Albania",
+                            "abbreviation": "ALB"
+                        }
+                    ],
+                    "geog_coverage": "National",
+                    "analysis_unit": "- Households\n- Individuals",
+                    "data_kind": "Sample survey data [ssd]",
+                    "notes": "- Households: demographic characteristics, education, communication, labor, employment, non-farm business, migration, remittances, subjective poverty, health, fertility, non-food expenditures, dwelling, utilities, durable goods, daily food consumption"
+                },
+                "method": {
+                    "data_collection": {
+                        "sampling_procedure": "The survey includes a sample of 6,671 households that constitute the survey units. The sample is chosen randomly by two rounds of selection. The sample frame was provided from Population and Housing Census done on October 2011. In the first round, 834 Primary Selection Units (PSUs) have been chosen randomly to represent the whole territory of the country. Then, 8 households for each PSU were chosen to be interviewed in the second round through a procedure of systematic sample. To handle cases of non response or no contact other 4 households for each PSU were chosen as substitutes that ensured the target of 6,671 completed questionnaires near the households.\n\nThe methodology of the 2012 LSMS has been kept similar with the surveys conducted in the previous years. However, the geographic domains of analysis have been expanded to include the 12 individual prefectures of Albania, by urban and rural strata, compared to four geographic regions (Central, Coastal, Mountain and Tirana) by urban and rural strata defined previously as domains for the survey. This required a considerable increase in the sample size from 3,600 to 6,671 households making possible to calculate indicators of living standard for 24 strata and even for the four main areas of the country in order to compare the regional results to those from the 2002, 2005 and 2008 surveys and study the regional trends for various indicators.",
+                        "coll_mode": "Face-to-face [f2f]",
+                        "research_instrument": "The questionnaire was divided in two sections, and was administered to households in two visits, one section per visit. During the second visit the interviewer would also collect additional information of use for the eventual tracking of the household in the next waves of the panel. \n\nThe Booklet for Recording Daily Household Consumption was left with the household by the interviewer during the first visit for the household to compile, and collected during the second visit. Upon collection, interviewers took care of checking the entries (also with the help of a checklist provided at the end of the booklet) and correct them as appropriate with the help of the most knowledgeable person in the household.\n\nA specific column was provided for the household to record the reference period for any purchases of food. The checklist was compiled by the interviewer, with the help of the most knowledgeable person in the household, upon collection of the diary. Interviewers were instructed to check, for 14 main food staples, whether any consumption of the item had been recorded in the diary. Whenever an item had not been recorded the interviewer would ask the respondent to report whether the item (a) had not been used in the 14-day period, or (b) had been consumed but the household had forgotten to record its consumption, or else (c) had been consumed by the household drawing on stocks purchased or produced outside the 14-day period. If the inclusion of an item had simply been forgotten the interviewer would then fill the appropriate section of the diary by asking the household to recall the details of that consumption. If the household reported consuming an item purchased before the beginning of the 14-day period, then information on the frequency of purchase, quantity, unit of measure and value of the purchase were recorded in the columns provided to this end in the checklist."
+                    }
+                },
+                "data_access": {
+                    "dataset_use": {
+                        "cit_req": "The use of the datasets must be acknowledged using a citation which would include:\n- the identification of the Primary Investigator (including country name);\n- the full title of the survey and its acronym (when available), and the year(s) of implementation;\n- the survey reference number;\n- the source and date of download (for datasets disseminated online).\n\nExample:\n\nInstitute of Statistics of Albania. Albania Living Standards Measurement Survey 2012. Ref. ALB_2012_LSMS_v01_M_v01_A_PUF. Dataset downloaded from [URL] on [date].",
+                        "conditions": "Public Use Files",
+                        "disclaimer": "The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses."
+                    }
+                }
+            },
+            "schematype": "survey",
+            "tags": [
+                {
+                    "tag": "noDOI"
+                }
+            ]
+        }
+    }
+}

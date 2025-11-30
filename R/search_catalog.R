@@ -174,7 +174,10 @@ search_catalog <- function(catalog,
   resp <- httr2::req_perform(req)
   resp <- httr2::resp_body_json(resp, simplifyVector = TRUE, flatten = TRUE)
   resp <- resp$result
-  if (resp$found == 0L) cli::cli_warn("No results found.")
+  if (resp$found == 0L) {
+    cli::cli_warn("No results found.")
+    return(NULL)
+  }
   if (rows) return(resp$rows)
   resp
 }

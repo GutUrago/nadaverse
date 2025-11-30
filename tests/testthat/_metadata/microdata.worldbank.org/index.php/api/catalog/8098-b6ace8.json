@@ -1,0 +1,217 @@
+{
+    "status": "success",
+    "dataset": {
+        "id": 8098,
+        "doi": null,
+        "repositoryid": "unhcr",
+        "type": "survey",
+        "idno": "LAC_2025_MMM-Q1_v01_M",
+        "title": "Regional Mixed Movements Monitoring 2025",
+        "year_start": 2025,
+        "year_end": 2025,
+        "nation": "Chile, Costa Rica, Mexico...and 3 more",
+        "authoring_entity": "UN Refugee Agency (UNHCR), World Food Programme (WFP), United Nations Children’s Fund (UNICEF)",
+        "published": 1,
+        "created": "2025-11-19T15:34:30-05:00",
+        "changed": "2025-11-19T15:34:32-05:00",
+        "varcount": 121,
+        "total_views": 337,
+        "total_downloads": 0,
+        "formid": 5,
+        "data_access_type": "remote",
+        "remote_data_url": "https://microdata.unhcr.org/index.php/catalog/1348",
+        "data_class_id": null,
+        "data_class_code": null,
+        "data_class_title": null,
+        "thumbnail": null,
+        "link_study": "https://microdata.unhcr.org/index.php/catalog/1348",
+        "link_indicator": null,
+        "link_report": null,
+        "metadata": {
+            "doc_desc": {
+                "idno": "DDI_LAC_2025_MMM-Q1_v01_M",
+                "producers": [
+                    {
+                        "name": "UN Refugee Agency",
+                        "abbr": "UNHCR",
+                        "affiliation": "UN",
+                        "role": "Metadata producer"
+                    },
+                    {
+                        "name": "Development Data Group",
+                        "abbr": "DECDG",
+                        "affiliation": "World Bank Group",
+                        "role": "Metadata adapted for World Bank Microdata Library"
+                    }
+                ],
+                "prod_date": "2025-06-18",
+                "version_statement": {
+                    "version": "Identical to a metadata (UNHCR_RBA_2025_MMM_Q1_v2.1) published on UNHCR catalog (https://microdata.unhcr.org/index.php/home). Some of the metadata fields have been edited."
+                }
+            },
+            "study_desc": {
+                "title_statement": {
+                    "idno": "LAC_2025_MMM-Q1_v01_M",
+                    "title": "Regional Mixed Movements Monitoring 2025",
+                    "sub_title": "Quarter 1",
+                    "alternate_title": "MMM-Q1 2025"
+                },
+                "authoring_entity": [
+                    {
+                        "name": "UN Refugee Agency (UNHCR)",
+                        "affiliation": "UN"
+                    },
+                    {
+                        "name": "World Food Programme (WFP)",
+                        "affiliation": "UN"
+                    },
+                    {
+                        "name": "United Nations Children’s Fund (UNICEF)",
+                        "affiliation": "UN"
+                    }
+                ],
+                "distribution_statement": {
+                    "contact": [
+                        {
+                            "name": "Curation team",
+                            "affiliation": "UNHCR",
+                            "email": "microdata@unhcr.org",
+                            "uri": ""
+                        }
+                    ]
+                },
+                "version_statement": {
+                    "version": "Version 2.1: Edited, cleaned and anonymised data.",
+                    "version_date": ""
+                },
+                "study_info": {
+                    "keywords": [
+                        {
+                            "keyword": "MMM",
+                            "vocab": "",
+                            "uri": ""
+                        },
+                        {
+                            "keyword": "Mixed Movement",
+                            "vocab": "",
+                            "uri": ""
+                        }
+                    ],
+                    "topics": [
+                        {
+                            "topic": "Health",
+                            "vocab": "",
+                            "uri": ""
+                        },
+                        {
+                            "topic": "Livelihood and Social cohesion",
+                            "vocab": "",
+                            "uri": ""
+                        },
+                        {
+                            "topic": "Health and Nutrition",
+                            "vocab": "",
+                            "uri": ""
+                        },
+                        {
+                            "topic": "Food security",
+                            "vocab": "",
+                            "uri": ""
+                        },
+                        {
+                            "topic": "Protection",
+                            "vocab": "",
+                            "uri": ""
+                        },
+                        {
+                            "topic": "Education",
+                            "vocab": "",
+                            "uri": ""
+                        },
+                        {
+                            "topic": "Basic Needs",
+                            "vocab": "",
+                            "uri": ""
+                        }
+                    ],
+                    "abstract": "The Americas have experienced a significant number of mixed movements, in which individuals and groups engage in human mobility using similar routes and means of transport for various reasons. The diverse population includes asylum-seekers, refugees, victims of human trafficking, unaccompanied and separated children, stateless persons, and migrants in vulnerable situations, among others.\n\t\nTo understand these dynamics, UNHCR and WFP launched a regional monitoring project in 2023, aiming to identify trends, profiles, and protection and food security needs of those on the move. Since the second quarter of 2024, UNICEF joined the project, contributing to data collection and analysis, particularly on child-related indicators around nutrition, health, education, primary needs, and humanitarian assistance received.\n\nAccurate data is crucial for informing evidence-based decision-making about responses, discussions in UN forums, and regional collaboration. The data collected focused on the drivers of human mobility, profiles of individuals on the move, risks encountered along the journey, conditions in transit countries, food security, child protection, and intentions. The insights gathered helped to effectively shape policies and enhance humanitarian efforts.\n\nMixed Movement Monitoring reports can be found at this link: https://data.unhcr.org/en/working-group/475",
+                    "coll_dates": [
+                        {
+                            "start": "2025-01-02",
+                            "end": "2025-03-31",
+                            "cycle": ""
+                        }
+                    ],
+                    "nation": [
+                        {
+                            "name": "Chile",
+                            "abbreviation": "CHL"
+                        },
+                        {
+                            "name": "Costa Rica",
+                            "abbreviation": "CRI"
+                        },
+                        {
+                            "name": "Mexico",
+                            "abbreviation": "MEX"
+                        },
+                        {
+                            "name": "Guatemala",
+                            "abbreviation": "GTM"
+                        },
+                        {
+                            "name": "Honduras",
+                            "abbreviation": "HND"
+                        },
+                        {
+                            "name": "Panama",
+                            "abbreviation": "PAN"
+                        }
+                    ],
+                    "analysis_unit": "Group and individual",
+                    "data_kind": "Event/transaction data [evn]",
+                    "notes": "The scope includes:\n- Demographics\n- Risks\n- Transit\n- Food security\n- Protection\n- Intentions"
+                },
+                "method": {
+                    "data_collection": {
+                        "data_collectors": [
+                            {
+                                "name": "UN Refugee Agency",
+                                "abbr": "UNHCR",
+                                "role": "",
+                                "affiliation": "UN"
+                            },
+                            {
+                                "name": "World Food Programme",
+                                "abbr": "WFP",
+                                "role": "",
+                                "affiliation": "UN"
+                            },
+                            {
+                                "name": "United Nations Children’s Fund",
+                                "abbr": "UNICEF",
+                                "role": "",
+                                "affiliation": "UN"
+                            }
+                        ],
+                        "coll_mode": [
+                            "Computer Assisted Personal Interview [capi]"
+                        ],
+                        "research_instrument": "Questionnaire contained the following sections: Demographics, Children, Family status, Country of origin, Host country, Journey, Arrival, Needs."
+                    }
+                },
+                "data_access": {
+                    "dataset_use": {
+                        "cit_req": "UNHCR, WFP, UNICEF (2025). Chile, Costa Rica, Mexico, Guatemala, Honduras, Panama: Regional Mixed Movements Monitoring, 2025 Q1. Accessed from: https://microdata.unhcr.org"
+                    }
+                }
+            },
+            "schematype": "survey",
+            "tags": [
+                {
+                    "tag": "NODOI"
+                }
+            ]
+        }
+    }
+}
