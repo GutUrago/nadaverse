@@ -7,7 +7,7 @@ Authors@R: c(
     person(
       "Gutama Girja", "Urago",
       email = "girjagutama@gmail.com",
-      role = c("aut", "cre")
+      role = c("aut", "cre", "cph")
     )
   )
 Description: Provides a unified, programmatic interface for searching, browsing,

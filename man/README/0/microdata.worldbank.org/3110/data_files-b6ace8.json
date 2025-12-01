@@ -1,0 +1,74 @@
+{
+    "datafiles": {
+        "B": {
+            "id": 114450,
+            "sid": 3110,
+            "file_id": "B",
+            "file_name": "IND2015-B.dat",
+            "description": "Birth records",
+            "case_count": 1315617,
+            "var_count": null,
+            "producer": null,
+            "data_checks": null,
+            "version": null,
+            "notes": null,
+            "metadata": null
+        },
+        "C": {
+            "id": 114451,
+            "sid": 3110,
+            "file_id": "C",
+            "file_name": "IND2015-C.dat",
+            "description": "Child records",
+            "case_count": 259627,
+            "var_count": null,
+            "producer": null,
+            "data_checks": null,
+            "version": null,
+            "notes": null,
+            "metadata": null
+        },
+        "H": {
+            "id": 114453,
+            "sid": 3110,
+            "file_id": "H",
+            "file_name": "IND2015-H.dat",
+            "description": "Household member records",
+            "case_count": 2869043,
+            "var_count": null,
+            "producer": null,
+            "data_checks": null,
+            "version": null,
+            "notes": null,
+            "metadata": null
+        },
+        "M": {
+            "id": 114452,
+            "sid": 3110,
+            "file_id": "M",
+            "file_name": "IND2015-M.dat",
+            "description": "Man records",
+            "case_count": 112122,
+            "var_count": null,
+            "producer": null,
+            "data_checks": null,
+            "version": null,
+            "notes": null,
+            "metadata": null
+        },
+        "W": {
+            "id": 114449,
+            "sid": 3110,
+            "file_id": "W",
+            "file_name": "IND2015-W.dat",
+            "description": "Woman records",
+            "case_count": 699686,
+            "var_count": null,
+            "producer": null,
+            "data_checks": null,
+            "version": null,
+            "notes": null,
+            "metadata": null
+        }
+    }
+}
