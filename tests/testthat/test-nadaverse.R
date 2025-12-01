@@ -1,4 +1,8 @@
 
+set_redactor(function (x) {
+  gsub_response(x, "index.php/api/catalog/", "")
+})
+
 # ---- Metadata Functions ----
 
 test_that(
@@ -124,13 +128,13 @@ with_mock_dir(
         expect_no_error({
           c <- "fao"
           res <- search_catalog(c)
-          idno <- res$idno[1]
           id <- res$id[2]
-          df <- data_files(c, idno)
-          df2 <- data_files(c, id)
+          df <- data_files(c, id)
+          fd <- data_dictionary(c, id)
           fid <- df$file_id[1]
-          dd <- data_dictionary(c, idno, fid)
-          dd2 <- data_dictionary(c, id)
+          dd <- data_dictionary(c, id, fid)
+          wb_df <- data_files("wb", "ETH_2015_ESS_v03_M")
+          wb_dd <- data_dictionary("wb", "ETH_2015_ESS_v03_M")
         })
       }
     )
