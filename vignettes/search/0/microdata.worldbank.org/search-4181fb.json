@@ -1,0 +1,71 @@
+{
+    "status": "success",
+    "result": {
+        "rows": [
+            {
+                "id": 4444,
+                "idno": "NGA_2021-2024_NLPS_v10_M",
+                "doi": "https://doi.org/10.48529/nj3q-v243",
+                "type": "survey",
+                "title": "National Longitudinal Phone Survey 2021-2024",
+                "nation": "Nigeria",
+                "authoring_entity": "National Bureau of Statistics (NBS)",
+                "form_model": "public",
+                "data_class_id": 1,
+                "year_start": 2021,
+                "year_end": 2024,
+                "repositoryid": "lsms",
+                "repo_title": "Living Standards Measurement Study (LSMS)",
+                "created": "2022-04-13T07:07:41-04:00",
+                "changed": "2024-12-09T09:23:48-05:00",
+                "total_views": 562992,
+                "total_downloads": 24686,
+                "varcount": 3117,
+                "thumbnail": null,
+                "ts_dimensions": null,
+                "ts_frequency": null,
+                "ts_data_count": "0",
+                "ts_db_study_id": null,
+                "ts_db_title": null,
+                "abstract": null,
+                "rank": 984,
+                "var_found": 556,
+                "url": "https://microdata.worldbank.org/catalog/4444"
+            }
+        ],
+        "found": 5436,
+        "total": 7151,
+        "limit": "1",
+        "offset": 0,
+        "search_counts_by_type": {
+            "survey": 5436
+        },
+        "page": 1
+    },
+    "params": {
+        "collections": [
+
+        ],
+        "study_keywords": "household",
+        "countries": false,
+        "topics": "",
+        "regions": [
+
+        ],
+        "data_class": [
+
+        ],
+        "from": "",
+        "to": "",
+        "tags": "",
+        "sort_by": "relevance",
+        "sort_order": "desc",
+        "repo": "",
+        "dtype": false,
+        "sid": "",
+        "type": "",
+        "country_iso3": "",
+        "ps": "1",
+        "created": ""
+    }
+}

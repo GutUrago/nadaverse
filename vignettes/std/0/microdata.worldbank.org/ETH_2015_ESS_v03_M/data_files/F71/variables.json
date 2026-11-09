@@ -1,0 +1,61 @@
+{
+    "total": 7,
+    "variables": [
+        {
+            "uid": 7400382,
+            "sid": 2783,
+            "fid": "F71",
+            "vid": "V3033",
+            "name": "region",
+            "labl": "Region"
+        },
+        {
+            "uid": 7400383,
+            "sid": 2783,
+            "fid": "F71",
+            "vid": "V3034",
+            "name": "zonename",
+            "labl": "Zone Name"
+        },
+        {
+            "uid": 7400384,
+            "sid": 2783,
+            "fid": "F71",
+            "vid": "V3035",
+            "name": "zone",
+            "labl": "Zone"
+        },
+        {
+            "uid": 7400385,
+            "sid": 2783,
+            "fid": "F71",
+            "vid": "V3036",
+            "name": "woredaname",
+            "labl": "Woreda Name"
+        },
+        {
+            "uid": 7400386,
+            "sid": 2783,
+            "fid": "F71",
+            "vid": "V3037",
+            "name": "woreda",
+            "labl": "Woreda"
+        },
+        {
+            "uid": 7400387,
+            "sid": 2783,
+            "fid": "F71",
+            "vid": "V3038",
+            "name": "local_unit",
+            "labl": "Local Area Measurement Unit"
+        },
+        {
+            "uid": 7400388,
+            "sid": 2783,
+            "fid": "F71",
+            "vid": "V3039",
+            "name": "conversion",
+            "labl": "Sq Meters per Unit"
+        }
+    ]
+}

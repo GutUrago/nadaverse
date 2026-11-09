@@ -1,0 +1,28 @@
+{
+    "result": {
+        "rows": [
+            {
+                "id": "128",
+                "idno": "DDI-KEN-KNBS-KDHS-2022-V001",
+                "title": "Kenya Demographic and Health Survey 2022",
+                "nation": "Kenya",
+                "authoring_entity": "Kenya National Bureau of Statistics",
+                "form_model": "public",
+                "year_start": "2022",
+                "year_end": "2022",
+                "repositoryid": "central",
+                "link_da": null,
+                "repo_title": null,
+                "created": "2024-09-10T08:29:10+03:00",
+                "changed": "2024-09-10T13:25:17+03:00",
+                "total_views": "30788",
+                "total_downloads": "11238",
+                "url": "https://statistics.knbs.or.ke/nada/index.php/catalog/128"
+            }
+        ],
+        "found": "131",
+        "total": "131",
+        "limit": "1",
+        "offset": 0
+    }
+}

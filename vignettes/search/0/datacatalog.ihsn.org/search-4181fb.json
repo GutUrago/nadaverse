@@ -1,0 +1,68 @@
+{
+    "status": "success",
+    "result": {
+        "found": 9719,
+        "total": 13097,
+        "limit": "1",
+        "offset": 0,
+        "rows": [
+            {
+                "id": 9868,
+                "idno": "ZWE_2010_ICT_v01_M",
+                "doi": null,
+                "type": "survey",
+                "title": "Information and Communication Technology Household Survey 2010, Rural Households",
+                "subtitle": null,
+                "nation": "Zimbabwe",
+                "abstract": "This is the first survey of its kind to be carried out in Zimbabwe. Its objective was to collect data on access and use of ICTs by households and individuals in order to measure the digital divide. The digital divide is defined as the gap between individuals, households, businesses, and geographical areas at different socioeconomic levels with regard to both their opportunities to access ICTs and their use of the Internet for a variety of activities. The digital divide reflects differences among",
+                "formid": 6,
+                "form_model": "data_na",
+                "repositoryid": "central",
+                "repo_title": null,
+                "total_views": 69,
+                "total_downloads": 10,
+                "link_da": null,
+                "created": "2021-10-14T18:45:39+00:00",
+                "changed": "2021-10-14T18:45:39+00:00",
+                "year_start": 2010,
+                "year_end": 2010,
+                "authoring_entity": "Zimbabwe National Statistics Agency",
+                "data_class_id": null,
+                "rank": 38.12346600000000051977622206322848796844482421875,
+                "thumbnail": null,
+                "varcount": 193,
+                "url": "https://datacatalog.ihsn.org/catalog/9868"
+            }
+        ],
+        "search_counts_by_type": {
+            "survey": 9719
+        },
+        "page": 1
+    },
+    "params": {
+        "collections": [
+
+        ],
+        "study_keywords": "household",
+        "countries": false,
+        "topics": "",
+        "regions": [
+
+        ],
+        "data_class": [
+
+        ],
+        "from": "",
+        "to": "",
+        "tags": "",
+        "sort_by": "relevance",
+        "sort_order": "desc",
+        "repo": "",
+        "dtype": false,
+        "sid": "",
+        "type": "",
+        "country_iso3": "",
+        "ps": "1",
+        "created": ""
+    }
+}

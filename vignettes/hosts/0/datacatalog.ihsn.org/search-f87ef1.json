@@ -1,0 +1,68 @@
+{
+    "status": "success",
+    "result": {
+        "found": 13097,
+        "total": 13097,
+        "limit": "1",
+        "offset": 0,
+        "rows": [
+            {
+                "id": 13286,
+                "idno": "ITA_2011_PHC_v01_M_v7.5_A_IPUMS",
+                "doi": null,
+                "type": "survey",
+                "title": "15th General Population and Housing Census",
+                "subtitle": null,
+                "nation": "Italy",
+                "abstract": null,
+                "formid": 5,
+                "form_model": "remote",
+                "repositoryid": "central",
+                "repo_title": null,
+                "total_views": 765,
+                "total_downloads": 0,
+                "link_da": null,
+                "created": "2025-09-03T13:28:07+00:00",
+                "changed": "2025-09-03T13:28:08+00:00",
+                "year_start": 2011,
+                "year_end": 2011,
+                "authoring_entity": "National Institute of Statistics, IPUMS",
+                "data_class_id": null,
+                "rank": 1,
+                "thumbnail": null,
+                "varcount": 213,
+                "url": "https://datacatalog.ihsn.org/catalog/13286"
+            }
+        ],
+        "search_counts_by_type": {
+            "survey": 13097
+        },
+        "page": 1
+    },
+    "params": {
+        "collections": [
+
+        ],
+        "study_keywords": "",
+        "countries": false,
+        "topics": "",
+        "regions": [
+
+        ],
+        "data_class": [
+
+        ],
+        "from": "",
+        "to": "",
+        "tags": "",
+        "sort_by": "title",
+        "sort_order": "asc",
+        "repo": "",
+        "dtype": false,
+        "sid": "",
+        "type": "",
+        "country_iso3": "",
+        "ps": "1",
+        "created": ""
+    }
+}

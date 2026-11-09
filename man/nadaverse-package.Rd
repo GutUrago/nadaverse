@@ -18,6 +18,7 @@ requests.
 \seealso{
 Useful links:
 \itemize{
+  \item \url{https://guturago.github.io/nadaverse/}
   \item \url{https://github.com/guturago/nadaverse}
   \item Report bugs at \url{https://github.com/guturago/nadaverse/issues}
 }

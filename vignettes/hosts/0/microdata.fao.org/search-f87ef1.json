@@ -1,0 +1,58 @@
+{
+    "result": {
+        "found": "1793",
+        "total": "1793",
+        "limit": "1",
+        "offset": 0,
+        "rows": [
+            {
+                "id": "2895",
+                "type": "survey",
+                "idno": "AFG_2024_DIEM_HS_R8_v01_M_v01_A_ESS",
+                "doi": null,
+                "title": "Data in Emergencies (DIEM) Monitoring System - Household Survey - Round 8, Afghanistan, 2024",
+                "subtitle": null,
+                "nation": "Afghanistan",
+                "authoring_entity": "Food and Agriculture Organization of the United Nations, Data in Emergencies Hub, Office of Emergencies and Resilience",
+                "form_model": "licensed",
+                "data_class_id": null,
+                "year_start": "2024",
+                "year_end": "2024",
+                "thumbnail": null,
+                "repositoryid": "Emergencies-Monitoring-Surveys",
+                "link_da": "",
+                "repo_title": "Data in Emergencies Monitoring Surveys",
+                "created": "2025-12-09T14:48:48+01:00",
+                "changed": "2025-12-12T14:19:04+01:00",
+                "total_views": "20762",
+                "total_downloads": "2",
+                "varcount": "260",
+                "url": "https://microdata.fao.org/index.php/catalog/2895"
+            }
+        ],
+        "search_counts_by_type": {
+            "survey": "1793"
+        },
+        "page": 1
+    },
+    "params": {
+        "collections": [
+            ""
+        ],
+        "study_keywords": "",
+        "countries": false,
+        "topics": "",
+        "from": "",
+        "to": "",
+        "tags": "",
+        "sort_by": "",
+        "sort_order": "",
+        "repo": "",
+        "dtype": false,
+        "sid": "",
+        "type": "",
+        "country_iso3": "",
+        "ps": "1",
+        "created": ""
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "status": "success",
+    "result": {
+        "rows": [
+            {
+                "id": 3110,
+                "idno": "IND_2015_DHS_v01_M_v02_A_IPUMS",
+                "doi": null,
+                "type": "survey",
+                "title": "[India] National Family Health Survey (NFHS-4) 2015-16 - IPUMS Subset",
+                "nation": "India",
+                "authoring_entity": "International Institute for Population Sciences (IIPS) and ICF., Minnesota Population Center",
+                "form_model": "remote",
+                "data_class_id": null,
+                "year_start": 2015,
+                "year_end": 2016,
+                "repositoryid": "ipums",
+                "repo_title": "Integrated Public Use Microdata Series (IPUMS)",
+                "created": "2018-08-15T15:05:02-04:00",
+                "changed": "2020-05-14T09:11:17-04:00",
+                "total_views": 2683516,
+                "total_downloads": 0,
+                "varcount": 6614,
+                "thumbnail": null,
+                "ts_dimensions": null,
+                "ts_frequency": null,
+                "ts_data_count": "0",
+                "ts_db_study_id": null,
+                "ts_db_title": null,
+                "abstract": null,
+                "url": "https://microdata.worldbank.org/catalog/3110"
+            }
+        ],
+        "found": 7151,
+        "total": 7151,
+        "limit": "1",
+        "offset": 0,
+        "search_counts_by_type": {
+            "survey": 7151
+        },
+        "page": 1
+    },
+    "params": {
+        "collections": [
+
+        ],
+        "study_keywords": "",
+        "countries": false,
+        "topics": "",
+        "regions": [
+
+        ],
+        "data_class": [
+
+        ],
+        "from": "",
+        "to": "",
+        "tags": "",
+        "sort_by": "title",
+        "sort_order": "asc",
+        "repo": "",
+        "dtype": false,
+        "sid": "",
+        "type": "",
+        "country_iso3": "",
+        "ps": "1",
+        "created": ""
+    }
+}

@@ -1,0 +1,26 @@
+url: https://guturago.github.io/nadaverse/
+template:
+  bootstrap: 5
+
+
+articles:
+  - title: Guides
+    navbar: Guides
+    contents:
+      - searching
+      - studies
+      - catalogs
+
+reference:
+  - title: Search
+    contents:
+      - search_catalog
+  - title: Catalogs and metadata helpers
+    contents:
+      - catalogs
+  - title: Study files and dictionaries
+    contents:
+      - data_files
+  - title: Settings
+    contents:
+      - set_user_agent

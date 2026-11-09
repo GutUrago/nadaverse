@@ -1,0 +1,124 @@
+---
+title: "Working with studies"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Working with studies}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+library(httptest2)
+start_vignette("std")
+set_redactor(function(x) {
+  gsub_response(x, "index.php/api/catalog/", "")
+})
+```
+
+After a search, four functions let you look closely at a study before you
+download anything. `metadata()` gives the description, `data_files()` lists the
+data files, and `data_dictionary()` lists the variables. This guide uses
+World Bank studies, and the output comes from saved responses.
+
+```{r library}
+library(nadaverse)
+```
+
+## Two ways to name a study
+
+A study can be given as the number in the `id` column of a search or as the
+text in the `idno` column. Both work in every function that takes a study.
+
+```{r ids}
+md_num <- metadata("wb", 8098)
+md_txt <- metadata("wb", "ALB_2012_LSMS_v01_M_v01_A_PUF")
+md_num$study_desc$title_statement$title
+md_txt$study_desc$title_statement$title
+```
+
+These are two different studies, one named by number and one by text. For a
+single study, both forms return the same result.
+
+## What the metadata contains
+
+`metadata()` returns a nested list. The top level separates the description of
+the documentation from the description of the study.
+
+```{r sections}
+names(md_txt)
+names(md_txt$study_desc)
+```
+
+Inside `study_desc`, `study_info` holds the scope and coverage of the study,
+`method` describes the design and data collection, and `data_access` gives the
+terms of use. You can follow the list down with `$`, or use `str()` to look at
+one part:
+
+```{r title}
+str(md_txt$study_desc$title_statement)
+```
+
+```{r study-info}
+names(md_txt$study_desc$study_info)
+```
+
+## Data files
+
+`data_files()` has one row per file in the study. This section uses the
+Ethiopia Socioeconomic Survey from 2015.
+
+```{r files}
+study <- "ETH_2015_ESS_v03_M"
+files <- data_files("wb", study)
+nrow(files)
+```
+
+Some columns of the table can hold lists, which print in an awkward way. If
+that happens, `unlist()` each column you need:
+
+```{r files-tidy}
+files_tidy <- data.frame(
+  file_id = unlist(files$file_id),
+  file_name = unlist(files$file_name),
+  vars = as.numeric(unlist(files$var_count))
+)
+head(files_tidy, 5)
+```
+
+## Data dictionaries
+
+Without a `file_id`, `data_dictionary()` returns the variables of the whole
+study.
+
+```{r dictionary}
+dict <- data_dictionary("wb", study)
+nrow(dict)
+head(dict[, c("vid", "name", "labl")], 5)
+```
+
+Large studies can have thousands of variables, so it often pays to ask for one
+file at a time. Here the smallest file is chosen by its number of variables:
+
+```{r one-file}
+smallest <- files_tidy$file_id[which.min(files_tidy$vars)]
+dict_file <- data_dictionary("wb", study, file_id = smallest)
+nrow(dict_file)
+```
+
+## Finding variables
+
+A dictionary is an ordinary data frame, so you can search it with base R. This
+finds variables whose label mentions households:
+
+```{r find}
+hits <- dict[grepl("household", dict$labl, ignore.case = TRUE), ]
+head(hits[, c("vid", "name", "labl")], 5)
+```
+
+Dictionaries can be large and slow to download. Fetch one once, keep it in an
+object, and use `saveRDS()` if you want to reuse it in a later session.
+
+```{r teardown, include = FALSE}
+end_vignette()
+```

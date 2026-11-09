@@ -1,0 +1,208 @@
+{
+    "status": "success",
+    "dataset": {
+        "id": 2783,
+        "doi": null,
+        "repositoryid": "lsms",
+        "type": "survey",
+        "idno": "ETH_2015_ESS_v03_M",
+        "title": "Socioeconomic Survey 2015-2016",
+        "subtitle": "Wave 3",
+        "year_start": 2015,
+        "year_end": 2016,
+        "nation": "Ethiopia",
+        "authoring_entity": "Central Statistical Agency of Ethiopia",
+        "published": 1,
+        "created": "2017-02-16T19:09:40-05:00",
+        "changed": "2020-04-21T10:12:52-04:00",
+        "varcount": 3060,
+        "total_views": 1176799,
+        "total_downloads": 2390706,
+        "formid": 6,
+        "data_access_type": "data_na",
+        "remote_data_url": "",
+        "data_class_id": null,
+        "data_class_code": null,
+        "data_class_title": null,
+        "thumbnail": null,
+        "abstract": "The Ethiopia Socioeconomic Survey (ESS) is a collaborative project between the Central Statistics Agency of Ethiopia (CSA) and the World Bank Living Standards Measurement Study-Integrated Surveys on Agriculture (LSMS-ISA) team. The objective of the LSMS-ISA is to collect multi-topic, household-level panel data with a special focus on improving agriculture statistics and generating a clearer understanding of the link between agriculture and other sectors of the economy. The project also aims to b",
+        "link_study": "http://go.worldbank.org/BCLXW38HY0",
+        "link_indicator": null,
+        "link_report": null,
+        "metadata": {
+            "doc_desc": {
+                "title": "ETH_2015_ESS_v03_M",
+                "idno": "DDI_ETH_2015_ESS_v03_M_WB",
+                "producers": [
+                    {
+                        "name": "Development Economics Data Group",
+                        "abbr": "DECDG",
+                        "affiliation": "The World Bank",
+                        "role": "Documentation of the DDI"
+                    }
+                ],
+                "prod_date": "2017-02-16",
+                "version_statement": {
+                    "version": "Version 03 (March 2020)\nWater quality testing questionnaire, report and data included in the documentation."
+                }
+            },
+            "study_desc": {
+                "title_statement": {
+                    "idno": "ETH_2015_ESS_v03_M",
+                    "title": "Socioeconomic Survey 2015-2016",
+                    "sub_title": "Wave 3",
+                    "alternate_title": "ESS3 2015"
+                },
+                "authoring_entity": [
+                    {
+                        "name": "Central Statistical Agency of Ethiopia",
+                        "affiliation": "CSA"
+                    }
+                ],
+                "production_statement": {
+                    "producers": [
+                        {
+                            "name": "The World Bank",
+                            "abbr": "WB",
+                            "affiliation": "",
+                            "role": ""
+                        },
+                        {
+                            "name": "National Bank of Ethiopia",
+                            "abbr": "",
+                            "affiliation": "",
+                            "role": ""
+                        }
+                    ],
+                    "funding_agencies": [
+                        {
+                            "name": "World Bank",
+                            "abbr": "",
+                            "role": "Funding"
+                        }
+                    ]
+                },
+                "distribution_statement": {
+                    "contact": [
+                        {
+                            "name": "LSMS Database Manager",
+                            "affiliation": "Development Economics Data Group (The World Bank)",
+                            "email": "lsms@worldbank.org",
+                            "uri": "http://www.worldbank.org/lsms-isa"
+                        },
+                        {
+                            "name": "World Bank Microdata Library",
+                            "affiliation": "Development Economics Data Group (The World Bank)",
+                            "email": "",
+                            "uri": "microdata.worldbank.org"
+                        }
+                    ],
+                    "deposit_date": "2017-02-09"
+                },
+                "series_statement": {
+                    "series_name": "Living Standards Measurement Study",
+                    "series_info": "Ethiopia is one of seven countries being supported by the World Bank, through funding from the Bill and Melinda Gates Foundation (BMGF), to strengthen the production of household-level data on agriculture. The LSMS-ISA, has the over-arching objective of improving our understanding of agriculture in Sub-Saharan Africa - specifically, its role in household welfare and poverty reduction. The implementation will boost the data collection capacity of the national statistical organizations and the quality of household-level agriculture statistics. Also, the data will provide the basis of analyses looking for insights into how innovation and efficiency can be fostered in the agriculture sector. \n\nESS began as ERSS (Ethiopia Rural Socioeconomic Survey) in 2011/12. The first wave of data collection in 2011/12 included only rural and small town areas. The survey name dropped the word “Rural” in the second wave of data collection when the sample was expanded to include all urban areas. The urban supplement was done in such a way to ensure that the ESS data can provide nationally representative estimates. Accordingly, the number of enumeration areas (EAs) covered by the survey increased from 333 (or 3,776 households) to 433 (or 5,262 households). For the rest of this document, ESS will refer generally to the survey, ESS1 will refer to the first wave of the ESS carried out in 2011/122; ESS2 will refer to the second wave of the ESS carried out in 2013/14 and ESS3 will refer to the third wave of the ESS carried out in 2015/2016. ESS1, ESS2, and ESS3 together create a panel data set of households from rural and small town areas (ie. the same households that were interviewed in ESS1 were tracked and re-interviewed in ESS2 and ESS3). ESS2 and ESS3 together represent a panel of households and individuals for rural and all urban areas."
+                },
+                "version_statement": {
+                    "version": "Version 03: Edited, anonymous dataset for public distribution.\nWater quality testing data included in this documentation."
+                },
+                "study_info": {
+                    "abstract": "The Ethiopia Socioeconomic Survey (ESS) is a collaborative project between the Central Statistics Agency of Ethiopia (CSA) and the World Bank Living Standards Measurement Study-Integrated Surveys on Agriculture (LSMS-ISA) team. The objective of the LSMS-ISA is to collect multi-topic, household-level panel data with a special focus on improving agriculture statistics and generating a clearer understanding of the link between agriculture and other sectors of the economy. The project also aims to build capacity, share knowledge across countries, and improve survey methodologies and technology.\n\nESS is a long-term project to collect panel data. The project responds to the data needs of the country, given the dependence of a high percentage of households in agriculture activities in the country. The ESS collects information on household agricultural activities along with other information on the households like human capital, other economic activities, access to services and resources. The ability to follow the same households over time makes the ESS a new and powerful tool for studying and understanding the role of agriculture in household welfare over time as it allows analyses of how households add to their human and physical capital, how education affects earnings, and the role of government policies and programs on poverty, inter alia. The ESS is the first panel survey to be carried out by the CSA that links a multi-topic household questionnaire with detailed data on agriculture.",
+                    "coll_dates": [
+                        {
+                            "start": "2015-09-01",
+                            "end": "2015-09-30",
+                            "cycle": "Post-planting agriculture and Livestock questionnaires"
+                        },
+                        {
+                            "start": "2015-09-01",
+                            "end": "2015-12-31",
+                            "cycle": "Crop cut questionnaire"
+                        },
+                        {
+                            "start": "2016-02-01",
+                            "end": "2016-04-30",
+                            "cycle": "Household, Community, and Post-harvest agriculture questionnaire"
+                        },
+                        {
+                            "start": "2016-02-01",
+                            "end": "2016-04-30",
+                            "cycle": "All modules in large town EAs"
+                        }
+                    ],
+                    "nation": [
+                        {
+                            "name": "Ethiopia",
+                            "abbreviation": "ETH"
+                        }
+                    ],
+                    "geog_coverage": "National Coverage. ESS2 and ESS3 covered all regional states including the capital, Addis Ababa. The majority of the sample comprises rural areas as it was carried over from ESS1. The ESS2 and ESS3 were implemented in 433 enumeration areas (EAs) out of which 290 were rural, 43 were small town EAs from ESS1, and 100 were EAs from major urban areas.",
+                    "geog_unit": "Region",
+                    "analysis_unit": "Households\nCommunities",
+                    "universe": "ESS uses a nationally representative sample of over 5,000 households living in rural and urban areas. The urban areas include both small and large towns.",
+                    "data_kind": "Sample survey data [ssd]",
+                    "notes": "The scope of the ESS includes:\n- Household: Household characteristics; household roster; education; health, time use and labour; savings, fiid last 7 days; food aggregate; non-food expenditure; food security; shocks, housing; assets; non-farm expenditure; other income; assistance; credit.\n- Community: Informant roster; basic information; access to basic services; economic activities; agriculture (only for rural eas); changes; community needs and actions; productive safety nets programme; market prices. \n- Post Harvest: Household roster; crop roster; crop harvest by field; unit and size codes; harvest labour; non-permanent crop roster; crop disposition; permanent crop roster; permanent crops; network roster.\t\n- Post planting : Parcel Roster; field roster; crop roster; seeds roster; miscellaneous questions for the holder; network roster; rope and compass measurement; crop cut by field. \n- Livestock: ownership; change in stock; breeding; house, water and feed; animal health; milk production; egg production; animal power and dung; household roster; education codes."
+                },
+                "method": {
+                    "data_collection": {
+                        "sampling_procedure": "The sample is a two-stage probability sample. The first stage of sampling entailed selecting primary sampling units, or CSA enumeration areas (EAs). A total of 433 EAs were selected based on probability proportional to size of the total EAs in each region. For the rural sample, 290 EAs were selected from the AgSS EAs. A total of 43 and 100 EAs were selected for small town and urban areas, respectively. In order to ensure sufficient sample size in the most populous regions (Amhara, Oromiya, SNNP, and Tigray) and Addis Ababa, quotas were set for the number of EAs in each region. The sample is not representative for each of the small regions including Afar, Benshangul Gumuz, Dire Dawa, Gambella, Harari, and Somalie regions. However, estimates can be produced for a combination of all smaller regions as one “other region” category. A more detailed description of the sample design is provided in Section 3 of the Basic Information Document provided under the Related Materials tab.",
+                        "coll_mode": [
+                            "Face-to-face [f2f]"
+                        ],
+                        "research_instrument": "The survey consisted of five questionnaires. These questionnaires are similar with the questionnaires used during in the ESS1 and ESS2 with revisions based both on the results of the ESS2 and also on identified areas of need for new data (see Section 7 of the Basic Information Document provided under the Related Materials tab). The household questionnaire was administered to all households in the sample. The community questionnaire was administered to a group of community members to collect information on the socio-economic indicators of the enumeration areas where the sample households reside.3 The three agriculture questionnaires consisting of a post-planting agriculture questionnaire, post-harvest agriculture questionnaire and livestock questionnaire were administered to all household members (agriculture holders) who are engaged in agriculture activities. A holder is a person who exercises management control over the operations of the agricultural holdings and makes the major decisions regarding the utilization of the available resources. S/he has technical and economic responsibility for the holding. S/he may operate the holding directly as an owner or as a manager. Hence it is possible to have more than one holder in single sampled households. As a result we have administered more than one agriculture questionnaire in a single sampled household if the household has more than one holder. \n\nHousehold questionnaire: The household questionnaire provides information on basic demographics; education; health (including anthropometric measurement for children); labor and time use; saving; food and non-food expenditure; household nonfarm income-generating activities; food security and shocks; safety nets; housing conditions; assets; credit; and other sources of household income (Table 2.1). Household location is geo-referenced in order to be able to later link the ESS data to other available geographic data sets (See Appendix 1 for discussion of the geo-data provided with the ESS). \n\nCommunity questionnaire: The community questionnaire solicits information on infrastructure; community organizations; resource management; changes in the community; key events; community needs, actions and achievements; and local retail price information (Table 2.2). \n\nAgriculture questionnaire: The post-planting and post-harvest agriculture questionnaires focus on crop farming activities and solicit information on land ownership and use; farm labor; inputs use; GPS land area measurement and coordinates of household fields; agriculture capital; irrigation; and crop harvest and utilization. The livestock questionnaire collects information on animal holdings and costs; and production, cost and sales of livestock by products (Table 2.3). The livestock module implemented in ESS3 is significantly difference from the module implemented in ESS1 and ESS2.",
+                        "sources": [
+                            {
+                                "name": "",
+                                "origin": "",
+                                "characteristics": ""
+                            }
+                        ],
+                        "coll_situation": "- Six training sessions were held for the ESS3. These included: two training of trainers (TOT) (July 2015 and January 2016), two field staff (enumerator and supervisor) training sessions in August 2015 and January-February 2016, and two data entry training in October 2015 and March 2016. \n- The survey was designed to be implemented in two visits following the AgSS field schedule. For panel rural and small town households, the first visit took place between September and October 2015. In this visit, the post-planting agriculture and livestock questionnaires were administered. Crop cut was conducted between September to December 2015. The second visit took place between February and April 2016 when the household, community and post-harvest agriculture questionnaires were administered.\n- For the Urban households that are added during the second wave, all questionnaires were administered in one visit that took place between February and April 2016. \nNote: The agriculture and livestock questionnaires were implemented differently in urban areas (small and medium/large towns) than in rural areas. For medium and large urban households, only the livestock questionnaire was administered. For small towns both agriculture questionnaires including post planting and post-harvest as well as the livestock questionnaire were administered Agriculture interviews for small town areas didn’t include crop-cut and land measurement by the enumerator and thus only include self-reported estimates. \nA detailed description of the Training, Data Collection, Tracking & Monitoring process is provided in Section 4 of the Basic Information Document.\n\nReference Photo Album \nBeginning in ESS3, reference photographs were used in the collection of food consumption and crop production quantities reported in non-standard units. The photographs depict food items or crops in non-standard units (and different sizes where applicable) and were meant to ensure uniformity in the non-standard unit amounts across respondents. The photos were collected in a systematic manner during the market survey where the item-unit weights were also collected. During the market survey, interviewers were instructed to follow strict protocols when taking the photographs such as including a reference object (typically a standard sized bottle of water) to provide the respondent with a frame of reference for the size of the unit. For units with multiple sizes, all of the relevant sizes were taken in the same photo for easier comparison by the respondent. The reference photos taken during the market survey were compiled into an album that was printed and provided to all interviewers. Item-specific photos were included for non-container units (e.g. piece, medeb, bunch) while only one photo of containers (e.g. tassa, kunna, jog) were included. The reference photo album that was used by interviewers is included with the additional documentation on the website (see “Photo Aids”) The procedures used for collection of the reference photos as well as the conversion factors followed the guidelines laid out in a forthcoming guidebook produced by the LSMS team, The Use of Non-Standard Units for the Collection of Food Quantity: A Guidebook for Improving the Measurement of Food Consumption and Agricultural Production in Living Standards Surveys.",
+                        "act_min": "Routine supervision by CSA’s field supervisors entailed the field-level coordination by all CSA branch offices. Branch level statisticians and supervisors who were assigned to this project conducted the routine supervision. The branch supervisors made three extended visits to the EAs between September, 2015 and April, 2016. As noted above, one field supervisor checked the work of three enumerators in three EAs. The last visit was combined with community interviews that were conducted by the supervisors themselves. Up to two branch statisticians were also in the field to check the work of the supervisors and enumerators. \n\nAdditional supervision was conducted by CSA head office experts and Bank staff and consultants. The teams’ first visit was held in September-December 2015 when interviews with the Post-planting, crop-cut and livestock questionnaires were being conducted. The second visit was in February-April 2016 when the household, community, and post-harvest agriculture data were being collected.",
+                        "weight": "The ESS3 data needs to be weighted to represent the national-level population of rural, small and large town households. A sample weight with post-stratification adjustments was calculated for the households and this weight variable is included in all the datasets.20 It reflects the adjusted probability of selecting the household into the sample. The inverse of this weight can be considered an expansion factor that sums to the total population of households in the nation. When this weight is used in a household-level file, it sums to the population of households. When this weight is used in an individual-level file, it sums to the population of individuals. If the data user wishes to produce an estimate for the population of individuals in a household-level file, an approximate expansion factor is the sample weight times the household size of each household. \n\nThe ESS3 sample weights were calculated in two stages. In the first stage, weights were separately calculated or adjusted for the three different sampling frames (rural, small town, and large town21). For the rural and small town sample, the wave 1 weights were adjusted to account for relisting, non-response, and attrition of households in the sample frame between the two waves (wave 1 and wave 3). In each of the waves, the rural and small town EAs were re-listed which reflects EA-specific population growth patterns. The post-stratification adjustment accounts for this change.\n\nSimilarly for the mid- and large-town sample, the wave 1 weights were adjusted to account for relisting, non-response, and attrition of households in the sample frame between the two waves (wave 2 and wave 3). In each of the waves, the mid- and large-town EAs were re-listed which reflects EA-specific population growth patterns. The post-stratification adjustment accounts for this change.",
+                        "cleaning_operations": "The interviews were carried out using pen-and-paper (PAPI) as well as computer-assisted personal interviewing (CAPI) method. A concurrent data entry arrangement was implemented for PAPI. In this arrangement, the enumerators did not wait until all the interviews were completed. Rather, once the enumerators completed approximately 3-4 questionnaires, supervisors collected these interviews from enumerators and brought them to the branch offices for data entry. This process took place as enumerators continued administering interviews with other households. Then questionnaires were keyed at the branch offices as soon as they were completed using the CSPro data entry application software. The data from the completed questionnaires were then checked for any interview or data entry errors using a STATA program. Data entry errors were flagged for the data entry clerks and the interview errors were then sent to back to the field for correction and feedback to the ongoing interviews. Several rounds of this process were undertaken until the final data files were produced. Additional cleaning was carried out, as needed, by checking the hard copies. In ESS3, CAPI (with a Survey Solutions platform) was used to collect the community data in large town areas."
+                    },
+                    "method_notes": "The electronic datasets are organized by questionnaire with the following labels on file names in parentheses: household (hh), community (com), post-planting agriculture (pp), post-harvest agriculture (ph), and livestock (ls). The data within each questionnaire do not contain any constructed variables. For example, the ESS data provide most all variables needed to construct an estimate of total household consumption, but the data set does not contain an estimated value of total consumption. The only compiled data that are included with the ESS files are the geo-spatial variables described in Section 5.2 of the Basic Information Document",
+                    "analysis_info": {
+                        "response_rate": "During wave 3, 1255 households were re-interviewed yielding a response rate of 85 percent. \nAttrition in urban areas is 15% due to consent refusal and inability to trace the whereabouts of sample households."
+                    }
+                },
+                "data_access": {
+                    "dataset_use": {
+                        "conf_dec": [
+                            {
+                                "txt": "The ESS collects confidential information on respondents. The confidential variables pertain to (i) names of the respondents to the household and community questionnaires, (ii) village and constituency names, (iii) descriptions of household dwelling and agricultural field locations, (iv) phone numbers of household members and their reference contacts, (v) GPS-based dwelling and agricultural field locations, (vi) names of the children of the head/spouse living elsewhere, (vii) names of the deceased household members, (viii) names of individuals listed in the network roster, and (ix) names of field staff. To maintain confidentiality, this information is not included in the ESS public use data. \n \nTo partially satisfy user interest in geo-referenced location, while preserving the confidentiality of sample household and communities, modified EA-level coordinates are provided as part of the household geovariable table. Modified coordinates are generated by applying a random offset within a specified range to the average EA value (following the MeasureDHS approach). For households that have moved between waves 1 and 3, and are more than 5 km from their baseline location, the offset is with respect to the new household location. More specifically, the coordinate modification strategy relies on random offset of EA center-point coordinates (or average of household GPS locations by EA in ESS) within a specified range determined by the urban and rural classification. For small towns and urban areas, an offset range of 0-2 km is used. In rural areas, where communities are more dispersed and risk of disclosure may be higher, a range of 0-5 km offset is used. Additionally, an offset range of 0-10 km is applied to 1% of EAs, effectively increasing the known range for all points to 10 km while introducing only a small amount of noise. Offset points are constrained at the zone level, so that they still fall within the correct zone for spatial joins, or point-in-polygon overlays. The result is a set of coordinates, representative at the EA level, that fall within known limits of accuracy. Users should take into account the offset range when considering different types of spatial analysis or queries with the data. Analysis of the spatial relationships between locations in close proximity would not be reliable. However, spatial queries using medium or low resolution datasets should be minimally affected by the offsets \n\nBefore being granted access to the dataset, all users have to formally agree: \n1. To make no copies of any files or portions of files to which s/he is granted access except those authorized by the data depositor. \n2. Not to use any technique in an attempt to learn the identity of any person, establishment, or sampling unit not identified on public use data files. \n3. To hold in strictest confidence the identification of any establishment or individual that may be inadvertently revealed in any documents or discussion, or analysis. Such inadvertent identification revealed in her/his analysis will be immediately brought to the attention of the data depositor.",
+                                "required": "yes",
+                                "form_no": "",
+                                "form_uri": ""
+                            }
+                        ],
+                        "contact": [
+                            {
+                                "name": "LSMS Database Manager",
+                                "affiliation": "Development Economics Data Group (The World Bank)",
+                                "email": "lsms@worldbank.org",
+                                "uri": "http://www.worldbank.org/lsms-isa"
+                            },
+                            {
+                                "name": "Director General",
+                                "affiliation": "Central Statistical Agency",
+                                "email": "",
+                                "uri": "http://www.csa.gov.et/"
+                            }
+                        ],
+                        "cit_req": "Use of the dataset must be acknowledged using a citation which would include:\n- the Identification of the Primary Investigator\n- the title of the survey (including country, acronym and year of implementation)\n- the survey reference number\n- the source and date of download\n\nExample:\n\nCentral Statistical Agency of Ethiopia. Ethiopia Socioeconomic Survey,Wave 3 (ESS3) 2015-2016. Public Use Dataset. Ref: ETH_2015_ESS_v02_M. Downloaded from[URL] on [Date]",
+                        "conditions": "- Public use files, accessible to all",
+                        "disclaimer": "The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses."
+                    }
+                }
+            },
+            "schematype": "survey",
+            "tags": [
+                {
+                    "tag": "DOI"
+                }
+            ]
+        }
+    }
+}

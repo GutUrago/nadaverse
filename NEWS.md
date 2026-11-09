@@ -18,13 +18,6 @@
   retired, and the Government of India catalog could not be reached when
   testing.
 
-## Documentation and tests
-
-* Corrected the documented return values, column names and cross-references
-  of the helper functions, `search_catalog()`, `data_files()` and
-  `data_dictionary()`, and added a package overview page.
-* Tests for every catalog now run offline.
-
 # nadaverse 0.1.0
 
 * Initial CRAN submission.

@@ -1,0 +1,809 @@
+{
+    "found": 3060,
+    "total": 3060,
+    "limit": 100,
+    "offset": 0,
+    "page": 1,
+    "variables": [
+        {
+            "uid": 7397487,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V26",
+            "name": "household_id",
+            "labl": "Unique HH ID in wave 1"
+        },
+        {
+            "uid": 7397488,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V27",
+            "name": "household_id2",
+            "labl": "Unique HH ID in wave 2"
+        },
+        {
+            "uid": 7397489,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V28",
+            "name": "rural",
+            "labl": "EA rural urban indicator"
+        },
+        {
+            "uid": 7397490,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V29",
+            "name": "pw_w3",
+            "labl": "Final adjusted wave 3 weight"
+        },
+        {
+            "uid": 7397491,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V30",
+            "name": "ea_id",
+            "labl": "Unique Enumeration Area Indentifier"
+        },
+        {
+            "uid": 7397492,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V31",
+            "name": "ea_id2",
+            "labl": "Unique Enumeration Area Indentifier2"
+        },
+        {
+            "uid": 7397493,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V32",
+            "name": "saq01",
+            "labl": "Region Code"
+        },
+        {
+            "uid": 7397494,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V33",
+            "name": "saq02",
+            "labl": "Zone Code"
+        },
+        {
+            "uid": 7397495,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V34",
+            "name": "saq03",
+            "labl": "Woreda Code"
+        },
+        {
+            "uid": 7397496,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V35",
+            "name": "saq04",
+            "labl": "Town Code"
+        },
+        {
+            "uid": 7397497,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V36",
+            "name": "saq05",
+            "labl": "Subcity Code"
+        },
+        {
+            "uid": 7397498,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V37",
+            "name": "saq06",
+            "labl": "Kebele/FA Code"
+        },
+        {
+            "uid": 7397499,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V38",
+            "name": "saq07",
+            "labl": "ea"
+        },
+        {
+            "uid": 7397500,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V39",
+            "name": "saq08",
+            "labl": "Household ID"
+        },
+        {
+            "uid": 7397501,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V40",
+            "name": "hh_saq09",
+            "labl": "Household Size"
+        },
+        {
+            "uid": 7397502,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V41",
+            "name": "hh_saq11",
+            "labl": "Household Head Name"
+        },
+        {
+            "uid": 7397503,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V42",
+            "name": "hh_saq12",
+            "labl": "Village Name Where the HH Lives"
+        },
+        {
+            "uid": 7397504,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V43",
+            "name": "hh_saq13_a",
+            "labl": "Date of First Interview (Day)"
+        },
+        {
+            "uid": 7397505,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V44",
+            "name": "hh_saq13_b",
+            "labl": "Date of First Interview (Month)"
+        },
+        {
+            "uid": 7397506,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V45",
+            "name": "hh_saq13_c",
+            "labl": "Date of First Interview (Year)"
+        },
+        {
+            "uid": 7397507,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V46",
+            "name": "hh_saq14_a",
+            "labl": "Time of First Interview Start (Hour)"
+        },
+        {
+            "uid": 7397508,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V47",
+            "name": "hh_saq14_b",
+            "labl": "Time of First Interview Start (Minute)"
+        },
+        {
+            "uid": 7397509,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V48",
+            "name": "hh_saq15_a",
+            "labl": "Time of First Interview End (Hour)"
+        },
+        {
+            "uid": 7397510,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V49",
+            "name": "hh_saq15_b",
+            "labl": "Time of First Interview End (Minute)"
+        },
+        {
+            "uid": 7397511,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V50",
+            "name": "hh_saq16_a",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section A)"
+        },
+        {
+            "uid": 7397512,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V51",
+            "name": "hh_saq16_b",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 1)"
+        },
+        {
+            "uid": 7397513,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V52",
+            "name": "hh_saq16_c",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 2)"
+        },
+        {
+            "uid": 7397514,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V53",
+            "name": "hh_saq16_d",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 3)"
+        },
+        {
+            "uid": 7397515,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V54",
+            "name": "hh_saq16_e",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 4)"
+        },
+        {
+            "uid": 7397516,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V55",
+            "name": "hh_saq16_f",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 5)"
+        },
+        {
+            "uid": 7397517,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V56",
+            "name": "hh_saq16_g",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 6)"
+        },
+        {
+            "uid": 7397518,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V57",
+            "name": "hh_saq16_h",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 7)"
+        },
+        {
+            "uid": 7397519,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V58",
+            "name": "hh_saq16_i",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 8)"
+        },
+        {
+            "uid": 7397520,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V59",
+            "name": "hh_saq16_j",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 9)"
+        },
+        {
+            "uid": 7397521,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V60",
+            "name": "hh_saq16_k",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 10)"
+        },
+        {
+            "uid": 7397522,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V61",
+            "name": "hh_saq16_l",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 11)"
+        },
+        {
+            "uid": 7397523,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V62",
+            "name": "hh_saq16_m",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 12)"
+        },
+        {
+            "uid": 7397524,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V63",
+            "name": "hh_saq16_n",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 13)"
+        },
+        {
+            "uid": 7397525,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V64",
+            "name": "hh_saq16_o",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 14)"
+        },
+        {
+            "uid": 7397526,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V65",
+            "name": "hh_saq16_p",
+            "labl": "Missing / Incomplete Sections 1st Interview (Section 15)"
+        },
+        {
+            "uid": 7397527,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V66",
+            "name": "hh_saq17_a",
+            "labl": "Date of Second Interview (Day)"
+        },
+        {
+            "uid": 7397528,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V67",
+            "name": "hh_saq17_b",
+            "labl": "Date of Second Interview (Month)"
+        },
+        {
+            "uid": 7397529,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V68",
+            "name": "hh_saq17_c",
+            "labl": "Date of Second Interview (Year)"
+        },
+        {
+            "uid": 7397530,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V69",
+            "name": "hh_saq18_a",
+            "labl": "Time of Second Interview Start (Hour)"
+        },
+        {
+            "uid": 7397531,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V70",
+            "name": "hh_saq18_b",
+            "labl": "Time of Second Interview Start (Minute)"
+        },
+        {
+            "uid": 7397532,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V71",
+            "name": "hh_saq19_a",
+            "labl": "Time of Second Interview End (Hour)"
+        },
+        {
+            "uid": 7397533,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V72",
+            "name": "hh_saq19_b",
+            "labl": "Time of Second Interview End (Minute)"
+        },
+        {
+            "uid": 7397534,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V73",
+            "name": "hh_saq20_a",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section A)"
+        },
+        {
+            "uid": 7397535,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V74",
+            "name": "hh_saq20_b",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 1)"
+        },
+        {
+            "uid": 7397536,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V75",
+            "name": "hh_saq20_c",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 2)"
+        },
+        {
+            "uid": 7397537,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V76",
+            "name": "hh_saq20_d",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 3)"
+        },
+        {
+            "uid": 7397538,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V77",
+            "name": "hh_saq20_e",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 4)"
+        },
+        {
+            "uid": 7397539,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V78",
+            "name": "hh_saq20_f",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 5)"
+        },
+        {
+            "uid": 7397540,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V79",
+            "name": "hh_saq20_g",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 6)"
+        },
+        {
+            "uid": 7397541,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V80",
+            "name": "hh_saq20_h",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 7)"
+        },
+        {
+            "uid": 7397542,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V81",
+            "name": "hh_saq20_i",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 8)"
+        },
+        {
+            "uid": 7397543,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V82",
+            "name": "hh_saq20_j",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 9)"
+        },
+        {
+            "uid": 7397544,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V83",
+            "name": "hh_saq20_k",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 10)"
+        },
+        {
+            "uid": 7397545,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V84",
+            "name": "hh_saq20_l",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 11)"
+        },
+        {
+            "uid": 7397546,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V85",
+            "name": "hh_saq20_m",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 12)"
+        },
+        {
+            "uid": 7397547,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V86",
+            "name": "hh_saq20_n",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 13)"
+        },
+        {
+            "uid": 7397548,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V87",
+            "name": "hh_saq20_o",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 14)"
+        },
+        {
+            "uid": 7397549,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V88",
+            "name": "hh_saq20_p",
+            "labl": "Missing / Incomplete Sections 2nd Interview (Section 15)"
+        },
+        {
+            "uid": 7397550,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V89",
+            "name": "hh_saq21_a",
+            "labl": "Date of Third Interview (Day)"
+        },
+        {
+            "uid": 7397551,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V90",
+            "name": "hh_saq21_b",
+            "labl": "Date of Third Interview (Month)"
+        },
+        {
+            "uid": 7397552,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V91",
+            "name": "hh_saq21_c",
+            "labl": "Date of Third Interview (Year)"
+        },
+        {
+            "uid": 7397553,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V92",
+            "name": "hh_saq22_a",
+            "labl": "Time of Third Interview Start (Hour)"
+        },
+        {
+            "uid": 7397554,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V93",
+            "name": "hh_saq22_b",
+            "labl": "Time of Third Interview Start (Minute)"
+        },
+        {
+            "uid": 7397555,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V94",
+            "name": "hh_saq23_a",
+            "labl": "Time of Third Interview End (Hour)"
+        },
+        {
+            "uid": 7397556,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V95",
+            "name": "hh_saq23_b",
+            "labl": "Time of Third Interview End (Minute)"
+        },
+        {
+            "uid": 7397557,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V96",
+            "name": "hh_saq24_a",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section A)"
+        },
+        {
+            "uid": 7397558,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V97",
+            "name": "hh_saq24_b",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 1)"
+        },
+        {
+            "uid": 7397559,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V98",
+            "name": "hh_saq24_c",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 2)"
+        },
+        {
+            "uid": 7397560,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V99",
+            "name": "hh_saq24_d",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 3)"
+        },
+        {
+            "uid": 7397561,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V100",
+            "name": "hh_saq24_e",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 4)"
+        },
+        {
+            "uid": 7397562,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V101",
+            "name": "hh_saq24_f",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 5)"
+        },
+        {
+            "uid": 7397563,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V102",
+            "name": "hh_saq24_g",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 6)"
+        },
+        {
+            "uid": 7397564,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V103",
+            "name": "hh_saq24_h",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 7)"
+        },
+        {
+            "uid": 7397565,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V104",
+            "name": "hh_saq24_i",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 8)"
+        },
+        {
+            "uid": 7397566,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V105",
+            "name": "hh_saq24_j",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 9)"
+        },
+        {
+            "uid": 7397567,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V106",
+            "name": "hh_saq24_k",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 10)"
+        },
+        {
+            "uid": 7397568,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V107",
+            "name": "hh_saq24_l",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 11)"
+        },
+        {
+            "uid": 7397569,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V108",
+            "name": "hh_saq24_m",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 12)"
+        },
+        {
+            "uid": 7397570,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V109",
+            "name": "hh_saq24_n",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 13)"
+        },
+        {
+            "uid": 7397571,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V110",
+            "name": "hh_saq24_o",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 14)"
+        },
+        {
+            "uid": 7397572,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V111",
+            "name": "hh_saq24_p",
+            "labl": "Missing / Incomplete Sections 3rd Interview (Section 15)"
+        },
+        {
+            "uid": 7397573,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V112",
+            "name": "hh_saq25_b",
+            "labl": "GPS Coordinates Longitude"
+        },
+        {
+            "uid": 7397574,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V113",
+            "name": "hh_saq25_a",
+            "labl": "GPS Coordinates Latitude"
+        },
+        {
+            "uid": 7397575,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V114",
+            "name": "hh_saq26_a",
+            "labl": "Enumerator Name"
+        },
+        {
+            "uid": 7397576,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V115",
+            "name": "hh_saq26_b",
+            "labl": "Enumerator Date (Day)"
+        },
+        {
+            "uid": 7397577,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V116",
+            "name": "hh_saq26_c",
+            "labl": "Enumerator Date (Month)"
+        },
+        {
+            "uid": 7397578,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V117",
+            "name": "hh_saq26_d",
+            "labl": "Enumerator Date (Year)"
+        },
+        {
+            "uid": 7397579,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V118",
+            "name": "hh_saq27_a",
+            "labl": "Supervisor Name"
+        },
+        {
+            "uid": 7397580,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V119",
+            "name": "hh_saq27_b",
+            "labl": "Supervisor Date (Day)"
+        },
+        {
+            "uid": 7397581,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V120",
+            "name": "hh_saq27_c",
+            "labl": "Supervisor Date (Month)"
+        },
+        {
+            "uid": 7397582,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V121",
+            "name": "hh_saq27_d",
+            "labl": "Supervisor Date (Year)"
+        },
+        {
+            "uid": 7397583,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V122",
+            "name": "hh_saq28_a",
+            "labl": "Coordinator/Statistician  Name"
+        },
+        {
+            "uid": 7397584,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V123",
+            "name": "hh_saq28_b",
+            "labl": "Coordinator/Statistician Date (Day)"
+        },
+        {
+            "uid": 7397585,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V124",
+            "name": "hh_saq28_c",
+            "labl": "Coordinator/Statistician Date (Month)"
+        },
+        {
+            "uid": 7397586,
+            "sid": 2783,
+            "fid": "F3",
+            "vid": "V125",
+            "name": "hh_saq28_d",
+            "labl": "Coordinator/Statistician Date (Year)"
+        }
+    ]
+}

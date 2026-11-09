@@ -6,3 +6,6 @@
 ^codecov\.yml$
 ^tests/record_mocks\.R$
 ^tests/diagnose_hosts\.R$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

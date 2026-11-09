@@ -1,0 +1,149 @@
+---
+title: "Getting started with nadaverse"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Getting started with nadaverse}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+library(httptest2)
+start_vignette("start")
+set_redactor(function(x) {
+  gsub_response(x, "index.php/api/catalog/", "")
+})
+```
+
+Many statistical agencies and international organizations publish survey and
+census microdata through catalogs built with the NADA software. All of these
+catalogs share the same web API, so one package can search them all. nadaverse
+wraps that API in a few functions that return data frames and lists.
+
+This guide follows one example from start to finish. You will find a study in
+the World Bank catalog, read its description, and look at its files and
+variables. Then you will run the same search on a second catalog.
+
+The output shown here comes from saved responses, so the guide builds without
+an internet connection. When you run the code yourself, the functions call the
+live catalogs.
+
+```{r library}
+library(nadaverse)
+```
+
+## Choose a catalog
+
+Every function takes a catalog code as its first argument. `catalogs()` lists
+the codes and prints a short summary. Use `show = FALSE` to get the table
+without the printout.
+
+```{r catalogs}
+cats <- catalogs(show = FALSE)
+cats[, c("catalog", "name")]
+```
+
+Codes are not case sensitive, so `"wb"` and `"WB"` mean the same catalog. This
+guide uses `"wb"` for the World Bank and `"fao"` for the Food and Agriculture
+Organization.
+
+## Search for studies
+
+`search_catalog()` returns one row per study. The `ps` argument sets how many
+studies come back on a page.
+
+```{r search}
+res <- search_catalog(
+  "wb",
+  keyword = "Ethiopia Socioeconomic Survey",
+  ps = 5
+)
+head(res[, c("idno", "nation", "year_start")], 5)
+```
+
+Two columns identify a study. `id` is a number and `idno` is a text ID. Every
+function that takes a study accepts either one. The table also has columns
+such as `title`, which this guide leaves out to keep the output narrow.
+
+If nothing matches, `search_catalog()` gives a warning and returns `NULL`
+instead of an empty table.
+
+## Read a study description
+
+`metadata()` returns the full description of one study as a nested list.
+
+```{r metadata}
+study <- "ETH_2015_ESS_v03_M"
+md <- metadata("wb", study)
+names(md)
+```
+
+The `doc_desc` part describes the documentation itself, such as who prepared
+it and when. The `study_desc` part describes the study:
+
+```{r study-desc}
+names(md$study_desc)
+```
+
+You can follow the list down to a single item with `$`, for example
+`md$study_desc$title_statement`.
+
+## List the data files
+
+A study is usually split into several data files. `data_files()` shows them.
+
+```{r files}
+files <- data_files("wb", study)
+head(files[, c("file_id", "file_name", "case_count")], 5)
+```
+
+`case_count` is the number of rows in a file. The table has more columns, such
+as `var_count` (the number of variables) and `description`; the guide shows
+only a few so the rows stay short. The `file_id` column is what you pass to
+`data_dictionary()` to look at one file.
+
+## Look up the variables
+
+`data_dictionary()` lists the variables, with a name and a label for each.
+
+```{r dictionary}
+dict <- data_dictionary("wb", study)
+head(dict[, c("vid", "name", "labl")], 5)
+```
+
+To see only one file, pass its ID:
+
+```{r dictionary-file, eval = FALSE}
+data_dictionary("wb", study, file_id = files$file_id[[1]])
+```
+
+Large studies have thousands of variables, so it often pays to start with one
+file.
+
+## Try another catalog
+
+The functions work the same way on every catalog. Only the catalog code
+changes.
+
+```{r fao}
+fao <- search_catalog("fao", keyword = "food insecurity", ps = 5)
+head(fao[, c("idno", "nation", "year_start")], 5)
+```
+
+Column names come from each catalog's API, so a column that exists in one
+catalog can be missing in another. Check `names()` before you rely on a column
+in code that runs across catalogs.
+
+## Where to go next
+
+- `vignette("searching", package = "nadaverse")` covers every
+  `search_catalog()` argument, with examples.
+- `vignette("studies", package = "nadaverse")` goes deeper into metadata,
+  files and dictionaries.
+- `vignette("catalogs", package = "nadaverse")` explains how the catalogs
+  differ, what to do when one fails, and the user agent setting.
+
+```{r teardown, include = FALSE}
+end_vignette()
+```

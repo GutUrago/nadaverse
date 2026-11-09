@@ -25,10 +25,13 @@ Imports:
     cli,
     httr2
 Roxygen: list(markdown = TRUE)
-URL: https://github.com/guturago/nadaverse
+URL: https://guturago.github.io/nadaverse/, https://github.com/guturago/nadaverse
 BugReports: https://github.com/guturago/nadaverse/issues
 Suggests: 
     httptest2,
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
+VignetteBuilder: knitr
 Config/testthat/edition: 3
 Config/roxygen2/version: 8.1.0
