@@ -26,14 +26,23 @@ catalog_list <- list(
   ),
   ilo = list(
     name = "International Labour Organization",
-    home = "https://www.ilo.org/surveyLib",
+    home = "https://webapps.ilo.org/surveyLib",
     api = "https://webapps.ilo.org/surveyLib/index.php/api/catalog"
-    #api  = "https://www.ilo.org/surveyLib/index.php/api/catalog" #-> old
   ),
   india = list(
     name = "Government of India",
     home = "https://microdata.gov.in",
     api  = "https://microdata.gov.in/NADA/index.php/api/catalog"
+  ),
+  inegi = list(
+    name = "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (RNM)",
+    home = "https://www.inegi.org.mx/rnm",
+    api = "https://www.inegi.org.mx/rnm/index.php/api/catalog"
+  ),
+  kenya = list(
+    name = "Kenya National Bureau of Statistics",
+    home = "https://statistics.knbs.or.ke/nada/index.php",
+    api = "https://statistics.knbs.or.ke/nada/index.php/api/catalog"
   ),
   unhcr = list(
     name = "United Nations High Commissioner for Refugees",
@@ -44,6 +53,16 @@ catalog_list <- list(
     name = "The World Bank",
     home = "https://microdata.worldbank.org",
     api  = "https://microdata.worldbank.org/index.php/api/catalog"
+  ),
+  who = list(
+    name = "World Health Organization Health Information Systems",
+    home = "https://apps.who.int/healthinfo/systems/surveydata/index.php/catalog",
+    api = "https://apps.who.int/healthinfo/systems/surveydata/index.php/api/catalog"
+  ),
+  zambia = list(
+    name = "Zambia Statistics Agency",
+    home = "https://nada.zamstats.gov.zm",
+    api = "https://nada.zamstats.gov.zm/index.php/api/catalog"
   )
 )
 

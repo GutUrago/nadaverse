@@ -58,10 +58,14 @@
 #' \item \code{"erf"}: **Economic Research Forum** (\href{https://erfdataportal.com}{https://erfdataportal.com})
 #' \item \code{"fao"}: **Food and Agriculture Organization** (\href{https://microdata.fao.org}{https://microdata.fao.org})
 #' \item \code{"ihsn"}: **International Household Survey Network** (\href{https://catalog.ihsn.org}{https://catalog.ihsn.org})
-#' \item \code{"ilo"}: **International Labour Organization** (\href{https://www.ilo.org/surveyLib}{https://www.ilo.org/surveyLib})
+#' \item \code{"ilo"}: **International Labour Organization** (\href{https://webapps.ilo.org/surveyLib}{https://webapps.ilo.org/surveyLib})
 #' \item \code{"india"}: **Government of India** (\href{https://microdata.gov.in}{https://microdata.gov.in})
+#' \item \code{"inegi"}: **Instituto Nacional de Estadística y Geografía** (\href{https://www.inegi.org.mx/rnm}{https://www.inegi.org.mx/rnm})
+#' \item \code{"kenya"}: **Kenya National Bureau of Statistics** (\href{https://statistics.knbs.or.ke/nada/index.php}{https://statistics.knbs.or.ke/nada/index.php})
 #' \item \code{"unhcr"}: **United Nations High Commissioner for Refugees** (\href{https://microdata.unhcr.org}{https://microdata.unhcr.org})
 #' \item \code{"wb"}: **The World Bank** (\href{https://microdata.worldbank.org}{https://microdata.worldbank.org})
+#' \item \code{"who"}: **World Health Organization Health Information Systems** (\href{https://apps.who.int/healthinfo/systems/surveydata/index.php/catalog}{https://apps.who.int/healthinfo/systems/surveydata/index.php/catalog})
+#' \item \code{"zambia"}: **Zambia Statistics Agency** (\href{https://nada.zamstats.gov.zm}{https://nada.zamstats.gov.zm})
 #' }
 #'
 #' @export
@@ -94,11 +98,23 @@
 #' # 6. Government of India (india): Get latest data entries (limited to 10).
 #' india_latest <- latest_entries("india", limit = 10)
 #'
-#' # 7. United Nations High Commissioner for Refugees (unhcr): Get available collections.
+#' # 7. INEGI Mexico (inegi): Get latest data entries (limited to 5).
+#' inegi_latest <- latest_entries("inegi", limit = 5)
+#'
+#' # 8. Kenya National Bureau of Statistics (kenya): Get available collections.
+#' kenya_collections <- collections("kenya")
+#'
+#' # 9. United Nations High Commissioner for Refugees (unhcr): Get available collections.
 #' unhcr_collections <- collections("unhcr")
 #'
-#' # 8. The World Bank (wb): Get supported country codes.
+#' # 10. The World Bank (wb): Get supported country codes.
 #' wb_countries <- country_codes("wb")
+#'
+#' # 11. World Health Organization HIS (who): Get available access codes.
+#' who_codes <- access_codes("who")
+#'
+#' # 12. Zambia Statistics Agency (zambia): Get latest entries (limit 10).
+#' zambia_latest <- latest_entries("zambia", limit = 10)
 #'
 #' # Example for the metadata function (requires a study ID)
 #' wb_study_metadata <- metadata("wb", id = 8098)

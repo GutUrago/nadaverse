@@ -35,7 +35,7 @@
       * erf: Economic Research Forum (<https://erfdataportal.com>)
       * fao: Food and Agriculture Organization (<https://microdata.fao.org>)
       * ihsn: International Household Survey Network (<https://catalog.ihsn.org>)
-      * ilo: International Labour Organization (<https://www.ilo.org/surveyLib>)
+      * ilo: International Labour Organization (<https://webapps.ilo.org/surveyLib>)
       * india: Government of India (<https://microdata.gov.in>)
       * unhcr: United Nations High Commissioner for Refugees
       (<https://microdata.unhcr.org>)
