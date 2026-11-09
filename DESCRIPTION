@@ -1,8 +1,8 @@
 Package: nadaverse
 Type: Package
 Title: Browse Microdata Catalogs Using 'NADA' REST API
-Version: 0.1.0
-Date: 2025-11-18
+Version: 0.2.0
+Date: 2026-11-09
 Authors@R: c(
     person(
       "Gutama Girja", "Urago",
@@ -11,15 +11,14 @@ Authors@R: c(
       comment = c(ORCID = "0000-0001-5588-2301")
     )
   )
-Description: Provides a unified, programmatic interface for searching, browsing,
-  and retrieving metadata from various international organization data repositories
-  that use the National Data Archive ('NADA') software, such as the World Bank,
-  'FAO', and the International Household Survey Network ('IHSN'). Functions allow users to
-  discover available data collections, country codes, and access types, perform
-  complex searches using keyword and spatial/temporal filters, and retrieve
-  detailed study information, including file lists and variable-level data
-  dictionaries. It simplifies access to microdata for researchers and policy
-  analysts globally.
+Description: Provides a unified, programmatic interface for searching,
+  browsing, and retrieving metadata from data repositories that use the
+  National Data Archive ('NADA') software, such as the World Bank, 'FAO',
+  the International Household Survey Network ('IHSN'), 'UNHCR', the World
+  Health Organization, and the statistics offices of Kenya and Zambia.
+  Functions discover available data collections, country codes, and access
+  types, search by keyword, country, and year, and retrieve study metadata,
+  file lists, and variable-level data dictionaries.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Imports: 

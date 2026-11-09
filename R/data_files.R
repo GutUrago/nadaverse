@@ -13,8 +13,8 @@
 #' @param id A required study identifier. Accepts either the numeric **Study ID**
 #' (integer, e.g., \code{101}) or the character **Study ID Number** (string,
 #' e.g., \code{"ALB_2012_LSMS_v01_M_v01_A_PUF"}). These values are typically
-#' returned in the search results from \code{search_catalog()},
-#' \code{latest_entries()} or \code{data_files()}.
+#' returned by \code{search_catalog()} and \code{latest_entries()} (columns
+#' \code{id} and \code{idno}).
 #' @param file_id An optional character identifier, applicable only to
 #'   \code{data_dictionary()}. This is the ID of a specific data file within the study,
 #'   typically found in the \code{file_id} column returned by \code{data_files()}.
@@ -33,13 +33,16 @@
 #' @return
 #' The return value depends on the function called:
 #' \itemize{
-#'   \item \code{data_files()}: A **data frame** detailing the files associated with the study.
-#'     Typical columns include \code{file_name}, \code{dfile_id}, \code{file_type}, and \code{file_size}.
-#'   \item \code{data_dictionary()}: A **data frame** containing the variable-level
-#'     metadata (the data dictionary). Typical columns include \code{name}, \code{label},
-#'     and \code{var_id}.
+#'   \item \code{data_files()}: A **data frame** with one row per data file.
+#'     Typical columns include \code{file_id}, \code{file_name},
+#'     \code{description}, \code{case_count} and \code{var_count}.
+#'   \item \code{data_dictionary()}: A **data frame** with one row per variable.
+#'     Typical columns include \code{vid}, \code{name} and \code{labl}
+#'     (the variable label).
 #' }
-#' If the API returns no files or variables, a warning message is issued.
+#' If the study has no files or variables, an empty result is returned without
+#' a warning. Column names come from each catalog's API and can differ between
+#' catalogs.
 #'
 #' @export
 #'
@@ -48,8 +51,7 @@
 #' @seealso
 #' \code{\link{search_catalog}}, \code{\link{latest_entries}}
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf interactive()
 #' # Example 1: Get the list of files for a World Bank study (using idno)
 #' study_idno <- "ALB_2012_LSMS_v01_M_v01_A_PUF"
 #' files_wb <- data_files(catalog = "wb", id = study_idno)
@@ -60,7 +62,7 @@
 #' head(dictionary_all)
 #'
 #' # Example 3: Get the data dictionary for a specific file
-#' # First, retrieve the files to find a file_id (dfile_id)
+#' # First, retrieve the files to find a file_id
 #' file_id_to_use <- files_wb$file_id[1] # Use the ID of the first file
 #' dictionary_file <- data_dictionary(
 #'   catalog = "wb",
@@ -68,7 +70,6 @@
 #'   file_id = file_id_to_use
 #' )
 #' head(dictionary_file)
-#' }
 data_files <- function(catalog, id) {
   base <- base_url(catalog)
   path <- paste0(id, "/data_files")

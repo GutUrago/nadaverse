@@ -17,8 +17,8 @@ documentation for \code{catalogs()}.}
 \item{id}{A required study identifier. Accepts either the numeric \strong{Study ID}
 (integer, e.g., \code{101}) or the character \strong{Study ID Number} (string,
 e.g., \code{"ALB_2012_LSMS_v01_M_v01_A_PUF"}). These values are typically
-returned in the search results from \code{search_catalog()},
-\code{latest_entries()} or \code{data_files()}.}
+returned by \code{search_catalog()} and \code{latest_entries()} (columns
+\code{id} and \code{idno}).}
 
 \item{file_id}{An optional character identifier, applicable only to
 \code{data_dictionary()}. This is the ID of a specific data file within the study,
@@ -29,13 +29,16 @@ for the entire study.}
 \value{
 The return value depends on the function called:
 \itemize{
-\item \code{data_files()}: A \strong{data frame} detailing the files associated with the study.
-Typical columns include \code{file_name}, \code{dfile_id}, \code{file_type}, and \code{file_size}.
-\item \code{data_dictionary()}: A \strong{data frame} containing the variable-level
-metadata (the data dictionary). Typical columns include \code{name}, \code{label},
-and \code{var_id}.
+\item \code{data_files()}: A \strong{data frame} with one row per data file.
+Typical columns include \code{file_id}, \code{file_name},
+\code{description}, \code{case_count} and \code{var_count}.
+\item \code{data_dictionary()}: A \strong{data frame} with one row per variable.
+Typical columns include \code{vid}, \code{name} and \code{labl}
+(the variable label).
 }
-If the API returns no files or variables, a warning message is issued.
+If the study has no files or variables, an empty result is returned without
+a warning. Column names come from each catalog's API and can differ between
+catalogs.
 }
 \description{
 Retrieves information about the files included in a study, or the detailed
@@ -51,7 +54,7 @@ for that specific file; otherwise, it attempts to fetch the dictionary for the e
 The function automatically detects whether the provided study identifier (\code{id}) is numeric or character.
 }
 \examples{
-\dontrun{
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 # Example 1: Get the list of files for a World Bank study (using idno)
 study_idno <- "ALB_2012_LSMS_v01_M_v01_A_PUF"
 files_wb <- data_files(catalog = "wb", id = study_idno)
@@ -62,7 +65,7 @@ dictionary_all <- data_dictionary(catalog = "wb", id = study_idno)
 head(dictionary_all)
 
 # Example 3: Get the data dictionary for a specific file
-# First, retrieve the files to find a file_id (dfile_id)
+# First, retrieve the files to find a file_id
 file_id_to_use <- files_wb$file_id[1] # Use the ID of the first file
 dictionary_file <- data_dictionary(
   catalog = "wb",
@@ -70,7 +73,7 @@ dictionary_file <- data_dictionary(
   file_id = file_id_to_use
 )
 head(dictionary_file)
-}
+\dontshow{\}) # examplesIf}
 }
 \seealso{
 \code{\link{search_catalog}}, \code{\link{latest_entries}}

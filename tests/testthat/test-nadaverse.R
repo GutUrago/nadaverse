@@ -369,11 +369,12 @@ test_that(
 
 
 # ---- Recorded responses for the newer catalogs ----
-# The first run with internet access records into _new_catalogs/. Later
-# runs replay it offline. Delete that folder to record again.
+# The first run with internet access records into _nc/. Later runs replay
+# it offline. Delete that folder to record again. The short name keeps
+# tarball paths under 100 bytes, as CRAN requires.
 
 with_mock_dir(
-  "_new_catalogs",
+  "_nc",
   {
     test_that(
       "kenya, who and zambia answer the core endpoints",

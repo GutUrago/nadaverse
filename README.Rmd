@@ -30,18 +30,18 @@ set_redactor(function (x) {
 ```
 
 
-`nadaverse` is the essential R package for researchers, policy analysts, and data enthusiasts seeking streamlined, programmatic access to vast collections of global microdata.
+`nadaverse` gives researchers, policy analysts, and data enthusiasts streamlined, programmatic access to collections of global microdata.
 
-Many national and international organizations—including the World Bank, IHSN, FAO, UNHCR, and ILO—use the National Data Archive (NADA) software to manage and disseminate their survey and census data. While these catalogs are rich sources of information, interacting with them often requires tedious manual browsing or complex API construction.
+Many national and international organizations—including the World Bank, IHSN, FAO, UNHCR, the WHO, and national statistics offices—use the National Data Archive (NADA) software to manage and disseminate their survey and census data. While these catalogs are rich sources of information, interacting with them often requires tedious manual browsing or complex API construction.
 
 `nadaverse` cuts through that complexity. It provides a unified, reliable, and user-friendly interface to search, filter, and retrieve crucial metadata and documentation (such as file lists and data dictionaries) directly into your R environment.
 
 ## Features
 
-- **Search across 8 major NADA catalogs** using a unified interface  
+- **Search across 9 NADA catalogs** using a unified interface  
 - Retrieve **study metadata**, **file inventories**, and **data dictionaries**  
 - Filter by year, keywords, country, catalog, and more  
-- Built on **httr2**, ensuring fast and reliable API calls  
+- Built on **httr2**, with a 30-second timeout and up to three attempts per request  
 - Tidy-friendly: outputs are clean data frames ready for immediate use  
 - Includes convenient helper functions for codes, catalogs, and recent entries 
 
@@ -82,7 +82,7 @@ catalogs()
 
 The `search_catalog()` function allows for granular control over the search space. Instead of relying on the catalog's often limited web interface, users can programmatically search by catalog ID, keywords, publication date ranges, and more.
 
-The output is a standardized data frame, simplifying cross-catalog comparisons. Here, we search the World Bank catalog (wb) for recently published studies:
+The output is a standardized data frame, simplifying cross-catalog comparisons. Here, we search the IHSN catalog (ihsn) for studies from 2023 to 2025:
 
 ```{r, eval=FALSE}
 search_catalog(
@@ -100,16 +100,16 @@ Once a specific study is identified via its unique ID (e.g., 3110), `nadaverse` 
 File Inventory (data_files): This function retrieves the list of data file assets, their size, and descriptions, allowing users to determine the exact resources needed for download.
 
 ```{r}
-c <- "wb"
-data_files(c, 3110) |> 
+ctl <- "wb"
+data_files(ctl, 3110) |> 
   select(where(~ !all(. == "NULL"))) |> 
   kable(format = "pipe")
 ```
 
-**Data Dictionary** (`data_dictionary`): Access to variable-level metadata is paramount for data quality checks and ethical use. This function retrieves the complete data dictionary, including variable names, labels, and value ranges, enabling preparation work before downloading large datasets.
+**Data Dictionary** (`data_dictionary`): Access to variable-level metadata is paramount for data quality checks and ethical use. This function retrieves the complete data dictionary, including variable names and labels, enabling preparation work before downloading large datasets.
 
 ```{r}
-data_dictionary(c, 3110) |>
+data_dictionary(ctl, 3110) |>
   head(10) |> 
   select(where(~ !all(. == "NULL"))) |> 
   kable(format = "pipe")
@@ -142,13 +142,29 @@ search_catalog("fao", "Food Insecurity", ps = 10000) |>
 
 To further streamline the research process, nadaverse includes several helper functions that provide necessary IDs and codes used as query parameters in NADA systems.
 
-These utility functions assist in identifying necessary access codes, collection names, and country codes for specific, authenticated queries.
+These utility functions assist in identifying necessary access codes, collection names, and country codes to use in `search_catalog()` queries.
 
 ```{r, eval=FALSE}
 access_codes("fao")
 collections("wb")
 country_codes("wb")
 latest_entries("ihsn")
+```
+
+## Request settings
+
+Each request waits up to 30 seconds and is attempted up to three times before
+`nadaverse` reports an error. If a catalog returns something other than JSON,
+such as a block page for automated clients, you get a clear error message.
+
+By default, requests send a browser user agent, because some catalogs, such as
+UNHCR, reject other clients. Use `set_user_agent()` to send your own:
+
+```{r, eval=FALSE}
+set_user_agent("My research project (nadaverse)")
+
+# Back to the default
+set_user_agent(NULL)
 ```
 
 ```{r, include=FALSE}

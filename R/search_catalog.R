@@ -16,8 +16,8 @@
 #' (National Data Archive) platform used by organizations like the World Bank and FAO.
 #'
 #' @param catalog A required character string specifying the name of the data
-#'   catalog (e.g., \code{"fao"}, \code{"wb"}). Valid codes can be found in the
-#'   documentation for \code{access_codes()}.
+#'   catalog (e.g., \code{"fao"}, \code{"wb"}). Valid codes are listed by
+#'   \code{catalogs()}.
 #' @param keyword A character string used to search data titles, descriptions,
 #'   and keywords (e.g., \code{"lsms"}).
 #' @param from An integer indicating the **start year** for the data collection's
@@ -34,7 +34,7 @@
 #'   repository ID, which is returned in the \code{repo_id} column by \code{collections()}.
 #'   Multiple IDs can be searched by passing a vector.
 #' @param created A character string used to filter results by the **date of creation**
-#'   or update within the catalog. Use the date format \code{YYYY-MM-DD}.
+#'   or update within the catalog. Use the date format \code{YYYY/MM/DD}.
 #'   \itemize{
 #'     \item Single date: \code{"2020/04/01"} (returns records created on or after this date).
 #'     \item Date range: \code{"2020/04/01-2020/04/20"} (returns records within the range).
@@ -52,16 +52,20 @@
 #' @param ps An integer indicating the number of records to display **per page**
 #'   of results. **Default:** \code{15} records.
 #' @param page An integer specifying the **page number** of the search results to return.
-#' @param rows A logical value. If \code{TRUE}, the function returns only a data frame containing
-#'   the list of returned studies; otherwise, a list containing
-#'   detailed search metadata (e.g., total records found, total pages) instead of the
-#'   data records themselves. **Default:** \code{TRUE}.
+#' @param rows A logical value. If \code{TRUE}, the function returns only a
+#'   data frame of the matching studies. If \code{FALSE}, it returns the full
+#'   result list, which adds search information (such as \code{found},
+#'   \code{total}, \code{limit} and \code{offset}) to the \code{rows} data
+#'   frame. **Default:** \code{TRUE}.
 #'
 #' @return
-#' If \code{rows = TRUE} (default), returns a **data frame** where each row is a
-#' data entry matching the search criteria.
-#' If \code{rows = FALSE}, returns a **list** containing search metadata, including
-#' the total number of records found and the search parameters used.
+#' If \code{rows = TRUE} (default), a **data frame** where each row is a study
+#' matching the search criteria. If \code{rows = FALSE}, a **list** with the
+#' number of studies found (\code{found}), the catalog total (\code{total}),
+#' the page size and offset (\code{limit}, \code{offset}), and the
+#' \code{rows} data frame. If nothing matches, a warning is issued and
+#' \code{NULL} is returned. Network failures, HTTP errors and non-JSON
+#' replies raise an error.
 #'
 #' @export
 #'
@@ -71,8 +75,7 @@
 #' \code{\link{access_codes}}, \code{\link{collections}},
 #' \code{\link{country_codes}}, \code{\link{latest_entries}}
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf interactive()
 #' # Example 1: Basic search for a keyword in the World Bank catalog
 #' wb_search <- search_catalog(
 #'   catalog = "wb",
@@ -107,7 +110,6 @@
 #'   inc_iso = TRUE
 #' )
 #' head(ihsn_results)
-#' }
 search_catalog <- function(catalog,
                            keyword = NULL,
                            from = NULL,

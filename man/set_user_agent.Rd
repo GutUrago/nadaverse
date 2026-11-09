@@ -23,10 +23,16 @@ agent, for example one that identifies your project. If a catalog
 starts rejecting requests after you change the agent, call
 \code{set_user_agent(NULL)} to go back to the default.
 }
+\details{
+The setting is stored in the \code{nadaverse.user_agent} option.
+}
 \examples{
 # Send a custom user agent for this session
 old <- set_user_agent("My research project (nadaverse)")
 
 # Restore the default browser user agent
 set_user_agent(NULL)
+}
+\seealso{
+\code{\link{catalogs}}
 }

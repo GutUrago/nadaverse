@@ -111,8 +111,12 @@ nada_user_agent <- function() {
 #' @param user_agent A single non-empty string to send as the user agent,
 #'   or \code{NULL} to restore the default browser user agent.
 #'
+#' @details
+#' The setting is stored in the \code{nadaverse.user_agent} option.
+#'
 #' @return Invisibly, the previous setting: \code{NULL} when the default
 #'   was in use. Pass it back to \code{set_user_agent()} to restore it.
+#' @seealso \code{\link{catalogs}}
 #' @export
 #'
 #' @examples

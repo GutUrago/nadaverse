@@ -11,10 +11,20 @@
 #' **latest entries** from specified sources.
 #'
 #' @details
-#' All functions require a valid \code{catalog} name. The functions
-#' communicate with a backend API (implied by \code{base_url} and \code{get_response})
-#' to fetch the requested data in a standardized format. The validity of the
-#' \code{catalog} is checked internally using \code{assert_catalog}.
+#' All functions require a valid \code{catalog} code (see the
+#' \emph{Supported Catalogs} section) and return their results in a
+#' standardized format. An unknown code stops with an error that lists the
+#' supported catalogs.
+#'
+#' Each request waits up to 30 seconds and is attempted up to three times
+#' before it fails. If a catalog replies with something other than JSON, for
+#' example a block page for automated clients, the function stops with a
+#' clear message. Use \code{\link{set_user_agent}} to change the user agent
+#' sent with requests.
+#'
+#' Catalogs differ in what they publish. For example, \code{ihsn} has no
+#' collections, so \code{collections("ihsn")} warns that it returned 0
+#' collections and gives an empty result.
 #'
 #' @aliases access_codes collections country_codes latest_entries metadata
 #'
@@ -28,26 +38,32 @@
 #' @param limit A positive integer number, applicable only to \code{latest_entries},
 #' indicating the **maximum number of results** (data entries) to return. If
 #' \code{NULL} or omitted, a default limit set by the API will be used.
-#' @param show Logical. If `TRUE`, prints supported catalogs to console
+#' @param show Logical. If \code{TRUE} (default), prints the supported
+#' catalogs to the console. The catalog table is returned invisibly either
+#' way.
 #'
 #' @return
-#' A **data frame** containing the requested metadata, except for \code{metadata()},
-#' which returns a \code{list}. The structure of the returned object varies by function:
 #' \itemize{
-#' \item \code{access_codes}: Returns a data frame with columns related to
-#' data resource identifiers (e.g., \code{code}, \code{description}).
-#' \item \code{collections}: Returns a data frame detailing data groupings
-#' (e.g., \code{collection_id}, \code{name}).
-#' \item \code{country_codes}: Returns a data frame of standard country
-#' identifiers (e.g., \code{iso3c}, \code{country_name}).
-#' \item \code{latest_entries}: Returns a data frame of the **most recently**
-#' added datasets or entries, with columns reflecting their general
-#' metadata (e.g., \code{title}, \code{date_added}).
-#' \item \code{metadata}: Returns a **list** of the study metadata including detailed
-#' description, abstract, sampling methodology, and other study-specific details.
+#' \item \code{catalogs}: Invisibly, a data frame with one row per supported
+#' catalog and the columns \code{catalog}, \code{name}, \code{home} and
+#' \code{api}.
+#' \item \code{access_codes}: A data frame of the data access types, with
+#' columns such as \code{id}, \code{type} and \code{title}.
+#' \item \code{collections}: A data frame of collections, with columns such as
+#' \code{id}, \code{repositoryid} and \code{title}.
+#' \item \code{country_codes}: A data frame of country codes, with columns such
+#' as \code{countryid}, \code{name} and \code{iso}.
+#' \item \code{latest_entries}: A data frame of the most recently added
+#' studies, with columns such as \code{id}, \code{idno}, \code{title},
+#' \code{nation}, \code{created}, \code{changed} and \code{url}.
+#' \item \code{metadata}: A \code{list} with the study description. Its main
+#' parts are \code{doc_desc} (about the documentation) and \code{study_desc}
+#' (about the study itself).
 #' }
-#' If the API call fails or no data is found, the function may return an
-#' empty data frame or raise an error.
+#' Column names come from each catalog's API, so they can differ slightly
+#' between catalogs. If a catalog returns no records, a warning is issued
+#' and the result is empty. Network failures, HTTP errors and non-JSON
+#' replies raise an error.
 #'
 #' @section Supported Catalogs:
 #' The \code{catalog} argument must be one of the following short codes (case-insensitive)
@@ -70,11 +86,12 @@
 #' @author Gutama Girja Urago
 #'
 #' @seealso
-#' The main search function: \code{\link{search_catalog}}
+#' The main search function: \code{\link{search_catalog}}; study files and
+#' variables: \code{\link{data_files}}; the user agent setting:
+#' \code{\link{set_user_agent}}
 #'
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf interactive()
 #' # --- Examples for Supported Catalogs ---
 #'
 #' # 1. Data First (df): Get available access codes.
@@ -107,7 +124,6 @@
 #' # Example for the metadata function (requires a study ID)
 #' wb_study_metadata <- metadata("wb", id = 8098)
 #' str(wb_study_metadata)
-#' }
 catalogs <- function(show = TRUE) {
   assert_logical(show)
   if (show) {
