@@ -4,3 +4,5 @@
 ^README\.Rmd$
 ^\.github$
 ^codecov\.yml$
+^tests/record_mocks\.R$
+^tests/diagnose_hosts\.R$

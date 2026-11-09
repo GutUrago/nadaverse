@@ -19,7 +19,7 @@
 #' @aliases access_codes collections country_codes latest_entries metadata
 #'
 #' @param catalog A required character string specifying the name of the data
-#' catalog (e.g., \code{"fao"}, \code{"ilo"}, \code{"wb"}) from which to retrieve metadata.
+#' catalog (e.g., \code{"fao"}, \code{"wb"}) from which to retrieve metadata.
 #' @param id A required **study identifier**. Accepts either the numeric **Study ID**
 #' (integer, e.g., \code{101}) or the character **Study ID Number** (string,
 #' e.g., \code{"ALB_2012_LSMS_v01_M_v01_A_PUF"}). These values are typically
@@ -58,9 +58,6 @@
 #' \item \code{"erf"}: **Economic Research Forum** (\href{https://erfdataportal.com}{https://erfdataportal.com})
 #' \item \code{"fao"}: **Food and Agriculture Organization** (\href{https://microdata.fao.org}{https://microdata.fao.org})
 #' \item \code{"ihsn"}: **International Household Survey Network** (\href{https://catalog.ihsn.org}{https://catalog.ihsn.org})
-#' \item \code{"ilo"}: **International Labour Organization** (\href{https://webapps.ilo.org/surveyLib}{https://webapps.ilo.org/surveyLib})
-#' \item \code{"india"}: **Government of India** (\href{https://microdata.gov.in}{https://microdata.gov.in})
-#' \item \code{"inegi"}: **Instituto Nacional de Estadística y Geografía** (\href{https://www.inegi.org.mx/rnm}{https://www.inegi.org.mx/rnm})
 #' \item \code{"kenya"}: **Kenya National Bureau of Statistics** (\href{https://statistics.knbs.or.ke/nada/index.php}{https://statistics.knbs.or.ke/nada/index.php})
 #' \item \code{"unhcr"}: **United Nations High Commissioner for Refugees** (\href{https://microdata.unhcr.org}{https://microdata.unhcr.org})
 #' \item \code{"wb"}: **The World Bank** (\href{https://microdata.worldbank.org}{https://microdata.worldbank.org})
@@ -92,28 +89,19 @@
 #' # 4. International Household Survey Network (ihsn): Get supported country codes.
 #' ihsn_countries <- country_codes("ihsn")
 #'
-#' # 5. International Labour Organization (ilo): Get available access codes.
-#' ilo_codes <- access_codes("ilo")
-#'
-#' # 6. Government of India (india): Get latest data entries (limited to 10).
-#' india_latest <- latest_entries("india", limit = 10)
-#'
-#' # 7. INEGI Mexico (inegi): Get latest data entries (limited to 5).
-#' inegi_latest <- latest_entries("inegi", limit = 5)
-#'
-#' # 8. Kenya National Bureau of Statistics (kenya): Get available collections.
+#' # 5. Kenya National Bureau of Statistics (kenya): Get available collections.
 #' kenya_collections <- collections("kenya")
 #'
-#' # 9. United Nations High Commissioner for Refugees (unhcr): Get available collections.
+#' # 6. United Nations High Commissioner for Refugees (unhcr): Get available collections.
 #' unhcr_collections <- collections("unhcr")
 #'
-#' # 10. The World Bank (wb): Get supported country codes.
+#' # 7. The World Bank (wb): Get supported country codes.
 #' wb_countries <- country_codes("wb")
 #'
-#' # 11. World Health Organization HIS (who): Get available access codes.
+#' # 8. World Health Organization HIS (who): Get available access codes.
 #' who_codes <- access_codes("who")
 #'
-#' # 12. Zambia Statistics Agency (zambia): Get latest entries (limit 10).
+#' # 9. Zambia Statistics Agency (zambia): Get latest entries (limit 10).
 #' zambia_latest <- latest_entries("zambia", limit = 10)
 #'
 #' # Example for the metadata function (requires a study ID)

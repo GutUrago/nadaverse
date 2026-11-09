@@ -1,0 +1,119 @@
+{
+    "status": "success",
+    "dataset": {
+        "id": "138",
+        "doi": null,
+        "repositoryid": "mcss",
+        "type": "survey",
+        "idno": "ARG_2000_MCSS_v01_M",
+        "title": "Multi Country Study Survey 2000-2001",
+        "year_start": "2000",
+        "year_end": "2001",
+        "nation": "Argentina",
+        "authoring_entity": "World Health Organization (WHO)",
+        "published": "1",
+        "created": "2012-05-10T20:39:01+00:00",
+        "changed": "2013-06-19T15:03:07+00:00",
+        "varcount": "281",
+        "total_views": "59618",
+        "total_downloads": "3649",
+        "formid": "3",
+        "data_access_type": "licensed",
+        "remote_data_url": null,
+        "data_class_id": null,
+        "data_class_code": null,
+        "data_class_title": null,
+        "thumbnail": null,
+        "link_study": "http://www.who.int/responsiveness/en/",
+        "link_indicator": "",
+        "link_report": null,
+        "metadata": {
+            "doc_desc": {
+                "title": "ARG_2000_MCSS_v01_M",
+                "idno": "DDI_ARG_2000_MCSS_v01_M",
+                "prod_date": "2012-03-22",
+                "version_statement": {
+                    "version": "Version 01 (March 2012)"
+                }
+            },
+            "study_desc": {
+                "title_statement": {
+                    "idno": "ARG_2000_MCSS_v01_M",
+                    "title": "Multi Country Study Survey 2000-2001",
+                    "alt_title": "MCSS 2000"
+                },
+                "authoring_entity": [
+                    {
+                        "name": "World Health Organization (WHO)",
+                        "affiliation": ""
+                    }
+                ],
+                "production_statement": {
+                    "prod_date": "2012-03-22"
+                },
+                "distribution_statement": {
+                    "contact": [
+                        {
+                            "name": "Multi-Country Studies, Measurement and Health Information Systems",
+                            "affiliation": "World Health Organization(WHO)",
+                            "email": "sagesurvey@who.int",
+                            "uri": "http://www.who.int"
+                        }
+                    ],
+                    "depositor": [
+                        {
+                            "name": "",
+                            "abbreviation": "",
+                            "affiliation": ""
+                        }
+                    ]
+                },
+                "series_statement": {
+                    "series_name": "Other Household Health Survey [hh/hea]"
+                },
+                "study_info": {
+                    "topics": [
+                        {
+                            "topic": "Multi Country Study Survey (MCSS)",
+                            "vocab": "Survey",
+                            "uri": ""
+                        }
+                    ],
+                    "abstract": "In order to develop various methods of comparable data collection on health and health system responsiveness WHO started a scientific survey study in 2000-2001. This study has used a common survey instrument in nationally representative populations with modular structure for assessing health of indviduals in various domains, health system responsiveness, household health care expenditures, and additional modules in other areas such as adult mortality and health state valuations.\n\nThe health module of the survey instrument was based on selected domains of the International Classification of Functioning, Disability and Health (ICF) and was developed after a rigorous scientific review of various existing assessment instruments. The responsiveness module has been the result of ongoing work over the last 2 years that has involved international consultations with experts and key informants and has been informed by the scientific literature and pilot studies. \n\nQuestions on household expenditure and proportionate expenditure on health have been borrowed from existing surveys. The survey instrument has been developed in multiple languages using cognitive interviews and cultural applicability tests, stringent psychometric tests for reliability (i.e. test-retest reliability to demonstrate the stability of application) and most importantly, utilizing novel psychometric techniques for cross-population comparability.\n\nThe study was carried out in 61 countries completing 71 surveys because two different modes were intentionally used for comparison purposes in 10 countries. Surveys were conducted in different modes of in- person household 90 minute interviews in 14 countries; brief face-to-face interviews in 27 countries and computerized telephone interviews in 2 countries; and postal surveys in 28 countries. All samples were selected from nationally representative sampling frames with a known probability so as to make estimates based on general population parameters.\n\nThe survey study tested novel techniques to control the reporting bias between different groups of people in different cultures or demographic groups ( i.e. differential item functioning) so as to produce comparable estimates across cultures and groups. To achieve comparability, the selfreports of individuals of their own health were calibrated against well-known performance tests (i.e. self-report vision was measured against standard Snellen's visual acuity test) or against short descriptions in vignettes that marked known anchor points of difficulty (e.g. people with different levels of mobility such as a paraplegic person or an athlete who runs 4 km each day) so as to adjust the responses for comparability . The same method was also used for self-reports of individuals assessing responsiveness of their health systems where vignettes on different responsiveness domains describing different levels of responsiveness were used to calibrate the individual responses.\n\nThis data are useful in their own right to standardize indicators for different domains of health (such as cognition, mobility, self care, affect, usual activities, pain, social participation, etc.) but also provide a better measurement basis for assessing health of the populations in a comparable manner. The data from the surveys can be fed into composite measures such as \"Healthy Life Expectancy\" and improve the empirical data input for health information systems in different regions of the world. Data from the surveys were also useful to improve the measurement of the responsiveness of different health systems to the legitimate expectations of the population.",
+                    "coll_dates": [
+                        {
+                            "start": "2000",
+                            "end": "2001",
+                            "cycle": ""
+                        }
+                    ],
+                    "nation": [
+                        {
+                            "name": "Argentina",
+                            "abbreviation": "ARG"
+                        }
+                    ],
+                    "data_kind": "Sample survey data [ssd]"
+                },
+                "method": {
+                    "data_collection": {
+                        "sampling_procedure": "The sample was a stratified random multi-stage sample representative of all inhabitants of Argentina aged 18 +. At the first stage of sampling, using the stratification as per geographical criteria, the country was divided into six regions.\nThe sampling selection criteria adopted for Argentina was as follows:\n\na) Buenos Aires\nThe official cartography provided by the National Census was used for the sample frame. The procedure consisted in stratifying the census ratio according to two criteria:\n• Geographical location;\n• And social class, defined by the educational level of the head of the household.\nUsing this stratification, the census ratio was selected and within each one, a block was randomly selected.\n\nb) Rest of the Country\nWithin each locality selected (representing the first stage sampling unit), the census ratio (second stage unit) was ordered by social class and a sample within them was chosen using a random start. In each census ratio that was selected, the same criteria used for Buenos Aires area was applied to get to the final unit sample. (the respondent).\n\nc) General Sampling Aspects:\nOver 250 different sampling points were selected on a mathematically random basis from within localities. In each sampling point, four interviews were conducted. Only one person per household was interviewed. If the person who opened the door matched the quota requirements (sex and age), this person was interviewed. If not, the correct target was looked for in the household.\n\nFinal Sample Size=1,555",
+                        "coll_mode": "Face-to-face [f2f]",
+                        "coll_situation": "Implementation of Survey in the Field\nSurveys were conducted in various countries in three different modes. Sampling plans approved by WHO were implemented with specifications of the sampling units and stratification procedures at each sampling stage (primary, secondary and tertiary sampling levels). Several contact calls (at least four in the BFTF and ten in the household mode) were attempted and interviewers tried to contact each selected household at different times of the day and days of the week. Each contact call was recorded together with reasons for non-response.\nInterviewers were supervised on a regular basis during fieldwork to ensure that expectations and production requirements were met, interviewers were performing well, information was kept confidential and professional ethics were followed, questionnaires and other materials were completed accurately and submitted on time, and lastly, that any problems were reported as soon as they arose. WHO asked supervisors to sit in on at least 10 interviews during the pilot phase to check that interviews were conducted in a standardized way. The data was entered in the following days of paper-pencil instrument finalization after editing and approval by the supervisors. Each country made a report on the following aspects of the survey implementation:\n- Details on each stage of sampling\n- Quality control procedures implemented in the fieldwork\n- Response rates and efforts undertaken to increase this, and the effects of these incentives\n- Qualitative reports on the implementation process from the fieldworkers.\n\nQuality Assurance\nIn order to monitor the quality of the data and ensure that countries complied with WHO guidelines in all household surveys the conditions under which the interviews were conducted and the problems that survey teams encountered were observed by supervisors first hand. Supervisors reviewed 10% of the questionnaires to check if options had been recorded appropriately and if questions were skipped correctly. About 10% of respondents were called or visited by the supervisor to ensure that the interview had been done, and 10% of all interviews were repeated by another interviewer within a period of one week to check for the reliability of the interview.\nIn addition, a site visit was scheduled to all full-length household survey sites during data collection.\n\nDuring these site visits several activities were undertaken:\n• Overall survey management: sampling procedures; training/supervision; selection of respondent; and timing of survey were discussed.\n• Interview assessment: the WHO staff sat in at least 4 interviews to see how the interview was conducted, the interaction between interviewer and respondent, and the timing of the interview.\n• A meeting with the survey team was held to discuss contacting procedures, interviews, data and logistics.\n• The data in questionnaires was checked by examining the survey records and data entry program.\nSite visits made in the early phases of the data collection detected any problems, ensured that the questionnaire was administered and completed correctly, and confirmed that calibration tests were performed according to the instructions provided by WHO.\n\nFeedback During Data Collection\nThe data was sent to WHO in a weekly or fortnightly basis such that a quick assessment could be made of the survey for each country in terms of missing information, reliability, use of appropriate skips, etc. Following data submission certain computerized algorithms were run to identify possible errors whilst the survey teams were in the field. Feedback regarding the data quality was routinely given to the site coordinator who took relevant action to ensure good quality data.",
+                        "cleaning_operations": "Data Coding\nAt each site the data was coded by investigators to indicate the respondent status and the selection of the modules for each respondent within the survey design. After the interview was edited by the supervisor and considered adequate it was entered locally.\n\nData Entry Program\nA data entry program was developed in WHO specifically for the survey study and provided to the sites. It was developed using a database program called the I-Shell (short for Interview Shell), a tool designed for easy development of computerized questionnaires and data entry (34). This program allows for easy data cleaning and processing.\n\nThe data entry program checked for inconsistencies and validated the entries in each field by checking for valid response categories and range checks. For example, the program didn’t accept an age greater than 120. For almost all of the variables there existed a range or a list of possible values that the program checked for.\n\nIn addition, the data was entered twice to capture other data entry errors. The data entry program was able to warn the user whenever a value that did not match the first entry was entered at the second data entry. In this case the program asked the user to resolve the conflict by choosing either the 1st or the 2nd data entry value to be able to continue. After the second data entry was completed successfully, the data entry program placed a mark in the database in order to enable the checking of whether this process had been completed for each and every case.\n\nData Transfer\nThe data entry program was capable of exporting the data that was entered into one compressed database file which could be easily sent to WHO using email attachments or a file transfer program onto a secure server no matter how many cases were in the file.\nThe sites were allowed the use of as many computers and as many data entry personnel as they wanted. Each computer used for this purpose produced one file and they were merged once they were delivered to WHO with the help of other programs that were built for automating the process. The sites sent the data periodically as they collected it enabling the checking procedures and preliminary analyses in the early stages of the data collection.\n\nData quality checks\nOnce the data was received it was analyzed for missing information, invalid responses and representativeness. Inconsistencies were also noted and reported back to sites.\n\nData Cleaning and Feedback\nAfter receipt of cleaned data from sites, another program was run to check for missing information, incorrect information (e.g. wrong use of center codes), duplicated data, etc. The output of this program was fed back to sites regularly. Mainly, this consisted of cases with duplicate IDs, duplicate cases (where the data for two respondents with different IDs were identical), wrong country codes, missing age, sex, education and some other important variables."
+                    },
+                    "analysis_info": {
+                        "response_rate": "36%"
+                    }
+                },
+                "data_access": {
+                    "dataset_use": {
+                        "cit_req": "Use of the dataset must be acknowledged using a citation which would include:\n- the Identification of the Primary Investigator\n- the title of the survey (including country, acronym and year of implementation)\n- the survey reference number\n- the source and date of download",
+                        "disclaimer": "The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses."
+                    }
+                }
+            },
+            "schematype": "survey"
+        }
+    }
+}

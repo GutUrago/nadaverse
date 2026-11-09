@@ -35,11 +35,14 @@
       * erf: Economic Research Forum (<https://erfdataportal.com>)
       * fao: Food and Agriculture Organization (<https://microdata.fao.org>)
       * ihsn: International Household Survey Network (<https://catalog.ihsn.org>)
-      * ilo: International Labour Organization (<https://webapps.ilo.org/surveyLib>)
-      * india: Government of India (<https://microdata.gov.in>)
+      * kenya: Kenya National Bureau of Statistics
+      (<https://statistics.knbs.or.ke/nada/index.php>)
       * unhcr: United Nations High Commissioner for Refugees
       (<https://microdata.unhcr.org>)
       * wb: The World Bank (<https://microdata.worldbank.org>)
+      * who: World Health Organization Health Information Systems
+      (<https://apps.who.int/healthinfo/systems/surveydata/index.php/catalog>)
+      * zambia: Zambia Statistics Agency (<https://nada.zamstats.gov.zm>)
 
 # assert_catalog() returns validated character or prints supported catalogs
 

@@ -1,0 +1,24 @@
+{
+    "limit": 2,
+    "found": 2,
+    "result": [
+        {
+            "id": "186",
+            "idno": "DDI-KEN-KNBS-NCSF-2025-V001",
+            "title": "2025 NATIONAL CENSUS FOR STREET FAMILIES REPORT",
+            "nation": "Kenya",
+            "created": "Sep-07-2026",
+            "changed": "Sep-07-2026",
+            "url": "https://statistics.knbs.or.ke/nada/index.php/catalog/186"
+        },
+        {
+            "id": "185",
+            "idno": "DDI-KEN-KNBS-RHS-2025-V001",
+            "title": "2025 Remittances Household Survey",
+            "nation": "Kenya",
+            "created": "Sep-07-2026",
+            "changed": "Sep-07-2026",
+            "url": "https://statistics.knbs.or.ke/nada/index.php/catalog/185"
+        }
+    ]
+}

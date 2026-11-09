@@ -93,13 +93,13 @@
 #' )
 #'
 #' # Example 3: Filter by access type and get search information
-#' ilo_info <- search_catalog(
-#'   catalog = "ilo",
+#' wb_info <- search_catalog(
+#'   catalog = "wb",
 #'   keyword = "labor",
 #'   dtype = "public",
 #'   rows = FALSE
 #' )
-#' print(ilo_info$found) # Check total number of records found
+#' print(wb_info$found) # Check total number of records found
 #'
 #' # Example 4: Include ISO codes in results
 #' ihsn_results <- search_catalog(
@@ -125,14 +125,7 @@ search_catalog <- function(catalog,
 
   # --- Base request setup ---
   base_url <- base_url(catalog)
-  req <- httr2::request(base_url)
-  req <- httr2::req_url_path_append(req, "search")
-  req <- httr2::req_headers(
-    req,
-    `User-Agent` = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
-    Accept = "application/json"
-  )
-  req <- httr2::req_retry(req, max_tries = 3)
+  req <- nada_request(base_url, "search")
 
   # --- Pre-process parameters ---
   if (!is.null(sort_by) && tolower(sort_by) == "country") sort_by <- "nation"
@@ -171,7 +164,7 @@ search_catalog <- function(catalog,
 
   # --- Perform request ---
   req <- httr2::req_url_query(req, format = "json")
-  resp <- httr2::req_perform(req)
+  resp <- nada_perform(req)
   resp <- httr2::resp_body_json(resp, simplifyVector = TRUE, flatten = TRUE)
   resp <- resp$result
   if (resp$found == 0L) {

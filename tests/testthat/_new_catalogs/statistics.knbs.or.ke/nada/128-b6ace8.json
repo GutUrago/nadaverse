@@ -1,0 +1,228 @@
+{
+    "status": "success",
+    "dataset": {
+        "id": "128",
+        "repositoryid": "central",
+        "type": "survey",
+        "idno": "DDI-KEN-KNBS-KDHS-2022-V001",
+        "title": "Kenya Demographic and Health Survey 2022",
+        "year_start": "2022",
+        "year_end": "2022",
+        "nation": "Kenya",
+        "published": "1",
+        "authoring_entity": "Kenya National Bureau of Statistics",
+        "created": "2024-09-10T08:29:10+03:00",
+        "changed": "2024-09-10T13:25:17+03:00",
+        "varcount": "0",
+        "total_views": "30782",
+        "total_downloads": "11238",
+        "formid": "2",
+        "data_access_type": "public",
+        "remote_data_url": null,
+        "link_study": null,
+        "link_questionnaire": null,
+        "link_indicator": null,
+        "link_technical": null,
+        "link_report": null,
+        "metadata": {
+            "doc_desc": {
+                "title": "2021 FINACCESS HOUSEHOLD SURVEY",
+                "idno": "DDI-KEN-KNBS-KDHS-2022-V001",
+                "producers": [
+                    {
+                        "name": "Kenya National Bureau of Statistics",
+                        "abbreviation": "KNBS",
+                        "affiliation": "State Department of Planning",
+                        "role": "Collection of data, process and report"
+                    }
+                ],
+                "prod_date": "2022",
+                "version_statement": {
+                    "version": "Version 001"
+                }
+            },
+            "study_desc": {
+                "title_statement": {
+                    "idno": "DDI-KEN-KNBS-KDHS-2022-V001",
+                    "title": "Kenya Demographic and Health Survey 2022",
+                    "alt_title": "2022 KDHS"
+                },
+                "authoring_entity": [
+                    {
+                        "name": "Kenya National Bureau of Statistics",
+                        "affiliation": "State Department for Economic Planning "
+                    }
+                ],
+                "production_statement": {
+                    "producers": [
+                        {
+                            "name": "United States Agency for International Development",
+                            "affiliation": "USA Government ",
+                            "role": "Financing"
+                        },
+                        {
+                            "name": "ICF",
+                            "affiliation": "The DHS Program ",
+                            "role": "Technical Support "
+                        },
+                        {
+                            "name": "Bill & Melinda Gates Foundation",
+                            "affiliation": "Bill and Melinda Gates",
+                            "role": "Support "
+                        },
+                        {
+                            "name": "World Bank",
+                            "affiliation": "",
+                            "role": "Support "
+                        },
+                        {
+                            "name": "United Nations Children’s Fund",
+                            "affiliation": "UN",
+                            "role": "Support "
+                        },
+                        {
+                            "name": "United Nations Population Fund",
+                            "affiliation": "UN",
+                            "role": "Support "
+                        },
+                        {
+                            "name": "World Food Programme",
+                            "affiliation": "UN",
+                            "role": "Support "
+                        },
+                        {
+                            "name": "United Nations Entity for Gender Equality and the Empowerment of Women",
+                            "affiliation": "UN ",
+                            "role": "Support "
+                        },
+                        {
+                            "name": "World Health Organization",
+                            "affiliation": "UN",
+                            "role": "Support "
+                        },
+                        {
+                            "name": "Clinton Health Access Initiative",
+                            "affiliation": "Clinton",
+                            "role": "Support "
+                        },
+                        {
+                            "name": "Joint United Nations Programme on HIV/AIDS",
+                            "affiliation": "UN",
+                            "role": "Support "
+                        },
+                        {
+                            "name": "Nutrition International",
+                            "affiliation": "UN",
+                            "role": "Support "
+                        }
+                    ],
+                    "copyright": "(c) 2022, Kenya National Bureau of Statistics",
+                    "funding_agencies": [
+                        {
+                            "name": "Government of Kenya",
+                            "abbreviation": "GoK",
+                            "role": "Funding"
+                        },
+                        {
+                            "name": "United States Agency for International Development",
+                            "abbreviation": "USAID",
+                            "role": "Funding"
+                        }
+                    ]
+                },
+                "distribution_statement": {
+                    "distributors": [
+                        {
+                            "name": "Kenya National Bureau of Statistics",
+                            "abbreviation": "KNBS",
+                            "affiliation": "State Department of Planning",
+                            "uri": ""
+                        }
+                    ],
+                    "contact": [
+                        {
+                            "name": "The Director General",
+                            "affiliation": "Kenya National Bureau of Statistics ",
+                            "email": "directorgeneral@knbs.or.ke",
+                            "uri": "www.knbs.or.ke"
+                        }
+                    ]
+                },
+                "version_statement": {
+                    "version": "Version 001",
+                    "version_date": "2022"
+                },
+                "study_info": {
+                    "keywords": [
+                        {
+                            "keyword": "KDHS 2022",
+                            "vocab": "",
+                            "uri": ""
+                        }
+                    ],
+                    "abstract": "The 2022 Kenya Demographic and Health Survey (2022 KDHS) is the seventh DHS survey implemented in Kenya. The Kenya National Bureau of Statistics (KNBS) in collaboration with the Ministry of Health (MoH) and other stakeholders implemented the survey. Survey planning began in late 2020 with data collection taking place from February 17 to July 19, 2022. ICF provided technical assistance through The DHS Program, which is funded by the United States Agency for International Development (USAID) and offers financial support and technical assistance for population and health surveys in countries worldwide. Other agencies and organizations that facilitated the successful implementation of the survey through technical or financial support were the Bill & Melinda Gates Foundation, the World Bank, the United Nations Children's Fund (UNICEF), the United Nations Population Fund (UNFPA), Nutrition International, the World Food Programme (WFP), the United Nations Entity for Gender Equality and the Empowerment of Women (UN Women), the World Health Organization (WHO), the Clinton Health Access Initiative, and the Joint United Nations Programme on HIV/AIDS (UNAIDS).\n\nSURVEY OBJECTIVES \nThe primary objective of the 2022 KDHS is to provide up-to-date estimates of demographic, health, and nutrition indicators to guide the planning, implementation, monitoring, and evaluation of population and health-related programs at the national and county levels. \nThe specific objectives of the 2022 KDHS are to: \n      Estimate fertility levels and contraceptive prevalence\n      Estimate childhood mortality\n      Provide basic indicators of maternal and child health\n      Estimate the Early Childhood Development Index (ECDI)\n      Collect anthropometric measures for children, women, and men\n      Collect information on children's nutrition\n      Collect information on women's dietary diversity\n      Obtain information on knowledge and behavior related to transmission of HIV and other sexually transmitted infections (STIs)\n      Obtain information on noncommunicable diseases and other health issues\n      Ascertain the extent and patterns of domestic violence and female genital mutilation/cutting",
+                    "coll_dates": [
+                        {
+                            "start": "2022-02-17",
+                            "end": "2022-07-19",
+                            "cycle": ""
+                        }
+                    ],
+                    "nation": [
+                        {
+                            "name": "KENYA",
+                            "abbreviation": "KEN"
+                        }
+                    ],
+                    "geog_coverage": "National coverage",
+                    "analysis_unit": "Household, individuals, county and national level",
+                    "universe": "The survey covered sampled households",
+                    "notes": "-\tAll women age 15-49 who were usual members of the selected households or who had slept in the households the night before the survey were eligible for interviews. \n-\tThe men's interview was conducted in half of the sampled households, and all men age 15-54 who were usual members of the selected households or who had slept in those households the night before the survey were eligible to be interviewed. \n-\tThe Biomarker Questionnaire, which included height and weight measurements, was administered in all households for children age 0-59 months and in the men's subsample for men age 15-54 and women age 15-49. \n-\tModules on disability, COVID-19, health insurance, health expenditures, road traffic accidents, household food expenditure, early childhood development index 2030, chronic diseases, and female genital mutilation/cutting (FGM/C) were administered in half of the households sampled for the 2022 KDHS."
+                },
+                "method": {
+                    "data_collection": {
+                        "time_method": "2021",
+                        "data_collectors": [
+                            {
+                                "name": "Kenya National Bureau of Statistics",
+                                "abbreviation": "KNBS",
+                                "affiliation": "State Department for Economic Planning"
+                            }
+                        ],
+                        "sampling_procedure": "The sample for the 2022 KDHS was drawn from the Kenya Household Master Sample Frame (K-HMSF). This is the frame that KNBS currently operates to conduct household-based sample surveys in Kenya. In 2019, Kenya conducted a Population and Housing Census, and a total of 129,067 enumeration areas (EAs) were developed. Of these EAs, 10,000 were selected with probability proportional to size to create the K-HMSF. The 10,000 EAs were randomized into four equal subsamples. The survey sample was drawn from one of the four subsamples. The EAs were developed into clusters through a process of household listing and geo-referencing. To design the frame, each of the 47 counties in Kenya was stratified into rural and urban strata, resulting in 92 strata since Nairobi City and Mombasa counties are purely urban. \n\nThe 2022 KDHS was designed to provide estimates at the national level, for rural and urban areas, and, for some indicators, at the county level. Given this, the sample was designed to have 42,300 households, with 25 households selected per cluster, resulting into 1,692 clusters spread across the country with 1,026 clusters in rural areas and 666 in urban areas.",
+                        "coll_mode": "Computer Assisted Personal Interview [capi]",
+                        "research_instrument": "Eight questionnaires were used for the 2022 KDHS: \n1.\tA full Household Questionnaire\n2.\tA short Household Questionnaire\n3.\tA full Woman's Questionnaire\n4.\tA short Woman's Questionnaire\n5.\tA Man's Questionnaire\n6.\tA full Biomarker Questionnaire\n7.\tA short Biomarker Questionnaire\n8.\tA Fieldworker Questionnaire.\n\n\nThe Household Questionnaire collected information on: \no\tBackground characteristics of each person in the household (for example, name, sex, age, education, relationship to the household head, survival of parents among children under age 18) \no\tDisability\no\tAssets, land ownership, and housing characteristics\no\tSanitation, water, and other environmental health issues\no\tHealth expenditures\no\tAccident and injury\no\tCOVID-19 (prevalence, vaccination, and related deaths)\no\tHousehold food consumption \n\nThe Woman's Questionnaire was used to collect information from women age 15-49 on the following topics: \no\tSocioeconomic and demographic characteristics\no\tReproduction\no\tFamily planning\no\tMaternal health care and breastfeeding\no\tVaccination and health of children\no\tChildren's nutrition\no\tWoman's dietary diversity\no\tEarly childhood development\no\tMarriage and sexual activity\no\tFertility preferences\no\tHusbands' background characteristics and women's employment activity\no\tHIV/AIDS, other sexually transmitted infections (STIs), and tuberculosis (TB)\no\tOther health issues\no\tEarly Childhood Development Index 2030\no\tChronic diseases\no\tFemale genital mutilation/cutting\no\tDomestic violence\n\nThe Man's Questionnaire was administered to men age 15-54 living in the households selected for long Household Questionnaires. The questionnaire collected information on: \no\tSocioeconomic and demographic characteristics\no\tReproduction\no\tFamily planning\no\tMarriage and sexual activity \no\tFertility preferences\no\tEmployment and gender roles\no\tHIV/AIDS, other STIs, and TB\no\tOther health issues\no\tChronic diseases\no\tFemale genital mutilation/cutting\no\tDomestic violence\n\nThe Biomarker Questionnaire collected information on anthropometry (weight and height). The long Biomarker Questionnaire collected anthropometry measurements for children age 0-59 months, women age 15-49, and men age 15-54, while the short questionnaire collected weight and height measurements only for children age 0-59 months. \n\nThe Fieldworker Questionnaire was used to collect basic background information on the people who collected data in the field. This included team supervisors, interviewers, and biomarker technicians. \n\nAll questionnaires except the Fieldworker Questionnaire were translated into the Swahili language to make it easier for interviewers to ask questions in a language that respondents could understand.",
+                        "act_min": "Interviewing was conducted by teams of interviewers. Each interviewing team comprised of  interviewers, a supervisor, and a driver.  Each team used a 4 wheel drive vehicle to travel from cluster to cluster (and where necessary within cluster).\n\nThe role of the supervisor was to coordinator field data collection activities, including management of the field teams, supplies and equipment, finances, maps and listings, coordinate with local authorities concerning the survey plan and make arrangements for travel. Additionally, the field supervisor assigned the work to the interviewers, spot checked work, maintained field control documents, and sent completed questionnaires and progress reports to the central server.",
+                        "cleaning_operations": "Data were downloaded from the central servers and checked against the inventory of expected returns to account for all data collected in the field. SyncCloud was also used to generate field check tables to monitor progress and flag any errors, which were communicated back to the field teams for correction. \n\nSecondary editing was done by members of the central office team, who resolved any errors that were not corrected by field teams during data collection. A CSPro batch editing tool was used for cleaning and tabulation during data analysis."
+                    },
+                    "analysis_info": {
+                        "response_rate": "A total of 42,022 households were selected for the sample, of which 38,731 (92%) were found to be occupied. Among the occupied households, 37,911 were successfully interviewed, yielding a response rate of 98%. The response rates for urban and rural households were 96% and 99%, respectively. In the interviewed households, 33,879 women age 15-49 were identified as eligible for individual interviews. Interviews were completed with 32,156 women, yielding a response rate of 95%. The response rates among women selected for the full and short questionnaires were the similar (95%). In the households selected for the male survey, 16,552 men age 15-54 were identified as eligible for individual interviews and 14,453 were successfully interviewed, yielding a response rate of 87%."
+                    }
+                },
+                "data_access": {
+                    "dataset_use": {
+                        "conf_dec": [
+                            {
+                                "txt": "Confidentiality of the respondents is guaranteed as as outlined in the Statistics Act,2006 and Data Protection Act, 2019",
+                                "required": "yes",
+                                "form_no": "",
+                                "uri": ""
+                            }
+                        ],
+                        "contact": [
+                            {
+                                "name": "Kenya National Bureau of Statistics",
+                                "affiliation": "State Department for Economic Planning",
+                                "email": "info@kbns.or.ke",
+                                "uri": "www.knbs.or.ke"
+                            }
+                        ],
+                        "cit_req": "Kenya Demographic and Health Survey 2022 (KDHS 2022)",
+                        "conditions": "The dataset has been anonymized and is available as a Public Use Dataset. It is accessible to all for statistical and research purposes only, under the following terms and conditions:\n1.\tThe data and other materials will not be redistributed or sold to other individuals, institutions, or organizations without the written agreement of the KNBS. \n2.\tThe data will be used for statistical and scientific research purposes only. They will be used solely for reporting of aggregated information, and not for investigation of specific individuals or organizations. \n3.\tNo attempt will be made to re-identify respondents, and no use will be made of the identity of any person or establishment discovered inadvertently. Any such discovery would immediately be reported to the KNBS. \n4.\tNo attempt will be made to produce links among datasets provided by the KNBS, or among data from the KeNADA and other datasets that could identify individuals or organizations. \n5.\tAny books, articles, conference papers, theses, dissertations, reports, or other publications that employ data obtained from the KeNADA will cite the source of data in accordance with the Citation Requirement provided with each dataset.",
+                        "disclaimer": "The user of the data acknowledges that the original collector of the data, the authorized distributor of the data bear no responsibility for use of the data or for interpretations or inferences based upon such uses."
+                    }
+                }
+            }
+        }
+    }
+}

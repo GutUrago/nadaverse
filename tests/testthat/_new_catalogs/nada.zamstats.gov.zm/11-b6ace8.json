@@ -1,0 +1,145 @@
+{
+    "status": "success",
+    "dataset": {
+        "id": "11",
+        "doi": null,
+        "repositoryid": "central",
+        "type": "survey",
+        "idno": "ZMB-ZSA-ZDHS-2018-V1.0",
+        "title": " 2018 Zambia Demographic and Health Survey",
+        "year_start": "0",
+        "year_end": "0",
+        "nation": "Zambia",
+        "authoring_entity": "Zambia Statistics Agency",
+        "published": "1",
+        "created": "2025-08-18T10:44:47+02:00",
+        "changed": "2026-11-09T12:01:54+02:00",
+        "varcount": null,
+        "total_views": "135117",
+        "total_downloads": "6993",
+        "formid": "3",
+        "data_access_type": "licensed",
+        "remote_data_url": "",
+        "data_class_id": null,
+        "data_class_code": null,
+        "data_class_title": null,
+        "thumbnail": null,
+        "link_study": null,
+        "link_indicator": null,
+        "link_report": null,
+        "metadata": {
+            "doc_desc": {
+                "title": "Zambia Demographic and Health Survey 2018",
+                "idno": "ZMB-ZSA-ZDHS-2018-V1.0",
+                "producers": [
+                    {
+                        "name": "Zambia Statistics Agency",
+                        "abbreviation": "ZamStats",
+                        "affiliation": "MOFNP",
+                        "role": "Implementation, Production, Dissemination"
+                    }
+                ]
+            },
+            "study_desc": {
+                "title_statement": {
+                    "idno": "ZMB-ZSA-ZDHS-2018-V1.0",
+                    "title": " 2018 Zambia Demographic and Health Survey",
+                    "sub_title": "Sixth Edition"
+                },
+                "authoring_entity": [
+                    {
+                        "name": "Zambia Statistics Agency",
+                        "affiliation": "Ministry of Finance and National Planning"
+                    }
+                ],
+                "production_statement": {
+                    "producers": [
+                        {
+                            "name": "Zambia Statistics Agency",
+                            "affiliation": "Ministry of Finance and National Planning",
+                            "role": "Survey Implementers, Distributors"
+                        }
+                    ],
+                    "funding_agencies": [
+                        {
+                            "name": "United States Agency for International Development",
+                            "abbreviation": "USAID",
+                            "role": "funded the survey"
+                        },
+                        {
+                            "name": "Global Fund, Department for International Development",
+                            "abbreviation": "UKAID",
+                            "role": "funded the survey"
+                        },
+                        {
+                            "name": "United Nations Population Fund (UNFPA).",
+                            "abbreviation": "UNFPA",
+                            "role": "funded the survey"
+                        }
+                    ]
+                },
+                "distribution_statement": {
+                    "distributors": [
+                        {
+                            "name": "Zambia Statistics Agency",
+                            "abbreviation": "ZamStats",
+                            "affiliation": "Government of the Republic of Zambia",
+                            "uri": "www.zamstats.gov.zm"
+                        },
+                        {
+                            "name": "Ministry of Health",
+                            "abbreviation": "MoH",
+                            "affiliation": "Government of the Republic of Zambia",
+                            "uri": "www.moh.gov.zm"
+                        }
+                    ]
+                },
+                "version_statement": {
+                    "version": "V1.0"
+                },
+                "study_info": {
+                    "abstract": "The ZDHS provides an opportunity to inform policy and provide data for planning, implementation, and monitoring and evaluation of national health programmes. It is designed to provide up-to-date informationon health indicators, including fertility levels, nuptiality, sexual activity, fertility preferences, awarenessand use of family planning methods, breastfeeding practices, nutritional status of children, early childhood and maternal mortality, maternal and child health, awareness and behaviours regarding HIV/AIDS and other sexually transmitted infections, and prevalence of HIV",
+                    "nation": [
+                        {
+                            "name": "Zambia",
+                            "abbreviation": "ZMB"
+                        }
+                    ],
+                    "geog_coverage": "National, Rural/Urban, Province",
+                    "analysis_unit": "Household, Individual",
+                    "universe": "All households"
+                },
+                "method": {
+                    "data_collection": {
+                        "time_method": "Every5 years",
+                        "sampling_procedure": "The 2018 ZDHS followed a stratified two-stage sample design. The first stage involved selecting sample points (clusters) consisting of EAs. EAs were selected with a probability proportional to their size within each sampling stratum. A total of 545 clusters were selected.\n\nThe second stage involved systematic sampling of households. A household listing operation was\nundertaken in all of the selected clusters. During the listing, an average of 133 households were found in each cluster, from which a fixed number of 25 households were selected through an equal probability systematic selection process, to obtain a total sample size of 13,625 households. Results from this sample are representative at the national, urban and rural, and provincial levels.\n\nAll women age 15-49 and men age 15-59 who were either permanent residents of the selected households or visitors who stayed in the households the night before the survey were eligible to be interviewed.",
+                        "coll_mode": [
+                            "The Household, Woman’s, and Man’s Questionnaires were programmed into tablet computers to facilitate computer-assisted personal interviewing (CAPI) for data collection purposes, with the capability to choose any of the eight specified languages for each questionnaire. The Biomarker Questionnaire was completed on paper during data collection and then entered into the CAPI system in the field before the data collection teams completed each cluster.The protocols for survey methodology, biomarker measurements, and all instruments were approved by\ninstitutional review boards (IRBs) at ICF and the Tropical Diseases Research Centre (TDRC) in Zambia.Both IRBs approved the protocols before the commencement of data collection activities."
+                        ],
+                        "weight": "Sampling weights were calculated based on sampling probabilities separately for each sampling stage and for each cluster. The following notations were used:\n\nP1hi: first-stage sampling probability of the ith cluster in stratum h\nP2hi: second-stage sampling probability within the ith cluster (households)\nPhi: overall sampling probability of any households of the ith cluster in stratum h"
+                    }
+                },
+                "data_access": {
+                    "dataset_use": {
+                        "contact": [
+                            [
+
+                            ],
+                            [
+
+                            ]
+                        ],
+                        "disclaimer": "ZamStats will not bear any responsibility for the erroneous use of its data by researchers. Users should report inconsistencies in the data (both micro and aggregated) to ZamStats as soon as possible.\n \nThe user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such use\n",
+                        "conditions": "Micro data records are anonymized as per procedures before these are made available to users. \nMicro data files are all free but under access policy conditions:\nEach dataset has an access policy: Public use file - accessible to all and Licensed datasets - accessible under conditions.\n \nThe dataset has been anonymized and is available as a Public Use Dataset. It is  accessible to all for statistical and research purposes only, under the following terms and conditions:\n 1. The data and other materials will not be redistributed or sold to other individuals, institutions, or organizations without the written agreement of the Zambia Statistics Agency\n 2. The data will be used for statistical and scientific research purposes only. They will be used solely for reporting of aggregated information, and not for investigation of specific individuals or organizations. \n 3. No attempt will be made to re-identify respondents, and no use will be made of the identity of any person or establishment discovered inadvertently.",
+                        "conf_dec": [
+                            {
+                                "txt": "The Agency shall, where statistics are designated as official statistics, protect the confidentiality and identity of the source of data. Under the provision of the Statistics ACT no.13 of 2018, ZamStats is obliged to preserve the confidentiality of respondent information in all its census and survey data before being granted access to the dataset, all users have to formally agree:     1. To make no copies of any files or portions of files to which s/he is granted access except those authorized by the Agency.     2. Not to use any technique in an attempt to learn the identity of any person, establishment, or sampling unit not identified on public        use data files.     3. To hold in strictest confidence the identification of any establishment or individual that may be inadvertently revealed in any documents or discussion, or analysis. Such inadvertent identification revealed in her/his analysis will be immediately brought to the attention of the Agency"
+                            }
+                        ]
+                    }
+                }
+            },
+            "schematype": "survey"
+        }
+    }
+}

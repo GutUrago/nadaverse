@@ -117,13 +117,13 @@ fao_search <- search_catalog(
 )
 
 # Example 3: Filter by access type and get search information
-ilo_info <- search_catalog(
-  catalog = "ilo",
+wb_info <- search_catalog(
+  catalog = "wb",
   keyword = "labor",
   dtype = "public",
   rows = FALSE
 )
-print(ilo_info$found) # Check total number of records found
+print(wb_info$found) # Check total number of records found
 
 # Example 4: Include ISO codes in results
 ihsn_results <- search_catalog(

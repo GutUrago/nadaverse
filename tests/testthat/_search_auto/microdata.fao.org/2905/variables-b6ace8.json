@@ -1,0 +1,2941 @@
+{
+    "total": 367,
+    "variables": [
+        {
+            "uid": "2539738",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V1",
+            "name": "unique_id",
+            "labl": null
+        },
+        {
+            "uid": "2539739",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V2",
+            "name": "unique_id_w1",
+            "labl": null
+        },
+        {
+            "uid": "2539740",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V3",
+            "name": "province",
+            "labl": "Currently, in which Province does your household reside?"
+        },
+        {
+            "uid": "2539741",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V4",
+            "name": "district",
+            "labl": "Currently, in which District does your household reside?"
+        },
+        {
+            "uid": "2539742",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V5",
+            "name": "relationship",
+            "labl": null
+        },
+        {
+            "uid": "2539743",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V6",
+            "name": "respondant_sex",
+            "labl": "Gender of respondent"
+        },
+        {
+            "uid": "2539744",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V7",
+            "name": "respondant_age",
+            "labl": "Age of respondent"
+        },
+        {
+            "uid": "2539745",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V8",
+            "name": "hhsize",
+            "labl": "Total number of members of the household (Adults and children)"
+        },
+        {
+            "uid": "2539746",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V9",
+            "name": "unique_id",
+            "labl": null
+        },
+        {
+            "uid": "2539747",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V10",
+            "name": "hhid",
+            "labl": null
+        },
+        {
+            "uid": "2539748",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V11",
+            "name": "s1q01",
+            "labl": "Gender of household head"
+        },
+        {
+            "uid": "2539749",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V12",
+            "name": "s1q02",
+            "labl": "Total number of members of the household (Adults and children)"
+        },
+        {
+            "uid": "2539750",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V13",
+            "name": "s1q03",
+            "labl": "How many male members of the household are between 0 - 5 years of age?"
+        },
+        {
+            "uid": "2539751",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V14",
+            "name": "s1q04",
+            "labl": "How many female members of the household are between 0 - 5 years of age?"
+        },
+        {
+            "uid": "2539752",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V15",
+            "name": "s1q05",
+            "labl": "How many male members of the household are between 6 - 17 years of age?"
+        },
+        {
+            "uid": "2539753",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V16",
+            "name": "s1q06",
+            "labl": "How many female members of the household are between 6 - 17 years of age?"
+        },
+        {
+            "uid": "2539754",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V17",
+            "name": "s1q07",
+            "labl": "How many male members of the household are between 18 - 64 years of age?"
+        },
+        {
+            "uid": "2539755",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V18",
+            "name": "s1q08",
+            "labl": "How many female members of the household are between 18 - 64 years of age?"
+        },
+        {
+            "uid": "2539756",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V19",
+            "name": "s1q09",
+            "labl": "How many male members of the household are 65 years and over in age?"
+        },
+        {
+            "uid": "2539757",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V20",
+            "name": "s1q10",
+            "labl": "How many female members of the household are 65 years and over in age?"
+        },
+        {
+            "uid": "2539758",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V21",
+            "name": "s1q11",
+            "labl": "Total number of household members of working age (>14 and <65 years old)"
+        },
+        {
+            "uid": "2539759",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V22",
+            "name": "s1q12",
+            "labl": "Is there a household member with a disability?"
+        },
+        {
+            "uid": "2539760",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V23",
+            "name": "s1q13",
+            "labl": "Main household livelihood"
+        },
+        {
+            "uid": "2539761",
+            "sid": "2905",
+            "fid": "F2",
+            "vid": "V24",
+            "name": "s1q14",
+            "labl": "Household type"
+        },
+        {
+            "uid": "2539762",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V25",
+            "name": "unique_id",
+            "labl": null
+        },
+        {
+            "uid": "2539763",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V26",
+            "name": "Assets",
+            "labl": null
+        },
+        {
+            "uid": "2539764",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V27",
+            "name": "s3q01",
+            "labl": "Which [DURABLES/ASSETS] do the members of the household own?/Car"
+        },
+        {
+            "uid": "2539765",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V28",
+            "name": "s3q02",
+            "labl": "Which [DURABLES/ASSETS] do the members of the household own?/Bicycle"
+        },
+        {
+            "uid": "2539766",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V29",
+            "name": "s3q03",
+            "labl": "Which [DURABLES/ASSETS] do the members of the household own?/Gas/Electric c"
+        },
+        {
+            "uid": "2539767",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V30",
+            "name": "s3q04",
+            "labl": "Which [DURABLES/ASSETS] do the members of the household own?/Mobile"
+        },
+        {
+            "uid": "2539768",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V31",
+            "name": "s3q05",
+            "labl": "Which [DURABLES/ASSETS] do the members of the household own?/Plough"
+        },
+        {
+            "uid": "2539769",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V32",
+            "name": "s3q06",
+            "labl": "Which [DURABLES/ASSETS] do the members of the household own?/Machete"
+        },
+        {
+            "uid": "2539770",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V33",
+            "name": "s3q07",
+            "labl": "Which [DURABLES/ASSETS] do the members of the household own?/Tractor"
+        },
+        {
+            "uid": "2539771",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V34",
+            "name": "s3q08",
+            "labl": "Which [DURABLES/ASSETS] do the members of the household own?/motorcycle"
+        },
+        {
+            "uid": "2539772",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V35",
+            "name": "s3q09",
+            "labl": "Which [DURABLES/ASSETS] do the members of the household own?/wheelbarrow"
+        },
+        {
+            "uid": "2539773",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V36",
+            "name": "s3q10",
+            "labl": "Which [DURABLES/ASSETS] do the members of the household own?/None"
+        },
+        {
+            "uid": "2539774",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V37",
+            "name": "s3q11",
+            "labl": "How many Car(s) does your household have?"
+        },
+        {
+            "uid": "2539775",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V38",
+            "name": "s3q12",
+            "labl": "How many Bicycle(s) does your household have?"
+        },
+        {
+            "uid": "2539776",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V39",
+            "name": "s3q13",
+            "labl": "How many Gas/Electric cooker(s) does your household have?"
+        },
+        {
+            "uid": "2539777",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V40",
+            "name": "s3q14",
+            "labl": "How many Mobile(s) does your household have?"
+        },
+        {
+            "uid": "2539778",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V41",
+            "name": "s3q15",
+            "labl": "How many Plough(s) does your household have?"
+        },
+        {
+            "uid": "2539779",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V42",
+            "name": "s3q16",
+            "labl": "How many Machete(s) does your household have?"
+        },
+        {
+            "uid": "2539780",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V43",
+            "name": "s3q17",
+            "labl": "How many Tractor(s) does your household have?"
+        },
+        {
+            "uid": "2539781",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V44",
+            "name": "s3q18",
+            "labl": "How many motorcycle (s) does your household have?"
+        },
+        {
+            "uid": "2539782",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V45",
+            "name": "s3q19",
+            "labl": "How many wheelbarrow(s) does your household have?"
+        },
+        {
+            "uid": "2539783",
+            "sid": "2905",
+            "fid": "F3",
+            "vid": "V46",
+            "name": "internet_access",
+            "labl": "Does any of your household member have access to internet"
+        },
+        {
+            "uid": "2539784",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V47",
+            "name": "unique_id",
+            "labl": null
+        },
+        {
+            "uid": "2539785",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V48",
+            "name": "CW",
+            "labl": null
+        },
+        {
+            "uid": "2539786",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V49",
+            "name": "s3q21",
+            "labl": "Does the household used seed inputs in last 12 months"
+        },
+        {
+            "uid": "2539787",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V50",
+            "name": "s3q22",
+            "labl": "Does the household used seedling inputs in last 12 months"
+        },
+        {
+            "uid": "2539788",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V51",
+            "name": "s3q23",
+            "labl": "Does the household used fertilizer inputs in last 12 months"
+        },
+        {
+            "uid": "2539789",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V52",
+            "name": "s3q24",
+            "labl": "Does the household used farm machinery/equipment inputs in last 12 months"
+        },
+        {
+            "uid": "2539790",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V53",
+            "name": "s3q25",
+            "labl": "Does the household used livestock feed inputs in last 12 months"
+        },
+        {
+            "uid": "2539791",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V54",
+            "name": "s3q26",
+            "labl": "Does the household used veterinary services in last 12 months"
+        },
+        {
+            "uid": "2539792",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V55",
+            "name": "s3q27",
+            "labl": "Does the household used livestock equipements in last 12 months"
+        },
+        {
+            "uid": "2539793",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V56",
+            "name": "s3q20a",
+            "labl": "Source of input in last 12 months: purchased"
+        },
+        {
+            "uid": "2539794",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V57",
+            "name": "s3q20b",
+            "labl": "Source of input in last 12 months: from relative"
+        },
+        {
+            "uid": "2539795",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V58",
+            "name": "s3q20c",
+            "labl": "Source of input in last 12 months: from friend/neighbor"
+        },
+        {
+            "uid": "2539796",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V59",
+            "name": "s3q20d",
+            "labl": "Source of input in last 12 months: received as assistance"
+        },
+        {
+            "uid": "2539797",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V60",
+            "name": "s3q20e",
+            "labl": "Source of input in last 12 months: other (specify)"
+        },
+        {
+            "uid": "2539798",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V61",
+            "name": "s3q20a_1",
+            "labl": "Purchase place: agricultural cooperative"
+        },
+        {
+            "uid": "2539799",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V62",
+            "name": "s3q20a_2",
+            "labl": "Purchase place: private trader in local area"
+        },
+        {
+            "uid": "2539800",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V63",
+            "name": "s3q20a_3",
+            "labl": "Purchase place: private trader in main town/market"
+        },
+        {
+            "uid": "2539801",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V64",
+            "name": "s3q20a_4",
+            "labl": "Purchase place: farmer-based organization"
+        },
+        {
+            "uid": "2539802",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V65",
+            "name": "s3q20a_5",
+            "labl": "Purchase place: roadside vendor"
+        },
+        {
+            "uid": "2539803",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V66",
+            "name": "s3q20a_6",
+            "labl": "Purchase place: other (specify)"
+        },
+        {
+            "uid": "2539804",
+            "sid": "2905",
+            "fid": "F4",
+            "vid": "V67",
+            "name": "s3q20",
+            "labl": "Does the household uses any agricultural or livestock inputs"
+        },
+        {
+            "uid": "2539805",
+            "sid": "2905",
+            "fid": "F5",
+            "vid": "V68",
+            "name": "unique_id",
+            "labl": null
+        },
+        {
+            "uid": "2539806",
+            "sid": "2905",
+            "fid": "F5",
+            "vid": "V69",
+            "name": "s3q28",
+            "labl": "Does the household currently own any Livestock?"
+        },
+        {
+            "uid": "2539807",
+            "sid": "2905",
+            "fid": "F5",
+            "vid": "V70",
+            "name": "s3q29",
+            "labl": "Does the household currently own cows/calves?"
+        },
+        {
+            "uid": "2539808",
+            "sid": "2905",
+            "fid": "F5",
+            "vid": "V71",
+            "name": "s3q30",
+            "labl": "Does the household currently own sheep/goats?"
+        },
+        {
+            "uid": "2539809",
+            "sid": "2905",
+            "fid": "F5",
+            "vid": "V72",
+            "name": "s3q31",
+            "labl": "Does the household currently own poultry?"
+        },
+        {
+            "uid": "2539810",
+            "sid": "2905",
+            "fid": "F5",
+            "vid": "V73",
+            "name": "s3q32",
+            "labl": "Does the household currently own camels?"
+        },
+        {
+            "uid": "2539811",
+            "sid": "2905",
+            "fid": "F5",
+            "vid": "V74",
+            "name": "s3q33",
+            "labl": "Does the household currently own donkeys/horses?"
+        },
+        {
+            "uid": "2539812",
+            "sid": "2905",
+            "fid": "F5",
+            "vid": "V75",
+            "name": "s3q34",
+            "labl": "Number of cows/calves owned by household"
+        },
+        {
+            "uid": "2539813",
+            "sid": "2905",
+            "fid": "F5",
+            "vid": "V76",
+            "name": "s3q35",
+            "labl": "Number of sheep/goats owned by household"
+        },
+        {
+            "uid": "2539814",
+            "sid": "2905",
+            "fid": "F5",
+            "vid": "V77",
+            "name": "s3q36",
+            "labl": "Number of poultry owned by household"
+        },
+        {
+            "uid": "2539815",
+            "sid": "2905",
+            "fid": "F5",
+            "vid": "V78",
+            "name": "s3q37",
+            "labl": "Number of camels owned by household"
+        },
+        {
+            "uid": "2539816",
+            "sid": "2905",
+            "fid": "F5",
+            "vid": "V79",
+            "name": "s3q38",
+            "labl": "Number of donkeys/horses owned by household"
+        },
+        {
+            "uid": "2539817",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V80",
+            "name": "unique_id",
+            "labl": null
+        },
+        {
+            "uid": "2539818",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V81",
+            "name": "s3q39",
+            "labl": "Total area of land (owned, leased, or used) by the household (jireb)"
+        },
+        {
+            "uid": "2539819",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V82",
+            "name": "s3q40",
+            "labl": "Does any member of the household harvested any crop in the last agricultural sea"
+        },
+        {
+            "uid": "2539820",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V83",
+            "name": "s3q41",
+            "labl": "Does any member of the household harvested [RICE] in the last agricultural seaso"
+        },
+        {
+            "uid": "2539821",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V84",
+            "name": "s3q42",
+            "labl": "Does any member of the household harvested [WHEAT] in the last agricultural seas"
+        },
+        {
+            "uid": "2539822",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V85",
+            "name": "s3q43",
+            "labl": "Does any member of the household harvested [MAIZE] in the last agricultural seas"
+        },
+        {
+            "uid": "2539823",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V86",
+            "name": "s3q44",
+            "labl": "Does any member of the household harvested [BARELY] in the last agricultural sea"
+        },
+        {
+            "uid": "2539824",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V87",
+            "name": "s3q45",
+            "labl": "Does any member of the household harvested [POTATOE] in the last agricultural se"
+        },
+        {
+            "uid": "2539825",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V88",
+            "name": "s3q46",
+            "labl": "Does any member of the household harvested [BEANS] in the last agricultural seas"
+        },
+        {
+            "uid": "2539826",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V89",
+            "name": "s3q47",
+            "labl": "Does any member of the household harvested [LENTILS] in the last agricultural se"
+        },
+        {
+            "uid": "2539827",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V90",
+            "name": "s3q48",
+            "labl": "Does any member of the household harvested [TOMATOES] in the last agricultural s"
+        },
+        {
+            "uid": "2539828",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V91",
+            "name": "s3q49",
+            "labl": "Does any member of the household harvested [ONIONS] in the last agricultural sea"
+        },
+        {
+            "uid": "2539829",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V92",
+            "name": "s3q50",
+            "labl": "Does any member of the household harvested [GRAPS] in the last agricultural seas"
+        },
+        {
+            "uid": "2539830",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V93",
+            "name": "s3q51",
+            "labl": "Does any member of the household harvested [APPLS] in the last agricultural seas"
+        },
+        {
+            "uid": "2539831",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V94",
+            "name": "s3q52",
+            "labl": "Does any member of the household harvested [OTHER CROP] in the last agricultural"
+        },
+        {
+            "uid": "2539832",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V95",
+            "name": "s3q53",
+            "labl": "How much rice did the household harvest in the last crop season (kg)?"
+        },
+        {
+            "uid": "2539833",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V96",
+            "name": "s3q54",
+            "labl": "How much wheat did the household harvest in the last crop season (kg)?"
+        },
+        {
+            "uid": "2539834",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V97",
+            "name": "s3q55",
+            "labl": "How much maize did the household harvest in the last crop season (kg)?"
+        },
+        {
+            "uid": "2539835",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V98",
+            "name": "s3q56",
+            "labl": "How much barley did the household harvest in the last crop season (kg)?"
+        },
+        {
+            "uid": "2539836",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V99",
+            "name": "s3q57",
+            "labl": "How much potatoes did the household harvest in the last crop season (kg)?"
+        },
+        {
+            "uid": "2539837",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V100",
+            "name": "s3q58",
+            "labl": "How much beans did the household harvest in the last crop season (kg)?"
+        },
+        {
+            "uid": "2539838",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V101",
+            "name": "s3q59",
+            "labl": "How much lentils did the household harvest in the last crop season (kg)?"
+        },
+        {
+            "uid": "2539839",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V102",
+            "name": "s3q60",
+            "labl": "How much tomatoes did the household harvest in the last crop season (kg)?"
+        },
+        {
+            "uid": "2539840",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V103",
+            "name": "s3q61",
+            "labl": "How much onions did the household harvest in the last crop season (kg)?"
+        },
+        {
+            "uid": "2539841",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V104",
+            "name": "s3q62",
+            "labl": "How much grapes did the household harvest in the last crop season (kg)?"
+        },
+        {
+            "uid": "2539842",
+            "sid": "2905",
+            "fid": "F6",
+            "vid": "V105",
+            "name": "s3q63",
+            "labl": "How much apples did the household harvest in the last crop season (kg)?"
+        },
+        {
+            "uid": "2539843",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V106",
+            "name": "unique_id",
+            "labl": null
+        },
+        {
+            "uid": "2539844",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V107",
+            "name": "s4q01",
+            "labl": "Has your household benefited from any of the interventions of the Food and Agric"
+        },
+        {
+            "uid": "2539845",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V108",
+            "name": "s4q01a_yr",
+            "labl": "Year the household received the assistance packages"
+        },
+        {
+            "uid": "2539846",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V109",
+            "name": "s4q02",
+            "labl": null
+        },
+        {
+            "uid": "2539847",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V110",
+            "name": "s4q03",
+            "labl": "Wheat protection package (certified seeds & fertilizers)"
+        },
+        {
+            "uid": "2539848",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V111",
+            "name": "s4q04",
+            "labl": "Livestock protection package"
+        },
+        {
+            "uid": "2539849",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V112",
+            "name": "s4q05",
+            "labl": "Cash-for-work activities"
+        },
+        {
+            "uid": "2539850",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V113",
+            "name": "s4q06",
+            "labl": "Unconditional cash transfer"
+        },
+        {
+            "uid": "2539851",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V114",
+            "name": "s4q07",
+            "labl": "Backyard poultry package"
+        },
+        {
+            "uid": "2539852",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V115",
+            "name": "s4q08",
+            "labl": "Home gardening package"
+        },
+        {
+            "uid": "2539853",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V116",
+            "name": "s4q09",
+            "labl": "Summer crop seeds package"
+        },
+        {
+            "uid": "2539854",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V117",
+            "name": "s4q10",
+            "labl": "Small farming tools package"
+        },
+        {
+            "uid": "2539855",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V118",
+            "name": "s4q11",
+            "labl": "Has your household benefited from any of the interventions of other organization"
+        },
+        {
+            "uid": "2539856",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V119",
+            "name": "s4q11a",
+            "labl": "Organization that provided the intervention"
+        },
+        {
+            "uid": "2539857",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V120",
+            "name": "s4q11b",
+            "labl": "Type of assistance received from other orginizations"
+        },
+        {
+            "uid": "2539858",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V121",
+            "name": "s4q12",
+            "labl": null
+        },
+        {
+            "uid": "2539859",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V122",
+            "name": "s4q12a",
+            "labl": "Total amount of loan(s) received by household members in the past 12 months"
+        },
+        {
+            "uid": "2539860",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V123",
+            "name": "s4q13",
+            "labl": "Did any household member receive any formal transfers in the last 12 months?"
+        },
+        {
+            "uid": "2539861",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V124",
+            "name": "s4q14",
+            "labl": "Relief food assistance"
+        },
+        {
+            "uid": "2539862",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V125",
+            "name": "s4q15",
+            "labl": "Cash assistance"
+        },
+        {
+            "uid": "2539863",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V126",
+            "name": "s4q16",
+            "labl": "Livestock support"
+        },
+        {
+            "uid": "2539864",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V127",
+            "name": "s4q17",
+            "labl": "Safety net programs"
+        },
+        {
+            "uid": "2539865",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V128",
+            "name": "s4q18",
+            "labl": "Pension schemes / other assistance"
+        },
+        {
+            "uid": "2539866",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V129",
+            "name": "s4q19",
+            "labl": "Total amount of relief food received in the last 12 months"
+        },
+        {
+            "uid": "2539867",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V130",
+            "name": "s4q20",
+            "labl": "Total amount of cash assistance received in the last 12 months"
+        },
+        {
+            "uid": "2539868",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V131",
+            "name": "s4q21",
+            "labl": "Total amount of livestock assistance received in the last 12 months"
+        },
+        {
+            "uid": "2539869",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V132",
+            "name": "s4q22",
+            "labl": "Total amount of safety net benefits received in the last 12 months"
+        },
+        {
+            "uid": "2539870",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V133",
+            "name": "s4q24",
+            "labl": "Did any household member receive any informal transfers in the last 12 months?"
+        },
+        {
+            "uid": "2539871",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V134",
+            "name": "s4q25",
+            "labl": "Cash support from relatives or friends"
+        },
+        {
+            "uid": "2539872",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V135",
+            "name": "s4q26",
+            "labl": "Remittances received"
+        },
+        {
+            "uid": "2539873",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V136",
+            "name": "s4q27",
+            "labl": "Seed gift received"
+        },
+        {
+            "uid": "2539874",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V137",
+            "name": "s4q28",
+            "labl": "Food or grain gift received"
+        },
+        {
+            "uid": "2539875",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V138",
+            "name": "s4q29",
+            "labl": "Free use of animals received"
+        },
+        {
+            "uid": "2539876",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V139",
+            "name": "s4q30",
+            "labl": "Cash from relatives/friends â€“ amount last 12 months"
+        },
+        {
+            "uid": "2539877",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V140",
+            "name": "s4q31",
+            "labl": "Remittances â€“ amount last 12 months"
+        },
+        {
+            "uid": "2539878",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V141",
+            "name": "s4q32",
+            "labl": "Seed gifts â€“ amount last 12 months"
+        },
+        {
+            "uid": "2539879",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V142",
+            "name": "s4q33",
+            "labl": "Food/grain gifts â€“ amount last 12 months"
+        },
+        {
+            "uid": "2539880",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V143",
+            "name": "s4q34",
+            "labl": "Free use of animals â€“ value last 12 months"
+        },
+        {
+            "uid": "2539881",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V144",
+            "name": "s4q35",
+            "labl": null
+        },
+        {
+            "uid": "2539882",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V145",
+            "name": "s4q36",
+            "labl": "Associations the household can rely on"
+        },
+        {
+            "uid": "2539883",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V146",
+            "name": "s4q37",
+            "labl": "Relatives/friends the household can rely on"
+        },
+        {
+            "uid": "2539884",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V147",
+            "name": "s4q38",
+            "labl": "Number of association networks the household can rely on"
+        },
+        {
+            "uid": "2539885",
+            "sid": "2905",
+            "fid": "F7",
+            "vid": "V148",
+            "name": "s4q39",
+            "labl": "Number of relatives/friends the household can rely on"
+        },
+        {
+            "uid": "2539886",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V149",
+            "name": "unique_id",
+            "labl": null
+        },
+        {
+            "uid": "2539887",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V150",
+            "name": "s5q01",
+            "labl": "Can the head of the household read and write?"
+        },
+        {
+            "uid": "2539888",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V151",
+            "name": "s5q02",
+            "labl": "Educational level of the household head"
+        },
+        {
+            "uid": "2539889",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V152",
+            "name": "s5q03",
+            "labl": "Years of formal schooling completed by the household head"
+        },
+        {
+            "uid": "2539890",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V153",
+            "name": "s5q04",
+            "labl": "Years of formal schooling of the most educated household member"
+        },
+        {
+            "uid": "2539891",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V154",
+            "name": "s5q05",
+            "labl": "Average years of schooling of household members of working age (>14 years)"
+        },
+        {
+            "uid": "2539892",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V155",
+            "name": "s5q06",
+            "labl": "Income source: Agriculture"
+        },
+        {
+            "uid": "2539893",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V156",
+            "name": "s5q07",
+            "labl": "Income source: Family business"
+        },
+        {
+            "uid": "2539894",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V157",
+            "name": "s5q08",
+            "labl": "Income source: Government employment"
+        },
+        {
+            "uid": "2539895",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V158",
+            "name": "s5q09",
+            "labl": "Income source: Private sector employment"
+        },
+        {
+            "uid": "2539896",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V159",
+            "name": "s5q10",
+            "labl": "Income source: Transfers/remittances"
+        },
+        {
+            "uid": "2539897",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V160",
+            "name": "s5q11",
+            "labl": "Income source: No income source"
+        },
+        {
+            "uid": "2539898",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V161",
+            "name": "s5q12",
+            "labl": "Income source: Other (specify)"
+        },
+        {
+            "uid": "2539899",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V162",
+            "name": "s5q13",
+            "labl": "Number of different crops grown by the household in the last season"
+        },
+        {
+            "uid": "2539900",
+            "sid": "2905",
+            "fid": "F8",
+            "vid": "V163",
+            "name": "s5q14",
+            "labl": "Share of total income used for buying food (%)"
+        },
+        {
+            "uid": "2539901",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V164",
+            "name": "unique_id",
+            "labl": null
+        },
+        {
+            "uid": "2539902",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V165",
+            "name": "s6q01",
+            "labl": "Province of origin"
+        },
+        {
+            "uid": "2539903",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V166",
+            "name": "s6q02",
+            "labl": "District of origin"
+        },
+        {
+            "uid": "2539904",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V167",
+            "name": "s6q03",
+            "labl": null
+        },
+        {
+            "uid": "2539905",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V168",
+            "name": "s6q04",
+            "labl": null
+        },
+        {
+            "uid": "2539906",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V169",
+            "name": "s6q05",
+            "labl": null
+        },
+        {
+            "uid": "2539907",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V170",
+            "name": "s6q06",
+            "labl": null
+        },
+        {
+            "uid": "2539908",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V171",
+            "name": "s6q06_1",
+            "labl": "Insufficient access to food"
+        },
+        {
+            "uid": "2539909",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V172",
+            "name": "s6q06_2",
+            "labl": "Negative attitudes towards us/IDPs from others in my community"
+        },
+        {
+            "uid": "2539910",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V173",
+            "name": "s6q06_3",
+            "labl": "Accessing land in this community"
+        },
+        {
+            "uid": "2539911",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V174",
+            "name": "s6q06_4",
+            "labl": "Accessing natural resources needed for my livelihood (water, land, etc.)"
+        },
+        {
+            "uid": "2539912",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V175",
+            "name": "s6q06_5",
+            "labl": "Accessing work/employment/livelihoods"
+        },
+        {
+            "uid": "2539913",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V176",
+            "name": "s6q06_6",
+            "labl": "Accessing basic services (health, education, etc.)"
+        },
+        {
+            "uid": "2539914",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V177",
+            "name": "s6q06_7",
+            "labl": "Insufficient income to purchase inputs for agricultural production (seeds, tools"
+        },
+        {
+            "uid": "2539915",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V178",
+            "name": "s6q06_8",
+            "labl": "Disputes with others in my community about land, water or other resources"
+        },
+        {
+            "uid": "2539916",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V179",
+            "name": "s6q06_9",
+            "labl": "Lack of safety/security in my community/area"
+        },
+        {
+            "uid": "2539917",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V180",
+            "name": "s6q06_10",
+            "labl": "Don't know"
+        },
+        {
+            "uid": "2539918",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V181",
+            "name": "s6q06_11",
+            "labl": "Other challenge (specify)"
+        },
+        {
+            "uid": "2539919",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V182",
+            "name": "s6q07",
+            "labl": null
+        },
+        {
+            "uid": "2539920",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V183",
+            "name": "s6q07_1",
+            "labl": "It is close to my community of origin"
+        },
+        {
+            "uid": "2539921",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V184",
+            "name": "s6q07_2",
+            "labl": "I have family or friends here"
+        },
+        {
+            "uid": "2539922",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V185",
+            "name": "s6q07_3",
+            "labl": "I heard there were employment/livelihood opportunities here"
+        },
+        {
+            "uid": "2539923",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V186",
+            "name": "s6q07_4",
+            "labl": "I heard I could access land/natural resources for my agricultural livelihood"
+        },
+        {
+            "uid": "2539924",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V187",
+            "name": "s6q07_5",
+            "labl": "Better access to food / cheaper food"
+        },
+        {
+            "uid": "2539925",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V188",
+            "name": "s6q07_6",
+            "labl": "Better access to health services / medical assistance"
+        },
+        {
+            "uid": "2539926",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V189",
+            "name": "s6q07_7",
+            "labl": "Better access to education and other assistance"
+        },
+        {
+            "uid": "2539927",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V190",
+            "name": "s6q07_8",
+            "labl": "I heard UN and/or NGOs were providing assistance to refugees/IDPs here"
+        },
+        {
+            "uid": "2539928",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V191",
+            "name": "s6q07_9",
+            "labl": "Other"
+        },
+        {
+            "uid": "2539929",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V192",
+            "name": "s6q08",
+            "labl": null
+        },
+        {
+            "uid": "2539930",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V193",
+            "name": "s6q09",
+            "labl": null
+        },
+        {
+            "uid": "2539931",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V194",
+            "name": "s6q10",
+            "labl": null
+        },
+        {
+            "uid": "2539932",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V195",
+            "name": "s6q11",
+            "labl": null
+        },
+        {
+            "uid": "2539933",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V196",
+            "name": "s6q11_1",
+            "labl": "Improved access to food / cheaper food"
+        },
+        {
+            "uid": "2539934",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V197",
+            "name": "s6q11_2",
+            "labl": "Improved safety and security"
+        },
+        {
+            "uid": "2539935",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V198",
+            "name": "s6q11_3",
+            "labl": "Better conditions to resume agricultural livelihood"
+        },
+        {
+            "uid": "2539936",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V199",
+            "name": "s6q11_4",
+            "labl": "Don't know"
+        },
+        {
+            "uid": "2539937",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V200",
+            "name": "s6q12",
+            "labl": null
+        },
+        {
+            "uid": "2539938",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V201",
+            "name": "s6q13",
+            "labl": null
+        },
+        {
+            "uid": "2539939",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V202",
+            "name": "s6q14",
+            "labl": null
+        },
+        {
+            "uid": "2539940",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V203",
+            "name": "s6q14_1",
+            "labl": "Insufficient access to food"
+        },
+        {
+            "uid": "2539941",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V204",
+            "name": "s6q14_2",
+            "labl": "Negative attitudes of others in my community"
+        },
+        {
+            "uid": "2539942",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V205",
+            "name": "s6q14_3",
+            "labl": "Accessing natural resources needed to resume livelihood (water, land, etc.)"
+        },
+        {
+            "uid": "2539943",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V206",
+            "name": "s6q14_4",
+            "labl": "Accessing work / employment / livelihoods"
+        },
+        {
+            "uid": "2539944",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V207",
+            "name": "s6q14_5",
+            "labl": "Insufficient income to purchase agricultural inputs (seeds, tools, fertiliser, f"
+        },
+        {
+            "uid": "2539945",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V208",
+            "name": "s6q14_6",
+            "labl": "Lack of safety/security in my community/area"
+        },
+        {
+            "uid": "2539946",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V209",
+            "name": "s6q14_7",
+            "labl": "Insufficient income to rebuild assets/agricultural infrastructure damaged or los"
+        },
+        {
+            "uid": "2539947",
+            "sid": "2905",
+            "fid": "F9",
+            "vid": "V210",
+            "name": "s6q14_8",
+            "labl": "Other challenge (specify)"
+        },
+        {
+            "uid": "2539948",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V211",
+            "name": "unique_id",
+            "labl": null
+        },
+        {
+            "uid": "2539949",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V212",
+            "name": "s7q01",
+            "labl": "Thinking back 12 months, were your living conditionsâ€¦?"
+        },
+        {
+            "uid": "2539950",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V213",
+            "name": "s7q02",
+            "labl": "How do you expect your living conditions to be in a year from now?"
+        },
+        {
+            "uid": "2539951",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V214",
+            "name": "s7q03_1",
+            "labl": "Food (lack of or inadequate)"
+        },
+        {
+            "uid": "2539952",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V215",
+            "name": "s7q03_2",
+            "labl": "Water for the household (lack of or inadequate)"
+        },
+        {
+            "uid": "2539953",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V216",
+            "name": "s7q03_3",
+            "labl": "Water for agriculture (lack of or inadequate)"
+        },
+        {
+            "uid": "2539954",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V217",
+            "name": "s7q03_4",
+            "labl": "Access to agricultural land"
+        },
+        {
+            "uid": "2539955",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V218",
+            "name": "s7q03_6",
+            "labl": "Access to savings/credit"
+        },
+        {
+            "uid": "2539956",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V219",
+            "name": "s7q03_7",
+            "labl": "Prices of market goods"
+        },
+        {
+            "uid": "2539957",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V220",
+            "name": "s7q03_8",
+            "labl": "Children's access to education"
+        },
+        {
+            "uid": "2539958",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V221",
+            "name": "s7q03_9",
+            "labl": "Access to health services"
+        },
+        {
+            "uid": "2539959",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V222",
+            "name": "s7q03_10",
+            "labl": "There are no issues or concerns"
+        },
+        {
+            "uid": "2539960",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V223",
+            "name": "s7q03_11",
+            "labl": "I do not know / I do not want to answer"
+        },
+        {
+            "uid": "2539961",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V224",
+            "name": "s7q03_12",
+            "labl": "Other"
+        },
+        {
+            "uid": "2539962",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V225",
+            "name": "s7q04",
+            "labl": "Over the last 12 months, have you or anyone in your household been involved in d"
+        },
+        {
+            "uid": "2539963",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V226",
+            "name": "s7q05",
+            "labl": null
+        },
+        {
+            "uid": "2539964",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V227",
+            "name": "s7q05_1",
+            "labl": "Shortage of water for agriculture"
+        },
+        {
+            "uid": "2539965",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V228",
+            "name": "s7q05_2",
+            "labl": "Shortage of pastures for livestock"
+        },
+        {
+            "uid": "2539966",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V229",
+            "name": "s7q05_3",
+            "labl": "Shortage of productive land"
+        },
+        {
+            "uid": "2539967",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V230",
+            "name": "s7q05_4",
+            "labl": "Right of use of water for agriculture"
+        },
+        {
+            "uid": "2539968",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V231",
+            "name": "s7q05_5",
+            "labl": "Right of use of pasture for grazing"
+        },
+        {
+            "uid": "2539969",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V232",
+            "name": "s7q05_6",
+            "labl": "Access to productive land"
+        },
+        {
+            "uid": "2539970",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V233",
+            "name": "s7q05_7",
+            "labl": "Poor condition of rural infrastructure"
+        },
+        {
+            "uid": "2539971",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V234",
+            "name": "s7q05_8",
+            "labl": "Limited management of these resources"
+        },
+        {
+            "uid": "2539972",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V235",
+            "name": "s7q05_9",
+            "labl": "Access to assistance"
+        },
+        {
+            "uid": "2539973",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V236",
+            "name": "s7q05_10",
+            "labl": "I do not know / I do not want to answer"
+        },
+        {
+            "uid": "2539974",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V237",
+            "name": "s7q05_11",
+            "labl": "Other"
+        },
+        {
+            "uid": "2539975",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V238",
+            "name": "s7q06",
+            "labl": "With whom was the dispute(s) with?"
+        },
+        {
+            "uid": "2539976",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V239",
+            "name": "s7q07",
+            "labl": "Type of dispute"
+        },
+        {
+            "uid": "2539977",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V240",
+            "name": "s7q08",
+            "labl": null
+        },
+        {
+            "uid": "2539978",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V241",
+            "name": "s7q03",
+            "labl": null
+        },
+        {
+            "uid": "2539979",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V242",
+            "name": "s7q03_5",
+            "labl": "Income generating opportunities (lack of or inadequate)"
+        },
+        {
+            "uid": "2539980",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V243",
+            "name": "s7q08_1",
+            "labl": "We resolved the dispute ourselves"
+        },
+        {
+            "uid": "2539981",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V244",
+            "name": "s7q08_2",
+            "labl": "A village or religious leader"
+        },
+        {
+            "uid": "2539982",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V245",
+            "name": "s7q08_3",
+            "labl": "Village shura"
+        },
+        {
+            "uid": "2539983",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V246",
+            "name": "s7q08_4",
+            "labl": "District shura"
+        },
+        {
+            "uid": "2539984",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V247",
+            "name": "s7q08_5",
+            "labl": "District authorities"
+        },
+        {
+            "uid": "2539985",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V248",
+            "name": "s7q08_6",
+            "labl": "It is not resolved"
+        },
+        {
+            "uid": "2539986",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V249",
+            "name": "s7q08_7",
+            "labl": "I do not know / I do not want to answer"
+        },
+        {
+            "uid": "2539987",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V250",
+            "name": "s7q08_8",
+            "labl": "Other"
+        },
+        {
+            "uid": "2539988",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V251",
+            "name": "s7q09",
+            "labl": null
+        },
+        {
+            "uid": "2539989",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V252",
+            "name": "s7q09_1",
+            "labl": "Travel to your fields"
+        },
+        {
+            "uid": "2539990",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V253",
+            "name": "s7q09_2",
+            "labl": "Move cattle to grazing land"
+        },
+        {
+            "uid": "2539991",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V254",
+            "name": "s7q09_3",
+            "labl": "Travel to the district centre"
+        },
+        {
+            "uid": "2539992",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V255",
+            "name": "s7q09_4",
+            "labl": "Pursue income-generating or labouring opportunities"
+        },
+        {
+            "uid": "2539993",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V256",
+            "name": "s7q09_5",
+            "labl": "Send children to school"
+        },
+        {
+            "uid": "2539994",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V257",
+            "name": "s7q09_6",
+            "labl": "Travel to health clinics"
+        },
+        {
+            "uid": "2539995",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V258",
+            "name": "s7q09_7",
+            "labl": "Other"
+        },
+        {
+            "uid": "2539996",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V259",
+            "name": "s7q10",
+            "labl": null
+        },
+        {
+            "uid": "2539997",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V260",
+            "name": "s7q10_1",
+            "labl": "Family"
+        },
+        {
+            "uid": "2539998",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V261",
+            "name": "s7q10_2",
+            "labl": "Cultural"
+        },
+        {
+            "uid": "2539999",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V262",
+            "name": "s7q10_3",
+            "labl": "Trading agricultural goods"
+        },
+        {
+            "uid": "2540000",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V263",
+            "name": "s7q10_4",
+            "labl": "Other trading exchanges"
+        },
+        {
+            "uid": "2540001",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V264",
+            "name": "s7q10_5",
+            "labl": "Farming or livestock groups"
+        },
+        {
+            "uid": "2540002",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V265",
+            "name": "s7q10_6",
+            "labl": "Women's livelihoods groups"
+        },
+        {
+            "uid": "2540003",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V266",
+            "name": "s7q10_7",
+            "labl": "I do not know / I do not want to answer"
+        },
+        {
+            "uid": "2540004",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V267",
+            "name": "s7q10_8",
+            "labl": "Other"
+        },
+        {
+            "uid": "2540005",
+            "sid": "2905",
+            "fid": "F10",
+            "vid": "V268",
+            "name": "s7q11",
+            "labl": "Compared to 12 months ago, has your relationship with neighbouring communities o"
+        },
+        {
+            "uid": "2540006",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V269",
+            "name": "unique_id",
+            "labl": null
+        },
+        {
+            "uid": "2540007",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V270",
+            "name": "s8q01",
+            "labl": "Did your household experience any shocks in the last 12 months?"
+        },
+        {
+            "uid": "2540008",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V271",
+            "name": "s8q01_1",
+            "labl": "Drought"
+        },
+        {
+            "uid": "2540009",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V272",
+            "name": "s8q01_2",
+            "labl": "Floods"
+        },
+        {
+            "uid": "2540010",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V273",
+            "name": "s8q01_3",
+            "labl": "Lost employment or working opportunities (mainly applies for daily work)"
+        },
+        {
+            "uid": "2540011",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V274",
+            "name": "s8q01_4",
+            "labl": "Much higher than usual food prices"
+        },
+        {
+            "uid": "2540012",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V275",
+            "name": "s8q01_5",
+            "labl": "Much higher than usual fuel prices or transport prices"
+        },
+        {
+            "uid": "2540013",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V276",
+            "name": "s8q01_6",
+            "labl": "Poor quality of pasture"
+        },
+        {
+            "uid": "2540014",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V277",
+            "name": "s8q01_7",
+            "labl": "Unusually high level of crop pests & disease"
+        },
+        {
+            "uid": "2540015",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V278",
+            "name": "s8q01_8",
+            "labl": "Unusually high level of livestock disease"
+        },
+        {
+            "uid": "2540016",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V279",
+            "name": "s8q01_9",
+            "labl": "Unusually high costs of agricultural inputs"
+        },
+        {
+            "uid": "2540017",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V280",
+            "name": "s8q01_10",
+            "labl": "Unusually low prices of agricultural output"
+        },
+        {
+            "uid": "2540018",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V281",
+            "name": "s8q01_11",
+            "labl": "Serious illness or accident of income earner(s)"
+        },
+        {
+            "uid": "2540019",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V282",
+            "name": "s8q01_12",
+            "labl": "Serious illness or accident of other household member(s)"
+        },
+        {
+            "uid": "2540020",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V283",
+            "name": "s8q01_13",
+            "labl": "Death of other household member(s)"
+        },
+        {
+            "uid": "2540021",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V284",
+            "name": "s8q01_14",
+            "labl": "Theft of money/valuables/non-agricultural assets"
+        },
+        {
+            "uid": "2540022",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V285",
+            "name": "s8q01_15",
+            "labl": "Theft of agricultural assets/output (crop or livestock)"
+        },
+        {
+            "uid": "2540023",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V286",
+            "name": "s8q01_16",
+            "labl": "Conflict/Violence"
+        },
+        {
+            "uid": "2540024",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V287",
+            "name": "s8q01_17",
+            "labl": "Fire"
+        },
+        {
+            "uid": "2540025",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V288",
+            "name": "s8q01_18",
+            "labl": "Other"
+        },
+        {
+            "uid": "2540026",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V289",
+            "name": "s8q02",
+            "labl": null
+        },
+        {
+            "uid": "2540027",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V290",
+            "name": "s8q02_1",
+            "labl": "Relied on own savings"
+        },
+        {
+            "uid": "2540028",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V291",
+            "name": "s8q02_2",
+            "labl": "Received unconditional help from relatives/friends"
+        },
+        {
+            "uid": "2540029",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V292",
+            "name": "s8q02_3",
+            "labl": "Received unconditional help from government"
+        },
+        {
+            "uid": "2540030",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V293",
+            "name": "s8q02_4",
+            "labl": "Received unconditional help from NGO/religious institution"
+        },
+        {
+            "uid": "2540031",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V294",
+            "name": "s8q02_5",
+            "labl": "Changed eating patterns (less preferred foods, fewer meals, or skipped days)"
+        },
+        {
+            "uid": "2540032",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V295",
+            "name": "s8q02_6",
+            "labl": "Employed household members took on more employment"
+        },
+        {
+            "uid": "2540033",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V296",
+            "name": "s8q02_7",
+            "labl": "Previously non-working adult members had to find work"
+        },
+        {
+            "uid": "2540034",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V297",
+            "name": "s8q02_8",
+            "labl": "Household members migrated"
+        },
+        {
+            "uid": "2540035",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V298",
+            "name": "s8q02_9",
+            "labl": "Reduced expenditures on health and/or education"
+        },
+        {
+            "uid": "2540036",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V299",
+            "name": "s8q02_10",
+            "labl": "Obtained credit"
+        },
+        {
+            "uid": "2540037",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V300",
+            "name": "s8q02_11",
+            "labl": "Sold agricultural assets"
+        },
+        {
+            "uid": "2540038",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V301",
+            "name": "s8q02_12",
+            "labl": "Sold durable assets"
+        },
+        {
+            "uid": "2540039",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V302",
+            "name": "s8q02_13",
+            "labl": "Sold land/building"
+        },
+        {
+            "uid": "2540040",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V303",
+            "name": "s8q02_14",
+            "labl": "Sold crop stock"
+        },
+        {
+            "uid": "2540041",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V304",
+            "name": "s8q02_15",
+            "labl": "Sold livestock"
+        },
+        {
+            "uid": "2540042",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V305",
+            "name": "s8q02_16",
+            "labl": "Intensified fishing"
+        },
+        {
+            "uid": "2540043",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V306",
+            "name": "s8q02_17",
+            "labl": "Sent children to live elsewhere"
+        },
+        {
+            "uid": "2540044",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V307",
+            "name": "s8q02_18",
+            "labl": "Engaged in spiritual efforts (prayer, sacrifices, diviner consultations)"
+        },
+        {
+            "uid": "2540045",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V308",
+            "name": "s8q02_19",
+            "labl": "Did not do anything"
+        },
+        {
+            "uid": "2540046",
+            "sid": "2905",
+            "fid": "F11",
+            "vid": "V309",
+            "name": "s8q02_20",
+            "labl": "Other (specify)"
+        },
+        {
+            "uid": "2540047",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V310",
+            "name": "unique_id",
+            "labl": null
+        },
+        {
+            "uid": "2540048",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V311",
+            "name": "fies_worried",
+            "labl": "During the last 30 days, was there a time when you or others in your household w"
+        },
+        {
+            "uid": "2540049",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V312",
+            "name": "fies_healthy",
+            "labl": "During the last 30 days, was there a time when you or others in your household w"
+        },
+        {
+            "uid": "2540050",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V313",
+            "name": "fies_fewfoods",
+            "labl": "During the last 30 days, was there a time when you or others in your household a"
+        },
+        {
+            "uid": "2540051",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V314",
+            "name": "fies_skipped",
+            "labl": "During the last 30 days, was there a time when you or others in your household h"
+        },
+        {
+            "uid": "2540052",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V315",
+            "name": "fies_ateless",
+            "labl": "During the last 30 days, was there a time when you or others in your household a"
+        },
+        {
+            "uid": "2540053",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V316",
+            "name": "fies_ranout",
+            "labl": "In the past 30 days, was there ever no food to eat of any kind in your household"
+        },
+        {
+            "uid": "2540054",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V317",
+            "name": "fies_hungry",
+            "labl": "In the past 30 days, did you or any household member ever go to sleep at night h"
+        },
+        {
+            "uid": "2540055",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V318",
+            "name": "fies_whlday",
+            "labl": "In the past 30 days, did you or any household member ever go a whole day and nig"
+        },
+        {
+            "uid": "2540056",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V319",
+            "name": "fies_ranout_hhs",
+            "labl": "How often did this happen?"
+        },
+        {
+            "uid": "2540057",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V320",
+            "name": "fies_hungry_hhs",
+            "labl": "How often did this happen?"
+        },
+        {
+            "uid": "2540058",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V321",
+            "name": "fies_whlday_hhs",
+            "labl": "How often did this happen?"
+        },
+        {
+            "uid": "2540059",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V322",
+            "name": "fcs_staple_days",
+            "labl": "Days household consumed starches, grains, roots or tubers in the last 7 days"
+        },
+        {
+            "uid": "2540060",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V323",
+            "name": "fcs_pulses_days",
+            "labl": "Days household consumed pulses or nuts in the last 7 days"
+        },
+        {
+            "uid": "2540061",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V324",
+            "name": "fcs_veg_days",
+            "labl": "Days household consumed vegetables or leaves in the last 7 days"
+        },
+        {
+            "uid": "2540062",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V325",
+            "name": "fcs_fruit_days",
+            "labl": "Days household consumed fruits in the last 7 days"
+        },
+        {
+            "uid": "2540063",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V326",
+            "name": "fcs_meat_fish_days",
+            "labl": "Days household consumed meat, eggs or fish in the last 7 days"
+        },
+        {
+            "uid": "2540064",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V327",
+            "name": "fcs_dairy_days",
+            "labl": "Days household consumed dairy products in the last 7 days"
+        },
+        {
+            "uid": "2540065",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V328",
+            "name": "fcs_sugar_days",
+            "labl": "Days household consumed sugar or sweets in the last 7 days"
+        },
+        {
+            "uid": "2540066",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V329",
+            "name": "fcs_oil_days",
+            "labl": "Days household consumed oils, fats or butter in the last 7 days"
+        },
+        {
+            "uid": "2540067",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V330",
+            "name": "fcs_condiments_days",
+            "labl": "Days household consumed spices or condiments in the last 7 days"
+        },
+        {
+            "uid": "2540068",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V331",
+            "name": "hdds_cereal",
+            "labl": "Cereals (sorghum, millet, corn, wheat, rice, spaghetti, bread or other locally a"
+        },
+        {
+            "uid": "2540069",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V332",
+            "name": "hdds_roots",
+            "labl": "Roots and tubers (white sweet potato, potato, yam, cassava or other tubers)"
+        },
+        {
+            "uid": "2540070",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V333",
+            "name": "hdds_veg",
+            "labl": "Vegetables (all)"
+        },
+        {
+            "uid": "2540071",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V334",
+            "name": "hdds_fruit",
+            "labl": "Fruits (all)"
+        },
+        {
+            "uid": "2540072",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V335",
+            "name": "hdds_meat",
+            "labl": "Meat, poultry and offal (beef, lamb, goat, rabbit, wild game, chicken, duck or o"
+        },
+        {
+            "uid": "2540073",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V336",
+            "name": "hdds_eggs",
+            "labl": "Eggs"
+        },
+        {
+            "uid": "2540074",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V337",
+            "name": "hdds_fish",
+            "labl": "Fish or shellfish (fresh or dried fish, other seafood)"
+        },
+        {
+            "uid": "2540075",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V338",
+            "name": "hdds_nuts",
+            "labl": "Legumes, nuts and seeds (beans, peas, peanuts, lentils, almond and/or other nuts"
+        },
+        {
+            "uid": "2540076",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V339",
+            "name": "hdds_dairy",
+            "labl": "Milk and other dairy products (fresh milk, sour milk, yogurt, cheese, other dair"
+        },
+        {
+            "uid": "2540077",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V340",
+            "name": "hdds_oil",
+            "labl": "Oil/fat/butter (cooking oil, butter, margarine, fat/oil, other oils)"
+        },
+        {
+            "uid": "2540078",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V341",
+            "name": "hdds_sugar",
+            "labl": "Sugar or sugary products (honey, jam, donuts, candy, biscuits, pastries, cakes a"
+        },
+        {
+            "uid": "2540079",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V342",
+            "name": "hdds_cond",
+            "labl": "Condiments (cocoa, salt, garlic, spices, yeast or baking powder, tomato or tomat"
+        },
+        {
+            "uid": "2540080",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V343",
+            "name": "consent_mdd",
+            "labl": "Now I would like to ask one female household member aged 15â€“49 a few questions."
+        },
+        {
+            "uid": "2540081",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V344",
+            "name": "mddw_1",
+            "labl": null
+        },
+        {
+            "uid": "2540082",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V345",
+            "name": "mddw_2",
+            "labl": null
+        },
+        {
+            "uid": "2540083",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V346",
+            "name": "mddw_3",
+            "labl": null
+        },
+        {
+            "uid": "2540084",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V347",
+            "name": "mddw_4",
+            "labl": null
+        },
+        {
+            "uid": "2540085",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V348",
+            "name": "mddw_5",
+            "labl": null
+        },
+        {
+            "uid": "2540086",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V349",
+            "name": "mddw_6",
+            "labl": null
+        },
+        {
+            "uid": "2540087",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V350",
+            "name": "mddw_7",
+            "labl": null
+        },
+        {
+            "uid": "2540088",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V351",
+            "name": "mddw_8",
+            "labl": null
+        },
+        {
+            "uid": "2540089",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V352",
+            "name": "mddw_9",
+            "labl": null
+        },
+        {
+            "uid": "2540090",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V353",
+            "name": "mddw_10",
+            "labl": null
+        },
+        {
+            "uid": "2540091",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V354",
+            "name": "mddw_11",
+            "labl": null
+        },
+        {
+            "uid": "2540092",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V355",
+            "name": "mddw_12",
+            "labl": null
+        },
+        {
+            "uid": "2540093",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V356",
+            "name": "mddw_13",
+            "labl": null
+        },
+        {
+            "uid": "2540094",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V357",
+            "name": "mddw_14",
+            "labl": null
+        },
+        {
+            "uid": "2540095",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V358",
+            "name": "mddw_15",
+            "labl": null
+        },
+        {
+            "uid": "2540096",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V359",
+            "name": "mddw_16",
+            "labl": null
+        },
+        {
+            "uid": "2540097",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V360",
+            "name": "mddc_1",
+            "labl": null
+        },
+        {
+            "uid": "2540098",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V361",
+            "name": "mddc_2",
+            "labl": null
+        },
+        {
+            "uid": "2540099",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V362",
+            "name": "mddc_3",
+            "labl": null
+        },
+        {
+            "uid": "2540100",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V363",
+            "name": "mddc_4",
+            "labl": null
+        },
+        {
+            "uid": "2540101",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V364",
+            "name": "mddc_5",
+            "labl": null
+        },
+        {
+            "uid": "2540102",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V365",
+            "name": "mddc_6",
+            "labl": null
+        },
+        {
+            "uid": "2540103",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V366",
+            "name": "mddc_7",
+            "labl": null
+        },
+        {
+            "uid": "2540104",
+            "sid": "2905",
+            "fid": "F12",
+            "vid": "V367",
+            "name": "mddc_8",
+            "labl": null
+        }
+    ]
+}

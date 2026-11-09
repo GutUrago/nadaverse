@@ -1,0 +1,69 @@
+{
+    "total": 8,
+    "variables": [
+        {
+            "uid": "2539738",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V1",
+            "name": "unique_id",
+            "labl": null
+        },
+        {
+            "uid": "2539739",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V2",
+            "name": "unique_id_w1",
+            "labl": null
+        },
+        {
+            "uid": "2539740",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V3",
+            "name": "province",
+            "labl": "Currently, in which Province does your household reside?"
+        },
+        {
+            "uid": "2539741",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V4",
+            "name": "district",
+            "labl": "Currently, in which District does your household reside?"
+        },
+        {
+            "uid": "2539742",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V5",
+            "name": "relationship",
+            "labl": null
+        },
+        {
+            "uid": "2539743",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V6",
+            "name": "respondant_sex",
+            "labl": "Gender of respondent"
+        },
+        {
+            "uid": "2539744",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V7",
+            "name": "respondant_age",
+            "labl": "Age of respondent"
+        },
+        {
+            "uid": "2539745",
+            "sid": "2905",
+            "fid": "F1",
+            "vid": "V8",
+            "name": "hhsize",
+            "labl": "Total number of members of the household (Adults and children)"
+        }
+    ]
+}

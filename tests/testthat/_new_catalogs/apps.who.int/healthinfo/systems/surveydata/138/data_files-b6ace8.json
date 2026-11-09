@@ -1,0 +1,34 @@
+{
+    "datafiles": {
+        "F5": {
+            "id": "1",
+            "sid": "138",
+            "file_id": "F5",
+            "file_name": "ARG",
+            "description": null,
+            "case_count": "1555",
+            "var_count": "274",
+            "producer": null,
+            "data_checks": null,
+            "missing_data": null,
+            "version": null,
+            "notes": null,
+            "metadata": null
+        },
+        "F6": {
+            "id": "2",
+            "sid": "138",
+            "file_id": "F6",
+            "file_name": "ARG_roster",
+            "description": null,
+            "case_count": "5976",
+            "var_count": "7",
+            "producer": null,
+            "data_checks": null,
+            "missing_data": null,
+            "version": null,
+            "notes": null,
+            "metadata": null
+        }
+    }
+}
